@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tollydle — Daily Telugu Movie Guessing Game</title>
+  <meta name="description" content="Tollydle is the ultimate daily Telugu movie guessing game. Guess today's Tollywood movie from clues about genre, year, hero, director & more!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Noto+Sans+Telugu:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🎬</span>
+        <span class="logo-text">Tollydle</span>
+        <span class="logo-badge">DAILY</span>
+      </div>
+      <div class="header-actions">
+        <button class="icon-btn" id="btn-how" title="How to play" aria-label="How to play">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        </button>
+        <button class="icon-btn" id="btn-stats" title="Statistics" aria-label="Statistics">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Game Area -->
+  <main class="main">
+    <!-- Game Status Bar -->
+    <!-- Day Navigation -->
+    <div class="day-nav">
+      <button class="day-nav-btn" id="btn-prev-day" aria-label="Previous day" title="Previous day">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="day-nav-center">
+        <div class="date-pill" id="date-display"></div>
+        <div class="day-ago-label" id="day-ago-label"></div>
+      </div>
+      <button class="day-nav-btn" id="btn-next-day" aria-label="Next day" title="Next day" disabled>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+
+    <div class="game-meta">
+      <div class="puzzle-num" id="puzzle-num"></div>
+      <div class="attempts-pill">
+        <span id="attempts-left">15</span> attempts left
+      </div>
+    </div>
+
+    <!-- Past Day Banner -->
+    <div class="past-day-banner" id="past-day-banner"></div>
+
+    <!-- Search Section -->
+    <section class="search-section" id="search-section">
+      <div class="search-label" id="search-label">🎯 Guess today's Telugu movie</div>
+      <div class="search-wrapper" id="search-wrapper">
+        <div class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="Type a Telugu movie name..."
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Search Telugu movies"
+          />
+          <button class="search-clear" id="search-clear" aria-label="Clear search">✕</button>
+        </div>
+        <div class="autocomplete-dropdown" id="autocomplete-dropdown" role="listbox" aria-label="Movie suggestions"></div>
+      </div>
+      <button class="guess-btn" id="guess-btn" disabled aria-label="Submit guess">
+        <span>Guess</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </button>
+    </section>
+
+    <!-- Results Table -->
+    <section class="results-section" id="results-section">
+      <div class="table-header">
+        <div class="th">Movie</div>
+        <div class="th">Year</div>
+        <div class="th">Genre</div>
+        <div class="th">Hero</div>
+        <div class="th">Director</div>
+        <div class="th">Music</div>
+        <div class="th">Rating</div>
+      </div>
+      <div class="results-rows" id="results-rows"></div>
+    </section>
+
+    <!-- Hint Section -->
+    <section class="hint-section" id="hint-section" style="display:none">
+      <div class="hint-label">💡 Clue after attempt <span id="hint-attempt">2</span></div>
+      <div class="hint-box" id="hint-box"></div>
+    </section>
+  </main>
+
+  <!-- Win Modal -->
+  <div class="modal-overlay" id="win-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="win-title">
+    <div class="modal-card win-card">
+      <div class="modal-confetti" id="confetti-container"></div>
+      <div class="win-emoji">🏆</div>
+      <h2 class="modal-title" id="win-title">Shabash! You guessed it!</h2>
+      <p class="modal-subtitle" id="win-subtitle"></p>
+      <div class="movie-reveal" id="win-movie-info"></div>
+      <div class="win-stats">
+        <div class="stat-item">
+          <div class="stat-num" id="win-guesses">—</div>
+          <div class="stat-label">Guesses</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" id="win-streak">—</div>
+          <div class="stat-label">🔥 Streak</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" id="win-total">—</div>
+          <div class="stat-label">Total Wins</div>
+        </div>
+      </div>
+      <div class="share-grid" id="win-share-grid"></div>
+      <div class="modal-actions">
+        <button class="btn-share" id="btn-share-win" aria-label="Share result">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share Result
+        </button>
+        <div class="next-game-timer">
+          Next movie in: <span id="next-timer">—</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lose Modal -->
+  <div class="modal-overlay" id="lose-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="lose-title">
+    <div class="modal-card lose-card">
+      <div class="lose-emoji">😔</div>
+      <h2 class="modal-title" id="lose-title">Better luck next time!</h2>
+      <p class="modal-subtitle">Today's movie was…</p>
+      <div class="movie-reveal" id="lose-movie-info"></div>
+      <div class="share-grid" id="lose-share-grid"></div>
+      <div class="modal-actions">
+        <button class="btn-share" id="btn-share-lose" aria-label="Share result">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share Result
+        </button>
+        <div class="next-game-timer">
+          Next movie in: <span id="next-timer-lose">—</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- How to Play Modal -->
+  <div class="modal-overlay" id="how-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="how-title">
+    <div class="modal-card how-card">
+      <button class="modal-close" id="close-how" aria-label="Close">✕</button>
+      <div class="how-icon">🎬</div>
+      <h2 class="modal-title" id="how-title">How to Play</h2>
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="step-num">1</div>
+          <div class="step-text">Type any Telugu movie name and select from suggestions</div>
+        </div>
+        <div class="how-step">
+          <div class="step-num">2</div>
+          <div class="step-text">After each guess, you'll see how close you are across 7 clues</div>
+        </div>
+        <div class="how-step">
+          <div class="step-num">3</div>
+          <div class="step-text">You have <strong>6 attempts</strong> to guess today's movie</div>
+        </div>
+      </div>
+      <div class="legend">
+        <div class="legend-item">
+          <div class="legend-cell correct">✓</div>
+          <span>Exact match</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-cell close">≈</div>
+          <span>Close (within 5 years for year)</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-cell wrong">✗</div>
+          <span>Wrong</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-cell arrow-up">↑</div>
+          <span>Target year is higher</span>
+        </div>
+        <div class="legend-item">
+          <div class="legend-cell arrow-down">↓</div>
+          <span>Target year is lower</span>
+        </div>
+      </div>
+      <div class="how-footer">
+        A new movie is revealed every day at midnight. Build your streak! 🔥
+      </div>
+      <button class="btn-primary" id="start-playing-btn">Let's Play!</button>
+    </div>
+  </div>
+
+  <!-- Stats Modal -->
+  <div class="modal-overlay" id="stats-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="stats-title">
+    <div class="modal-card stats-card">
+      <button class="modal-close" id="close-stats" aria-label="Close">✕</button>
+      <h2 class="modal-title" id="stats-title">📊 Your Stats</h2>
+      <div class="stats-grid">
+        <div class="stat-block">
+          <div class="stat-big" id="s-played">0</div>
+          <div class="stat-lbl">Played</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-big" id="s-winpct">0%</div>
+          <div class="stat-lbl">Win %</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-big" id="s-streak">0</div>
+          <div class="stat-lbl">🔥 Streak</div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-big" id="s-max">0</div>
+          <div class="stat-lbl">Best Streak</div>
+        </div>
+      </div>
+      <div class="guess-distribution">
+        <div class="dist-label">Guess Distribution</div>
+        <div id="dist-bars"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
