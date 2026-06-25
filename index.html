@@ -100,6 +100,7 @@
         <div class="th">Movie</div>
         <div class="th">Year</div>
         <div class="th">Genre</div>
+        <div class="th">Heroine</div>
         <div class="th">Hero</div>
         <div class="th">Director</div>
         <div class="th">Music</div>
@@ -110,7 +111,7 @@
 
     <!-- Hint Section -->
     <section class="hint-section" id="hint-section" style="display:none">
-      <div class="hint-label">💡 Clue after attempt <span id="hint-attempt">2</span></div>
+      <div class="hint-label">💡 <span id="hint-attempt"></span></div>
       <div class="hint-box" id="hint-box"></div>
     </section>
   </main>
@@ -179,41 +180,52 @@
       <div class="how-steps">
         <div class="how-step">
           <div class="step-num">1</div>
-          <div class="step-text">Type any Telugu movie name and select from suggestions</div>
+          <div class="step-text">Type any Telugu movie name and select from the suggestions</div>
         </div>
         <div class="how-step">
           <div class="step-num">2</div>
-          <div class="step-text">After each guess, you'll see how close you are across 7 clues</div>
+          <div class="step-text">Each guess reveals <strong>8 clues</strong>: Movie, Year, Genre, Heroine, Hero, Director, Music &amp; Rating</div>
         </div>
         <div class="how-step">
           <div class="step-num">3</div>
-          <div class="step-text">You have <strong>6 attempts</strong> to guess today's movie</div>
+          <div class="step-text">You have <strong>15 attempts</strong> to guess the daily movie</div>
+        </div>
+        <div class="how-step">
+          <div class="step-num">4</div>
+          <div class="step-text">Bonus clues unlock as you guess more — use them wisely!</div>
         </div>
       </div>
+
+      <!-- Hint progression -->
+      <div class="hint-timeline">
+        <div class="hint-tl-title">🔓 Clue Unlock Schedule</div>
+        <div class="hint-tl-row"><span class="hint-tl-badge">Guess 1</span><span class="hint-tl-text">📖 Plot summary revealed</span></div>
+        <div class="hint-tl-row"><span class="hint-tl-badge">Guess 5</span><span class="hint-tl-text">🖼️ Blurred movie poster (gets clearer!)</span></div>
+        <div class="hint-tl-row"><span class="hint-tl-badge">Guess 8</span><span class="hint-tl-text">🎥 Director name revealed</span></div>
+        <div class="hint-tl-row"><span class="hint-tl-badge">Guess 11</span><span class="hint-tl-text">💃 Heroine name revealed</span></div>
+        <div class="hint-tl-row"><span class="hint-tl-badge">Guess 14</span><span class="hint-tl-text">🦸 Hero name revealed</span></div>
+      </div>
+
       <div class="legend">
         <div class="legend-item">
           <div class="legend-cell correct">✓</div>
           <span>Exact match</span>
         </div>
         <div class="legend-item">
-          <div class="legend-cell close">≈</div>
-          <span>Close (within 5 years for year)</span>
-        </div>
-        <div class="legend-item">
           <div class="legend-cell wrong">✗</div>
-          <span>Wrong</span>
+          <span>Wrong — but use the arrow for Year &amp; Rating!</span>
         </div>
         <div class="legend-item">
           <div class="legend-cell arrow-up">↑</div>
-          <span>Target year is higher</span>
+          <span>Target year / rating is <strong>higher</strong></span>
         </div>
         <div class="legend-item">
           <div class="legend-cell arrow-down">↓</div>
-          <span>Target year is lower</span>
+          <span>Target year / rating is <strong>lower</strong></span>
         </div>
       </div>
       <div class="how-footer">
-        A new movie is revealed every day at midnight. Build your streak! 🔥
+        A new movie every day at midnight IST. Build your streak! 🔥
       </div>
       <button class="btn-primary" id="start-playing-btn">Let's Play!</button>
     </div>
