@@ -111,11 +111,20 @@ async function fetchDetail(id) {
   const genres = (detail.genres || []).map(g => GENRE_MAP[g.id] || g.name).slice(0, 3);
   if (!genres.length) genres.push("Drama");
 
-  const year   = detail.release_date ? +detail.release_date.slice(0, 4) : 2000;
-  const rating = deriveRating(detail.vote_average, detail.vote_count);
-  const hint   = (detail.overview || "A Telugu film.").slice(0, 140);
+  const year        = detail.release_date ? +detail.release_date.slice(0, 4) : 2000;
+  const rating      = deriveRating(detail.vote_average, detail.vote_count);
+  const hint        = (detail.overview || "A Telugu film.").slice(0, 140);
+  const poster_path = detail.poster_path || null;
+  const tagline     = detail.tagline || "";
+  const vote_average = detail.vote_average || 0;
+  const vote_count   = detail.vote_count   || 0;
+  const popularity   = detail.popularity   || 0;
 
-  return { title: detail.title || detail.original_title, year, genres, hero, heroine, director, music, rating, hint };
+  return {
+    title: detail.title || detail.original_title,
+    year, genres, hero, heroine, director, music, rating, hint,
+    poster_path, tagline, vote_average, vote_count, popularity
+  };
 }
 
 // ── Main ─────────────────────────────────────────────────────
@@ -211,14 +220,25 @@ async function main() {
   console.log(`\n\n✅ Finished fetching details for all movies.\n`);
 
   // Deduplicate by normalized title
-  const seen  = new Set();
-  const clean = movies
+  const seen   = new Set();
+  const deduped = movies
     .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title))
     .filter(m => {
       const key = m.title.toLowerCase().replace(/[^a-z0-9]/g, "");
       return seen.has(key) ? false : (seen.add(key), true);
-    })
+    });
+
+  // Quality filter — cut very obscure movies to keep the game enjoyable
+  // Keep if: (enough votes AND some popularity) OR it has a Hit+ rating
+  const GOOD_RATINGS_SET = new Set(["Hit", "Blockbuster", "Industry Hit"]);
+  const clean = deduped
+    .filter(m =>
+      (m.vote_count >= 20 && m.popularity >= 2) ||
+      GOOD_RATINGS_SET.has(m.rating)
+    )
     .map((m, i) => ({ id: i + 1, ...m }));
+
+  console.log(`   Quality filter: ${deduped.length} → ${clean.length} movies kept (cut ${deduped.length - clean.length} obscure entries)`);
 
   // Write data.js
   const now    = new Date().toISOString().slice(0, 10);

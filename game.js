@@ -10,12 +10,16 @@
   const MAX_DAYS_BACK  = 30;          // how many past days you can browse
   const STORAGE_KEY    = "tollydle_v3";
   const RATING_ORDER   = ["Flop", "Average", "Hit", "Blockbuster", "Industry Hit"];
-  const HINT_TRIGGERS  = [5, 8, 11, 14]; // after these guess numbers reveal a hint
+  const HINT_TRIGGERS  = [1, 5, 8, 11, 14]; // after these guess numbers reveal a hint
+  const POSTER_BASE    = "https://image.tmdb.org/t/p/w342";
   const HINT_TEXTS     = [
-    m => `🎵 Music Director: ${m.music}`,
-    m => `🎬 One of the genres is "${m.genres[0]}"`,
-    m => `🦸 Hero's first name starts with: "${m.hero.split(/[\s&,]/)[0][0]}…"`,
-    m => `🎥 Director's first name: "${m.director.split(" ")[0]}"`,
+    m => `📖 Plot: ${m.hint || "A Telugu film."}`,
+    m => m.poster_path
+      ? `__POSTER__${POSTER_BASE}${m.poster_path}__POSTER_BLUR__80`
+      : `🎥 Director: "${m.director}"`,
+    m => `🎥 Director: "${m.director}"`,
+    m => `💃 Heroine: "${m.heroine}"`,
+    m => `🦸 Hero: "${m.hero}"`,
   ];
 
   // -------- Global state --------
@@ -66,13 +70,44 @@
     return Math.floor((new Date(key) - epoch) / 86400000) + 1;
   }
 
-  function getMovieForDay(key) {
-    let hash = 0;
-    for (let i = 0; i < key.length; i++) {
-      hash = ((hash << 5) - hash) + key.charCodeAt(i);
-      hash |= 0;
+  // -------- Quality pool: filter out low-budget / unpopular movies --------
+  // Thresholds: needs vote_count >= 50 AND popularity >= 5, OR be at least "Hit"
+  // Falls back gracefully if data.js hasn't been re-fetched yet (no popularity field)
+  const GOOD_RATINGS = new Set(["Hit", "Blockbuster", "Industry Hit"]);
+  const DAILY_POOL = (() => {
+    const hasNewFields = MOVIES_DB.length > 0 && MOVIES_DB[0].popularity !== undefined;
+    return MOVIES_DB.filter(m => {
+      if (hasNewFields) {
+        return (
+          (m.vote_count >= 50 && m.popularity >= 5) ||
+          GOOD_RATINGS.has(m.rating)
+        );
+      }
+      // fallback: exclude pure flops with "Unknown" director AND hero
+      return !(m.director === "Unknown" && m.hero === "Unknown");
+    });
+  })();
+
+  // -------- Seeded Fisher-Yates shuffle (deterministic) --------
+  function seededShuffle(arr, seed) {
+    const a = [...arr];
+    let s = seed >>> 0;
+    for (let i = a.length - 1; i > 0; i--) {
+      s = Math.imul(s ^ (s >>> 16), 0x45d9f3b);
+      s = Math.imul(s ^ (s >>> 16), 0x45d9f3b);
+      s ^= s >>> 16;
+      const j = Math.abs(s) % (i + 1);
+      [a[i], a[j]] = [a[j], a[i]];
     }
-    return MOVIES_DB[Math.abs(hash) % MOVIES_DB.length];
+    return a;
+  }
+
+  // Pre-shuffle the pool once with a fixed seed so past puzzles stay consistent
+  const SHUFFLED_POOL = seededShuffle(DAILY_POOL, 0xdeadbeef);
+
+  function getMovieForDay(key) {
+    const dayNum = getDayNumber(key);
+    return SHUFFLED_POOL[((dayNum - 1) % SHUFFLED_POOL.length + SHUFFLED_POOL.length) % SHUFFLED_POOL.length];
   }
 
   // -------- Storage --------
@@ -132,6 +167,10 @@
       hero: {
         status: normalize(guess.hero) === normalize(target.hero) ? "correct" : "wrong",
         value:  guess.hero,
+      },
+      heroine: {
+        status: normalize(guess.heroine) === normalize(target.heroine) ? "correct" : "wrong",
+        value:  guess.heroine,
       },
       director: {
         status: normalize(guess.director) === normalize(target.director) ? "correct" : "wrong",
@@ -234,10 +273,8 @@
     const row = document.createElement("div");
     row.className = "result-row";
 
-    const title = movie.title.length > 18 ? movie.title.substring(0, 17) + "…" : movie.title;
-
     // Movie
-    const mc = makeCell(`${isCorrect ? "correct" : "wrong"} movie-cell`, isCorrect ? "✅" : "❌", title, 0);
+    const mc = makeCell(`${isCorrect ? "correct" : "wrong"} movie-cell`, isCorrect ? "✅" : "❌", movie.title, 0);
     row.appendChild(mc);
 
     // Year
@@ -253,17 +290,17 @@
     ).join("")}</div>`;
     row.appendChild(gc);
 
+    // Heroine
+    row.appendChild(makeCell(result.heroine.status, result.heroine.status === "correct" ? "✓" : "✗", result.heroine.value || "Unknown", 240));
+
     // Hero
-    const hv = result.hero.value.length > 13 ? result.hero.value.substring(0, 12) + "…" : result.hero.value;
-    row.appendChild(makeCell(result.hero.status, result.hero.status === "correct" ? "✓" : "✗", hv, 240));
+    row.appendChild(makeCell(result.hero.status, result.hero.status === "correct" ? "✓" : "✗", result.hero.value, 300));
 
     // Director
-    const dv = result.director.value.length > 14 ? result.director.value.substring(0, 13) + "…" : result.director.value;
-    row.appendChild(makeCell(result.director.status, result.director.status === "correct" ? "✓" : "✗", dv, 320));
+    row.appendChild(makeCell(result.director.status, result.director.status === "correct" ? "✓" : "✗", result.director.value, 360));
 
     // Music
-    const mv = result.music.value.length > 10 ? result.music.value.substring(0, 9) + "…" : result.music.value;
-    row.appendChild(makeCell(result.music.status, result.music.status === "correct" ? "✓" : "✗", mv, 400));
+    row.appendChild(makeCell(result.music.status, result.music.status === "correct" ? "✓" : "✗", result.music.value, 420));
 
     // Rating (arrow)
     const ri   = result.rating.status === "correct" ? "✓" : (result.rating.arrow === "up" ? "↑" : "↓");
@@ -287,8 +324,10 @@
     const cur = getStateFor(activeKey);
     const target = getMovieForDay(activeKey);
     elRows.innerHTML = "";
-    cur.guesses.forEach((movie, i) => {
-      elRows.appendChild(buildRow(movie, cur.guessResults[i], movie.id === target.id));
+    // Newest guess at top — iterate in reverse
+    [...cur.guesses].reverse().forEach((movie, i) => {
+      const originalIdx = cur.guesses.length - 1 - i;
+      elRows.appendChild(buildRow(movie, cur.guessResults[originalIdx], movie.id === target.id));
     });
   }
 
@@ -303,12 +342,38 @@
     for (let i = HINT_TRIGGERS.length - 1; i >= 0; i--) {
       if (count >= HINT_TRIGGERS[i]) { hintIdx = i; break; }
     }
+
+    elHintSec.style.display = "block";
+
+    // Build upcoming hints label
+    const nextTriggerIdx = hintIdx + 1;
+    const upcomingParts  = [];
+    if (nextTriggerIdx < HINT_TRIGGERS.length) {
+      upcomingParts.push(`Next clue at guess #${HINT_TRIGGERS[nextTriggerIdx]}`);
+    }
+    const hintLabels = ["📖 Plot", "🖼️ Poster", "🎥 Director", "💃 Heroine", "🦸 Hero"];
+    const unlockedLabel = hintLabels[hintIdx] || "";
+    elHintAtt.innerHTML = `<span class="hint-unlocked">${unlockedLabel} unlocked</span>${upcomingParts.length ? ` &nbsp;·&nbsp; <span class="hint-next">${upcomingParts[0]}</span>` : ""}`;
+
     if (hintIdx === -1) { elHintSec.style.display = "none"; return; }
 
     const target = getMovieForDay(activeKey);
-    elHintSec.style.display = "block";
-    elHintAtt.textContent   = HINT_TRIGGERS[hintIdx];
-    elHintBox.textContent   = HINT_TEXTS[hintIdx](target);
+    const raw    = HINT_TEXTS[hintIdx](target);
+
+    // Check if this is a poster hint
+    if (raw.startsWith("__POSTER__")) {
+      const parts     = raw.replace("__POSTER__", "").split("__POSTER_BLUR__");
+      const posterUrl = parts[0];
+      // Blur decreases as more guesses are made: starts at 14px, reduces by 2px per guess past trigger
+      const blurPx    = Math.max(0, 14 - (count - HINT_TRIGGERS[hintIdx]) * 2);
+      elHintBox.innerHTML = `
+        <div class="hint-poster-wrap">
+          <img src="${posterUrl}" alt="Movie poster clue" class="hint-poster" style="filter:blur(${blurPx}px)" />
+          <div class="hint-poster-label">Keep guessing to reveal the poster! (blur: ${blurPx}px)</div>
+        </div>`;
+    } else {
+      elHintBox.textContent = raw;
+    }
   }
 
   // -------- Search UI enable/disable --------
@@ -358,11 +423,27 @@
   // -------- Modal helpers --------
   function buildRevealHTML(movie) {
     const pills = movie.genres.map(g => `<span class="reveal-genre-pill">${g}</span>`).join("");
+    const posterHTML = movie.poster_path
+      ? `<img src="https://image.tmdb.org/t/p/w342${movie.poster_path}" alt="${movie.title} poster" class="reveal-poster" />`
+      : "";
+    const taglineHTML = movie.tagline
+      ? `<div class="reveal-tagline">"${movie.tagline}"</div>`
+      : "";
+    const starsHTML = movie.vote_average
+      ? `<div class="reveal-stats-row">
+           <span class="reveal-stat">⭐ ${movie.vote_average.toFixed(1)}/10</span>
+           <span class="reveal-stat">🗳️ ${movie.vote_count?.toLocaleString() || "—"} votes</span>
+           <span class="reveal-stat">🔥 ${movie.popularity ? movie.popularity.toFixed(0) : "—"} pop</span>
+         </div>`
+      : "";
     return `
+      ${posterHTML}
       <div class="reveal-title">${movie.title} (${movie.year})</div>
+      ${taglineHTML}
       <div class="reveal-genres">${pills}</div>
-      <div class="reveal-meta">🎬 ${movie.director} &bull; 🦸 ${movie.hero} &bull; 🎵 ${movie.music}</div>
+      <div class="reveal-meta">🎬 ${movie.director} &bull; 🦸 ${movie.hero} &bull; 💃 ${movie.heroine} &bull; 🎵 ${movie.music}</div>
       <div class="reveal-rating">⭐ ${movie.rating}</div>
+      ${starsHTML}
       <div class="reveal-hint">${movie.hint}</div>
     `;
   }
