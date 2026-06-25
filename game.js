@@ -70,16 +70,16 @@
     return Math.floor((new Date(key) - epoch) / 86400000) + 1;
   }
 
-  // -------- Quality pool: filter out low-budget / unpopular movies --------
-  // Thresholds: needs vote_count >= 50 AND popularity >= 5, OR be at least "Hit"
-  // Falls back gracefully if data.js hasn't been re-fetched yet (no popularity field)
+  // -------- Quality pool: filter for daily puzzle --------
+  // Stricter than data.js, but still realistic for Telugu TMDB stats.
+  // data.js already cut ghost entries (vote_count < 3); here we want recognisable movies.
   const GOOD_RATINGS = new Set(["Hit", "Blockbuster", "Industry Hit"]);
   const DAILY_POOL = (() => {
     const hasNewFields = MOVIES_DB.length > 0 && MOVIES_DB[0].popularity !== undefined;
     return MOVIES_DB.filter(m => {
       if (hasNewFields) {
         return (
-          (m.vote_count >= 50 && m.popularity >= 5) ||
+          (m.vote_count >= 15 && m.popularity >= 1) ||
           GOOD_RATINGS.has(m.rating)
         );
       }

@@ -228,17 +228,19 @@ async function main() {
       return seen.has(key) ? false : (seen.add(key), true);
     });
 
-  // Quality filter — cut very obscure movies to keep the game enjoyable
-  // Keep if: (enough votes AND some popularity) OR it has a Hit+ rating
+  // Quality filter — remove truly ghost entries with zero traction on TMDB
+  // Telugu movies have much lower vote counts than Hollywood, so keep thresholds low.
+  // Keep if: has any votes AND any popularity, OR is a known Hit+ rating
+  // Target: ~800–1500 movies in data.js
   const GOOD_RATINGS_SET = new Set(["Hit", "Blockbuster", "Industry Hit"]);
   const clean = deduped
     .filter(m =>
-      (m.vote_count >= 20 && m.popularity >= 2) ||
+      (m.vote_count >= 3 && m.popularity >= 0.3) ||
       GOOD_RATINGS_SET.has(m.rating)
     )
     .map((m, i) => ({ id: i + 1, ...m }));
 
-  console.log(`   Quality filter: ${deduped.length} → ${clean.length} movies kept (cut ${deduped.length - clean.length} obscure entries)`);
+  console.log(`   Quality filter: ${deduped.length} → ${clean.length} movies kept (cut ${deduped.length - clean.length} ghost entries)`);
 
   // Write data.js
   const now    = new Date().toISOString().slice(0, 10);
