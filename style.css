@@ -384,6 +384,38 @@ body {
 .guess-btn:disabled { opacity: .4; cursor: not-allowed; }
 .guess-btn span, .guess-btn svg { position: relative; z-index: 1; }
 
+/* Give Up Button */
+.giveup-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.giveup-btn {
+  background: transparent;
+  border: 1px solid rgba(230, 57, 70, 0.25);
+  color: rgba(240, 240, 248, 0.8);
+  border-radius: var(--radius);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all .2s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.giveup-btn:hover {
+  background: rgba(230, 57, 70, 0.15);
+  border-color: #e63946;
+  color: #fff;
+  transform: translateY(-1px);
+}
+.giveup-btn:active {
+  transform: translateY(0);
+}
+
 /* ---------- Results Table ---------- */
 .results-section { margin-bottom: 24px; }
 .table-header {

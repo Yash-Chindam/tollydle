@@ -179,6 +179,7 @@
   const elHintAtt   = document.getElementById("hint-attempt");
   const elSearchSec = document.getElementById("search-section");
   const elSearchLbl = document.getElementById("search-label");
+  const elGiveUpBtn = document.getElementById("giveup-btn");
   const elToast     = document.getElementById("toast");
   const elWinModal  = document.getElementById("win-modal");
   const elLoseModal = document.getElementById("lose-modal");
@@ -316,9 +317,11 @@
     if (cur.gameOver) {
       elSearchSec.style.opacity       = "0.4";
       elSearchSec.style.pointerEvents = "none";
+      elGiveUpBtn.style.display       = "none";
     } else {
       elSearchSec.style.opacity       = "1";
       elSearchSec.style.pointerEvents = "auto";
+      elGiveUpBtn.style.display       = "inline-flex";
     }
     const ago = daysAgo(activeKey);
     elSearchLbl.textContent = ago === 0
@@ -556,6 +559,28 @@
     }
   }
 
+  // -------- Give Up --------
+  function giveUp() {
+    if (getStateFor(activeKey).gameOver) return;
+    if (!confirm("Are you sure you want to give up and reveal today's movie? This will end the game for this day.")) return;
+
+    const cur = getStateFor(activeKey);
+    cur.gameOver = true;
+    cur.won      = false;
+    saveDayState(activeKey);
+
+    if (activeKey === todayKey) {
+      stats.played++;
+      stats.streak = 0;
+      stats.lastPlayedKey = todayKey;
+      saveStats();
+    }
+
+    updateSearchUI();
+    renderHint();
+    setTimeout(showLoseModal, 500);
+  }
+
   // -------- Event Listeners --------
   elSearch.addEventListener("input", () => {
     const q = elSearch.value;
@@ -588,6 +613,7 @@
     elClear.classList.remove("visible"); closeDropdown(); elSearch.focus();
   });
   elGuessBtn.addEventListener("click", submitGuess);
+  elGiveUpBtn.addEventListener("click", giveUp);
 
   // Day nav buttons
   elPrevBtn.addEventListener("click", () => {
