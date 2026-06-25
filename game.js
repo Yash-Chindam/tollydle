@@ -8,7 +8,7 @@
   // -------- Constants --------
   const MAX_GUESSES    = 15;
   const MAX_DAYS_BACK  = 30;          // how many past days you can browse
-  const STORAGE_KEY    = "tollydle_v3";
+  const STORAGE_KEY    = "tollydle_v4";
   const RATING_ORDER   = ["Flop", "Average", "Hit", "Blockbuster", "Industry Hit"];
   const HINT_TRIGGERS  = [1, 5, 8, 11, 14]; // after these guess numbers reveal a hint
   const POSTER_BASE    = "https://image.tmdb.org/t/p/w342";
@@ -290,8 +290,9 @@
     ).join("")}</div>`;
     row.appendChild(gc);
 
-    // Heroine
-    row.appendChild(makeCell(result.heroine.status, result.heroine.status === "correct" ? "✓" : "✗", result.heroine.value || "Unknown", 240));
+    // Heroine (guard against old localStorage saves that predate this column)
+    const heroineResult = result.heroine || { status: "wrong", value: "Unknown" };
+    row.appendChild(makeCell(heroineResult.status, heroineResult.status === "correct" ? "✓" : "✗", heroineResult.value || "Unknown", 240));
 
     // Hero
     row.appendChild(makeCell(result.hero.status, result.hero.status === "correct" ? "✓" : "✗", result.hero.value, 300));

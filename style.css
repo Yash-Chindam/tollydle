@@ -420,7 +420,7 @@ body {
 .results-section { margin-bottom: 24px; }
 .table-header {
   display: grid;
-  grid-template-columns: 1.8fr .9fr 1.1fr 1fr 1fr 1.2fr 1fr .8fr;
+  grid-template-columns: 1.6fr .7fr 1fr .9fr 1.3fr 1.1fr .9fr .7fr;
   gap: 4px;
   margin-bottom: 6px;
   padding: 0 4px;
@@ -439,7 +439,7 @@ body {
 /* Row */
 .result-row {
   display: grid;
-  grid-template-columns: 1.8fr .9fr 1.1fr 1fr 1fr 1.2fr 1fr .8fr;
+  grid-template-columns: 1.6fr .7fr 1fr .9fr 1.3fr 1.1fr .9fr .7fr;
   gap: 4px;
   animation: slideIn .4s ease;
 }
@@ -452,7 +452,7 @@ body {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 10px 8px;
+  padding: 10px 6px;
   text-align: center;
   font-size: .78rem;
   font-weight: 500;
@@ -462,6 +462,8 @@ body {
   flex-direction: column;
   gap: 3px;
   min-height: 56px;
+  min-width: 0;          /* CRITICAL: lets grid fractions clip content */
+  overflow: hidden;      /* prevent cell from blowing out the grid column */
   transition: all .3s;
   animation: flipIn .5s ease;
 }
@@ -513,8 +515,10 @@ body {
 
 /* Genre cell with pills */
 .genre-cell {
-  padding: 6px 4px !important;
+  padding: 4px 3px !important;
   align-items: center;
+  min-width: 0;
+  overflow: hidden;
 }
 .genre-pills {
   display: flex;
@@ -1022,13 +1026,13 @@ body {
 /* ---------- Responsive ---------- */
 @media (max-width: 600px) {
   .table-header, .result-row {
-    grid-template-columns: 1.6fr .75fr .9fr .9fr .9fr 1fr .85fr .7fr;
+    grid-template-columns: 1.4fr .6fr .85fr .8fr 1.1fr .95fr .8fr .6fr;
     gap: 2px;
   }
-  .th { font-size: .52rem; }
-  .cell { font-size: .65rem; padding: 8px 4px; min-height: 52px; }
-  .cell.movie-cell { font-size: .68rem; }
-  .cell:first-child { padding-left: 8px; }
+  .th { font-size: .5rem; letter-spacing: .3px; }
+  .cell { font-size: .62rem; padding: 8px 3px; min-height: 52px; }
+  .cell.movie-cell { font-size: .65rem; }
+  .cell:first-child { padding-left: 6px; }
   .modal-card { padding: 28px 20px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .reveal-poster { width: 80px; height: 120px; }
@@ -1036,8 +1040,8 @@ body {
 
 @media (max-width: 420px) {
   .table-header, .result-row {
-    grid-template-columns: 1.4fr .7fr .8fr .8fr .8fr .9fr .75fr .65fr;
+    grid-template-columns: 1.3fr .55fr .78fr .75fr 1fr .88fr .72fr .55fr;
     gap: 2px;
   }
-  .cell { min-height: 46px; }
+  .cell { min-height: 46px; font-size: .58rem; padding: 6px 2px; }
 }
