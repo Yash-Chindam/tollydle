@@ -13,13 +13,13 @@
   const HINT_TRIGGERS  = [1, 5, 8, 11, 14]; // after these guess numbers reveal a hint
   const POSTER_BASE    = "https://image.tmdb.org/t/p/w342";
   const HINT_TEXTS     = [
-    m => `📖 Plot: ${m.hint || "A Telugu film."}`,
+    m => `🎥 Director: "${m.director}"`,
+    m => `🦸 Hero: "${m.hero}"`,
+    m => `💃 Heroine: "${m.heroine}"`,
     m => m.poster_path
       ? `__POSTER__${POSTER_BASE}${m.poster_path}__POSTER_BLUR__80`
-      : `🎥 Director: "${m.director}"`,
-    m => `🎥 Director: "${m.director}"`,
-    m => `💃 Heroine: "${m.heroine}"`,
-    m => `🦸 Hero: "${m.hero}"`,
+      : `📖 Plot: ${m.hint || "A Telugu film."}`,
+    m => `📖 Plot: ${m.hint || "A Telugu film."}`,
   ];
 
   // -------- Global state --------
@@ -352,7 +352,7 @@
     if (nextTriggerIdx < HINT_TRIGGERS.length) {
       upcomingParts.push(`Next clue at guess #${HINT_TRIGGERS[nextTriggerIdx]}`);
     }
-    const hintLabels = ["📖 Plot", "🖼️ Poster", "🎥 Director", "💃 Heroine", "🦸 Hero"];
+    const hintLabels = ["🎥 Director", "🦸 Hero", "💃 Heroine", "🖼️ Poster", "📖 Plot"];
     const unlockedLabel = hintLabels[hintIdx] || "";
     elHintAtt.innerHTML = `<span class="hint-unlocked">${unlockedLabel} unlocked</span>${upcomingParts.length ? ` &nbsp;·&nbsp; <span class="hint-next">${upcomingParts[0]}</span>` : ""}`;
 
