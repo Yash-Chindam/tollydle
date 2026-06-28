@@ -726,6 +726,10 @@
   document.getElementById("btn-stats").addEventListener("click",  () => { renderStats(); elStatModal.style.display = "flex"; });
   document.getElementById("close-stats").addEventListener("click",() => { elStatModal.style.display = "none"; });
 
+  // Win / Lose Modals Close Buttons
+  document.getElementById("close-win").addEventListener("click",  () => { elWinModal.style.display = "none"; });
+  document.getElementById("close-lose").addEventListener("click", () => { elLoseModal.style.display = "none"; });
+
   // Close on overlay click
   [elWinModal, elLoseModal, elHowModal, elStatModal].forEach(m => {
     m.addEventListener("click", e => { if (e.target === m) m.style.display = "none"; });
