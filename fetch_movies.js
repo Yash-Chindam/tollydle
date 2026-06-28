@@ -52,8 +52,8 @@ function deriveRating(title, avg, count) {
 
   if (count < 10) return "Average";
   if (avg < 5.2) return "Flop";
-  if (avg >= 7.5 && count >= 80) return "Blockbuster";
-  if (avg >= 6.8 && count >= 30) return "Hit";
+  if (avg >= 7.5 && count >= 50) return "Blockbuster";   // lowered from 80 → 50 votes
+  if (avg >= 6.8 && count >= 25) return "Hit";            // lowered from 30 → 25 votes
   if (avg >= 5.5) return "Average";
   return "Flop";
 }
@@ -271,13 +271,13 @@ async function main() {
       return seen.has(key) ? false : (seen.add(key), true);
     });
 
-  // Quality filter — remove truly ghost entries (zero TMDB traction)
-  // Telugu movies have much lower vote counts than Hollywood, keep thresholds very low.
-  // Keep if: has even 1 vote OR any popularity signal, OR is a known Hit+ rating
+  // Quality filter — middle ground between ghost entries and over-filtering
+  // Require at least 5 votes AND any popularity signal.
+  // Targets ~1500–2000 movies. Hit+ always kept regardless.
   const GOOD_RATINGS_SET = new Set(["Hit", "Blockbuster", "Industry Hit"]);
   const clean = deduped
     .filter(m =>
-      (m.vote_count >= 1 || m.popularity >= 0.1) ||
+      (m.vote_count >= 5 && m.popularity >= 0.1) ||
       GOOD_RATINGS_SET.has(m.rating)
     )
     .map((m, i) => ({ id: i + 1, ...m }));
