@@ -1028,6 +1028,44 @@ body {
 .legend-cell.arrow-up  { background: rgba(245,197,24,.25); color: var(--close); border: 1px solid var(--close); }
 .legend-cell.arrow-down { background: rgba(245,197,24,.25); color: var(--close); border: 1px solid var(--close); }
 .legend span { font-size: .85rem; color: var(--text); }
+
+/* Rating scale strip */
+.rating-scale {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin: 12px 0;
+}
+.rating-scale-label {
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.rating-scale-pills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.rs-arrow { color: var(--muted); font-size: .75rem; }
+.rs-pill {
+  font-size: .65rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 10px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+.rs-flop  { background: rgba(230,57,70,.2);   border-color: var(--wrong);   color: var(--wrong); }
+.rs-avg   { background: rgba(255,140,0,.15);   border-color: #ff8c00;        color: #ff8c00; }
+.rs-hit   { background: rgba(245,197,24,.18);  border-color: var(--gold);    color: var(--gold); }
+.rs-block { background: rgba(6,214,160,.18);   border-color: var(--teal);    color: var(--teal); }
+.rs-ind   { background: rgba(123,47,255,.25);  border-color: var(--purple);  color: #c4a0ff; font-size: .62rem; }
 .how-footer {
   font-size: .82rem;
   color: var(--muted);

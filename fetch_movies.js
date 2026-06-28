@@ -9,11 +9,11 @@
 // Get a free key at: https://www.themoviedb.org/settings/api
 // ============================================================
 
-const fs   = require("fs");
+const fs = require("fs");
 const path = require("path");
 
 // Loaded from .env via Node 22's built-in --env-file flag
-const API_KEY  = process.env.TMDB_API_KEY || "";
+const API_KEY = process.env.TMDB_API_KEY || "";
 const BASE_URL = "https://api.tmdb.org/3";
 const LANGUAGE = "te";    // Telugu original language
 const OUT_FILE = path.join(__dirname, "data.js");
@@ -42,7 +42,7 @@ const INDUSTRY_HITS = new Set([
 function deriveRating(title, avg, count) {
   if (!title) return "Average";
   const cleanTitle = title.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-  
+
   for (const ih of INDUSTRY_HITS) {
     const cleanIH = ih.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
     if (cleanTitle === cleanIH) {
@@ -50,21 +50,21 @@ function deriveRating(title, avg, count) {
     }
   }
 
-  if (count < 10)  return "Average";
-  if (avg < 5.2)   return "Flop";
+  if (count < 10) return "Average";
+  if (avg < 5.2) return "Flop";
   if (avg >= 7.5 && count >= 80) return "Blockbuster";
   if (avg >= 6.8 && count >= 30) return "Hit";
-  if (avg >= 5.5)  return "Average";
+  if (avg >= 5.5) return "Average";
   return "Flop";
 }
 
 // ── TMDB genre IDs → human-readable names ───────────────────
 const GENRE_MAP = {
-  28:"Action", 12:"Adventure", 16:"Animation", 35:"Comedy",
-  80:"Crime",  99:"Documentary", 18:"Drama",   10751:"Family",
-  14:"Fantasy", 36:"Historical", 27:"Horror",  10402:"Musical",
-  9648:"Mystery", 10749:"Romance", 878:"Sci-Fi", 53:"Thriller",
-  10752:"War",  37:"Western",
+  28: "Action", 12: "Adventure", 16: "Animation", 35: "Comedy",
+  80: "Crime", 99: "Documentary", 18: "Drama", 10751: "Family",
+  14: "Fantasy", 36: "Historical", 27: "Horror", 10402: "Musical",
+  9648: "Mystery", 10749: "Romance", 878: "Sci-Fi", 53: "Thriller",
+  10752: "War", 37: "Western",
 };
 
 // ── Utility: Concurrent Pool ─────────────────────────────────
@@ -130,7 +130,7 @@ async function fetchDetail(id) {
     .map(c => c.name).join(" & ") || "Unknown";
 
   const music = credits.crew
-    .filter(c => ["Original Music Composer","Music","Composer","Music Director"].includes(c.job))
+    .filter(c => ["Original Music Composer", "Music", "Composer", "Music Director"].includes(c.job))
     .map(c => c.name)[0] || "Unknown";
 
   // Filter cast by gender (2 = Male, 1 = Female)
@@ -154,14 +154,14 @@ async function fetchDetail(id) {
   const genres = (detail.genres || []).map(g => GENRE_MAP[g.id] || g.name).slice(0, 3);
   if (!genres.length) genres.push("Drama");
 
-  const year        = detail.release_date ? +detail.release_date.slice(0, 4) : 2000;
-  const rating      = deriveRating(detail.title || detail.original_title, detail.vote_average, detail.vote_count);
-  const hint        = (detail.overview || "A Telugu film.").slice(0, 140);
+  const year = detail.release_date ? +detail.release_date.slice(0, 4) : 2000;
+  const rating = deriveRating(detail.title || detail.original_title, detail.vote_average, detail.vote_count);
+  const hint = (detail.overview || "A Telugu film.").slice(0, 140);
   const poster_path = detail.poster_path || null;
-  const tagline     = detail.tagline || "";
+  const tagline = detail.tagline || "";
   const vote_average = detail.vote_average || 0;
-  const vote_count   = detail.vote_count   || 0;
-  const popularity   = detail.popularity   || 0;
+  const vote_count = detail.vote_count || 0;
+  const popularity = detail.popularity || 0;
 
   return {
     title: detail.title || detail.original_title,
@@ -263,7 +263,7 @@ async function main() {
   console.log(`\n\n✅ Finished fetching details for all movies.\n`);
 
   // Deduplicate by normalized title
-  const seen   = new Set();
+  const seen = new Set();
   const deduped = movies
     .sort((a, b) => b.year - a.year || a.title.localeCompare(b.title))
     .filter(m => {
@@ -271,14 +271,13 @@ async function main() {
       return seen.has(key) ? false : (seen.add(key), true);
     });
 
-  // Quality filter — remove truly ghost entries with zero traction on TMDB
-  // Telugu movies have much lower vote counts than Hollywood, so keep thresholds low.
-  // Keep if: has any votes AND any popularity, OR is a known Hit+ rating
-  // Target: ~800–1500 movies in data.js
+  // Quality filter — remove truly ghost entries (zero TMDB traction)
+  // Telugu movies have much lower vote counts than Hollywood, keep thresholds very low.
+  // Keep if: has even 1 vote OR any popularity signal, OR is a known Hit+ rating
   const GOOD_RATINGS_SET = new Set(["Hit", "Blockbuster", "Industry Hit"]);
   const clean = deduped
     .filter(m =>
-      (m.vote_count >= 3 && m.popularity >= 0.3) ||
+      (m.vote_count >= 1 || m.popularity >= 0.1) ||
       GOOD_RATINGS_SET.has(m.rating)
     )
     .map((m, i) => ({ id: i + 1, ...m }));
@@ -286,7 +285,7 @@ async function main() {
   console.log(`   Quality filter: ${deduped.length} → ${clean.length} movies kept (cut ${deduped.length - clean.length} ghost entries)`);
 
   // Write data.js
-  const now    = new Date().toISOString().slice(0, 10);
+  const now = new Date().toISOString().slice(0, 10);
   const header = `// ================================================================
 // TOLLYDLE — Telugu Movies Database
 // Auto-generated on ${now} via fetch_movies.js (source: TMDB)
