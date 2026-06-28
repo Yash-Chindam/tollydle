@@ -513,7 +513,7 @@
       item.innerHTML = `
         <div>
           <div class="ac-title">${movie.title}</div>
-          <div class="ac-meta">${movie.director} &bull; ${movie.hero.split("&")[0].trim()}</div>
+          <div class="ac-meta">${movie.director} &bull; ${movie.hero}</div>
         </div>
         <div class="ac-year-badge">${movie.year}</div>`;
       item.addEventListener("mousedown", e => { e.preventDefault(); selectMovie(movie); });

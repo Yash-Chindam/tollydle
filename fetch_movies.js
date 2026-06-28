@@ -103,10 +103,23 @@ async function fetchDetail(id) {
     .filter(c => ["Original Music Composer","Music","Composer","Music Director"].includes(c.job))
     .map(c => c.name)[0] || "Unknown";
 
-  // Top 2 cast members as hero field
-  const hero = credits.cast.slice(0, 2).map(c => c.name).join(" & ") || "Unknown";
-  // First female cast member as heroine
-  const heroine = credits.cast.find(c => c.gender === 1)?.name || "Unknown";
+  // Filter cast by gender (2 = Male, 1 = Female)
+  const maleCast = credits.cast.filter(c => c.gender === 2);
+  const femaleCast = credits.cast.filter(c => c.gender === 1);
+
+  // Top 2 male cast members as hero field (accommodates multi-starrers)
+  let hero = maleCast.slice(0, 2).map(c => c.name).join(" & ");
+  if (!hero && credits.cast.length > 0) {
+    hero = credits.cast.slice(0, 2).map(c => c.name).join(" & ");
+  }
+  hero = hero || "Unknown";
+
+  // Main female cast member as heroine
+  let heroine = femaleCast[0]?.name;
+  if (!heroine && credits.cast.length > 1) {
+    heroine = credits.cast.find(c => c.gender === 1)?.name || credits.cast[1]?.name;
+  }
+  heroine = heroine || "Unknown";
 
   const genres = (detail.genres || []).map(g => GENRE_MAP[g.id] || g.name).slice(0, 3);
   if (!genres.length) genres.push("Drama");
