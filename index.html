@@ -46,8 +46,9 @@
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
       </button>
       <div class="day-nav-center">
-        <div class="date-pill" id="date-display"></div>
+        <div class="date-pill" id="date-display" title="Click to open calendar"></div>
         <div class="day-ago-label" id="day-ago-label"></div>
+        <div class="cal-dropdown" id="cal-dropdown"></div>
       </div>
       <button class="day-nav-btn" id="btn-next-day" aria-label="Next day" title="Next day" disabled>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
@@ -104,7 +105,7 @@
         <div class="th">Hero</div>
         <div class="th">Director</div>
         <div class="th">Music</div>
-        <div class="th">Rating</div>
+        <div class="th" title="Derived from TMDB user rating scores and popularity vote counts">Rating*</div>
       </div>
       <div class="results-rows" id="results-rows"></div>
     </section>
@@ -228,6 +229,9 @@
       </div>
       <div class="how-footer">
         A new movie every day at midnight IST. Build your streak! 🔥
+        <div class="rating-disclaimer">
+          *Note: The <strong>Rating</strong> column represents a verdict (Flop to Industry Hit) derived from TMDB user review scores &amp; popularity vote counts, not official theatrical box office collections.
+        </div>
       </div>
       <button class="btn-primary" id="start-playing-btn">Let's Play!</button>
     </div>

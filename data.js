@@ -1,7 +1,7 @@
 // ================================================================
 // TOLLYDLE — Telugu Movies Database
 // Auto-generated on 2026-06-28 via fetch_movies.js (source: TMDB)
-// Total: 864 movies  |  Do not edit manually — re-run fetch_movies.js
+// Total: 857 movies  |  Do not edit manually — re-run fetch_movies.js
 // ================================================================
 
 const MOVIES_DB = [
@@ -17,7 +17,7 @@ const MOVIES_DB = [
     "heroine": "Meenakshi Chaudhary",
     "director": "Maari",
     "music": "Mickey J Meyer",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A lazy, entitled brat who wants to lead an easy life is in for a rude shock that changes the course of his life.",
     "poster_path": "/iCzGY1JD4DXqAjDKhsesKzs9vdK.jpg",
     "tagline": "",
@@ -145,7 +145,7 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6.6,
     "vote_count": 5,
-    "popularity": 29.3656
+    "popularity": 29.4066
   },
   {
     "id": 8,
@@ -324,7 +324,7 @@ const MOVIES_DB = [
     "heroine": "Sakshi Vaidya",
     "director": "Ram Abbaraju",
     "music": "Vishal Chandrasekhar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A young man's life turns upside down when he finds himself caught between two women, leading to an unexpected love triangle filled with emot",
     "poster_path": "/jFBu7tS0mlEZwYTkjJcKH48bV4m.jpg",
     "tagline": "",
@@ -364,7 +364,7 @@ const MOVIES_DB = [
     "heroine": "Nayan Sarika",
     "director": "Manasa Sharma",
     "music": "Anudeep Dev",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Returning home after a decade, an NRI chasing romance inadvertently awakens an ancient darkness long feared by his village. As the threat in",
     "poster_path": "/x7zwiuC1HTw5XGZ5JrOwF9uFqRy.jpg",
     "tagline": "A homecoming nightmare!",
@@ -467,7 +467,7 @@ const MOVIES_DB = [
     "heroine": "Priyanka Jawalkar",
     "director": "Kalyan Shankar",
     "music": "Bheems Ceciroleo",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "After his wedding turns into a disaster, Laddu and his pals — Manoj, Ashok and Damodar — find themselves traveling to Goa for another wild a",
     "poster_path": "/cYGNd3oMRYsvM9gW4i0bzAclOUb.jpg",
     "tagline": "THIS TIME, IT'S MAD MAXX.",
@@ -731,7 +731,7 @@ const MOVIES_DB = [
     "heroine": "Sridevi Apalla",
     "director": "Ram Jagadeesh",
     "music": "Vijai Bulganin",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "A determined lawyer takes on a high-stakes case to defend a 19-year-old boy, challenging a system that has already branded him guilty.",
     "poster_path": "/4pEX67LJd7ZIqYWtksBtOgQEGcQ.jpg",
     "tagline": "",
@@ -854,7 +854,7 @@ const MOVIES_DB = [
     "heroine": "Srinidhi Shetty",
     "director": "Sailesh Kolanu",
     "music": "Mickey J Meyer",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "The Homicide Intervention Team (HIT) sends ruthless police officer Arjun Sarkaar to find a group of killers and stop their grisly murder spr",
     "poster_path": "/wT9tGyFol4RBwkjESXUWeBdnLJn.jpg",
     "tagline": "",
@@ -984,7 +984,7 @@ const MOVIES_DB = [
     "tagline": "From the shadows of betrayal shall rise a king.",
     "vote_average": 6.125,
     "vote_count": 32,
-    "popularity": 2.256
+    "popularity": 2.6772
   },
   {
     "id": 49,
@@ -1020,7 +1020,7 @@ const MOVIES_DB = [
     "heroine": "Rashmika Mandanna",
     "director": "Sekhar Kammula",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A ruthless billionaire, Neeraj, uses beggars as benamis to launder money, with the help of a disgraced civil submit servant, Deepak. One of ",
     "poster_path": "/xjLC5DeA4FQTBv4xe8r3wYqh8lu.jpg",
     "tagline": "",
@@ -1061,7 +1061,7 @@ const MOVIES_DB = [
     "heroine": "Shivani Nagaram",
     "director": "Sai Marthand",
     "music": "Sinjith yerramilli",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Akhil, when failed in EAMCET exam, is forced into long-term coaching after heartbreak teaches him the difference between true and shallow lo",
     "poster_path": "/8QcQ0DP76YpY4VS8bsB53H8Fpwj.jpg",
     "tagline": "",
@@ -1170,7 +1170,7 @@ const MOVIES_DB = [
     "tagline": "In the name of Love",
     "vote_average": 5.7,
     "vote_count": 3,
-    "popularity": 3.2552
+    "popularity": 3.1355
   },
   {
     "id": 58,
@@ -1272,7 +1272,7 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.7,
     "vote_count": 3,
-    "popularity": 0.4134
+    "popularity": 0.4321
   },
   {
     "id": 63,
@@ -1307,7 +1307,7 @@ const MOVIES_DB = [
     "heroine": "Shriya Kontham",
     "director": "Praveen Kandregula",
     "music": "Clinton Cerejo",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Set in the early 2000s, in the pre-internet days of coastal Bheemili, A group of married men band together to find solutions, after their wi",
     "poster_path": "/hl3jiH0YjLRUZXWY2xqHNNTi1Eg.jpg",
     "tagline": "",
@@ -1333,7 +1333,7 @@ const MOVIES_DB = [
     "tagline": "NO TWO LOVE STORIES ARE THE SAME",
     "vote_average": 5.333,
     "vote_count": 6,
-    "popularity": 0.5769
+    "popularity": 0.5175
   },
   {
     "id": 66,
@@ -1388,7 +1388,7 @@ const MOVIES_DB = [
     "heroine": "Rashmika Mandanna",
     "director": "Rahul Ravindran",
     "music": "Hesham Abdul Wahab",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A college literature student falls for a charming man with a domineering streak, forcing her to confront the toxic truth of his desire.",
     "poster_path": "/8cYve5muYPeWKvSEfFdkmWDyyDa.jpg",
     "tagline": "",
@@ -1459,6 +1459,26 @@ const MOVIES_DB = [
   },
   {
     "id": 72,
+    "title": "Aarambham",
+    "year": 2024,
+    "genres": [
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "hero": "Mohan Bhagath & Ravindra Vijay",
+    "heroine": "Surabhi Prabhavathi",
+    "director": "Ajay Nag",
+    "music": "Sinjith yerramilli",
+    "rating": "Average",
+    "hint": "Prisoner No. 299 is on the death row at Kalaghati Jail, One night before his death penalty, He vanishes from his cell.  Chaitanya & Madhav a",
+    "poster_path": "/kDUMoN9b6B4196Lz382GrBzH6eR.jpg",
+    "tagline": "",
+    "vote_average": 6.7,
+    "vote_count": 3,
+    "popularity": 0.3344
+  },
+  {
+    "id": 73,
     "title": "Ambajipeta Marriage Band",
     "year": 2024,
     "genres": [
@@ -1475,10 +1495,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.5,
     "vote_count": 4,
-    "popularity": 0.346
+    "popularity": 0.4132
   },
   {
-    "id": 73,
+    "id": 74,
     "title": "Appudo Ippudo Eppudo",
     "year": 2024,
     "genres": [
@@ -1496,10 +1516,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 4,
     "vote_count": 5,
-    "popularity": 0.3378
+    "popularity": 0.3505
   },
   {
-    "id": 74,
+    "id": 75,
     "title": "Bachhala Malli",
     "year": 2024,
     "genres": [
@@ -1516,10 +1536,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 4.3,
     "vote_count": 3,
-    "popularity": 0.5141
+    "popularity": 0.4752
   },
   {
-    "id": 75,
+    "id": 76,
     "title": "Bhaje Vaayu Vegam",
     "year": 2024,
     "genres": [
@@ -1539,7 +1559,7 @@ const MOVIES_DB = [
     "popularity": 0.4313
   },
   {
-    "id": 76,
+    "id": 77,
     "title": "Bhamakalapam 2",
     "year": 2024,
     "genres": [
@@ -1560,7 +1580,7 @@ const MOVIES_DB = [
     "popularity": 0.4387
   },
   {
-    "id": 77,
+    "id": 78,
     "title": "Bhimaa",
     "year": 2024,
     "genres": [
@@ -1580,7 +1600,7 @@ const MOVIES_DB = [
     "popularity": 0.4
   },
   {
-    "id": 78,
+    "id": 79,
     "title": "Chaari 111",
     "year": 2024,
     "genres": [
@@ -1600,7 +1620,7 @@ const MOVIES_DB = [
     "popularity": 0.5856
   },
   {
-    "id": 79,
+    "id": 80,
     "title": "Committee Kurrollu",
     "year": 2024,
     "genres": [
@@ -1619,7 +1639,7 @@ const MOVIES_DB = [
     "popularity": 0.3166
   },
   {
-    "id": 80,
+    "id": 81,
     "title": "Devaki Nandana Vasudeva",
     "year": 2024,
     "genres": [
@@ -1640,7 +1660,7 @@ const MOVIES_DB = [
     "popularity": 0.5374
   },
   {
-    "id": 81,
+    "id": 82,
     "title": "Devara: Part 1",
     "year": 2024,
     "genres": [
@@ -1660,7 +1680,7 @@ const MOVIES_DB = [
     "popularity": 4.7285
   },
   {
-    "id": 82,
+    "id": 83,
     "title": "Double iSmart",
     "year": 2024,
     "genres": [
@@ -1681,7 +1701,7 @@ const MOVIES_DB = [
     "popularity": 0.6078
   },
   {
-    "id": 83,
+    "id": 84,
     "title": "Eagle",
     "year": 2024,
     "genres": [
@@ -1701,7 +1721,7 @@ const MOVIES_DB = [
     "popularity": 1.4561
   },
   {
-    "id": 84,
+    "id": 85,
     "title": "EVOL",
     "year": 2024,
     "genres": [
@@ -1721,7 +1741,7 @@ const MOVIES_DB = [
     "popularity": 0.4897
   },
   {
-    "id": 85,
+    "id": 86,
     "title": "Gaami",
     "year": 2024,
     "genres": [
@@ -1742,7 +1762,7 @@ const MOVIES_DB = [
     "popularity": 0.4626
   },
   {
-    "id": 86,
+    "id": 87,
     "title": "Gangs of Godavari",
     "year": 2024,
     "genres": [
@@ -1762,7 +1782,7 @@ const MOVIES_DB = [
     "popularity": 0.5875
   },
   {
-    "id": 87,
+    "id": 88,
     "title": "Guntur Kaaram",
     "year": 2024,
     "genres": [
@@ -1782,7 +1802,7 @@ const MOVIES_DB = [
     "popularity": 4.0306
   },
   {
-    "id": 88,
+    "id": 89,
     "title": "Hanu-Man",
     "year": 2024,
     "genres": [
@@ -1803,7 +1823,7 @@ const MOVIES_DB = [
     "popularity": 1.9224
   },
   {
-    "id": 89,
+    "id": 90,
     "title": "Harom Hara",
     "year": 2024,
     "genres": [
@@ -1824,7 +1844,7 @@ const MOVIES_DB = [
     "popularity": 0.3177
   },
   {
-    "id": 90,
+    "id": 91,
     "title": "KA",
     "year": 2024,
     "genres": [
@@ -1841,10 +1861,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.625,
     "vote_count": 8,
-    "popularity": 0.8246
+    "popularity": 0.6707
   },
   {
-    "id": 91,
+    "id": 92,
     "title": "Kalinga",
     "year": 2024,
     "genres": [
@@ -1863,7 +1883,7 @@ const MOVIES_DB = [
     "popularity": 1.1297
   },
   {
-    "id": 92,
+    "id": 93,
     "title": "Kalki 2898-AD",
     "year": 2024,
     "genres": [
@@ -1875,7 +1895,7 @@ const MOVIES_DB = [
     "heroine": "Deepika Padukone",
     "director": "Nag Ashwin",
     "music": "Santhosh Narayanan",
-    "rating": "Hit",
+    "rating": "Industry Hit",
     "hint": "In the year 2898 AD, around 6000 years after Kurukshetra war, Ashwatthama gears up for his final battle of redemption at the sign of hope in",
     "poster_path": "/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
     "tagline": "For a better Tomorrow",
@@ -1884,7 +1904,7 @@ const MOVIES_DB = [
     "popularity": 6.4192
   },
   {
-    "id": 93,
+    "id": 94,
     "title": "Love Me If You Dare",
     "year": 2024,
     "genres": [
@@ -1905,7 +1925,7 @@ const MOVIES_DB = [
     "popularity": 0.3084
   },
   {
-    "id": 94,
+    "id": 95,
     "title": "Lucky Baskhar",
     "year": 2024,
     "genres": [
@@ -1926,7 +1946,7 @@ const MOVIES_DB = [
     "popularity": 3.2282
   },
   {
-    "id": 95,
+    "id": 96,
     "title": "Maa Nanna Superhero",
     "year": 2024,
     "genres": [
@@ -1945,7 +1965,7 @@ const MOVIES_DB = [
     "popularity": 0.3525
   },
   {
-    "id": 96,
+    "id": 97,
     "title": "Mathu Vadalara 2",
     "year": 2024,
     "genres": [
@@ -1966,7 +1986,7 @@ const MOVIES_DB = [
     "popularity": 0.4302
   },
   {
-    "id": 97,
+    "id": 98,
     "title": "Matka",
     "year": 2024,
     "genres": [
@@ -1986,7 +2006,7 @@ const MOVIES_DB = [
     "popularity": 2.2882
   },
   {
-    "id": 98,
+    "id": 99,
     "title": "Mechanic Rocky",
     "year": 2024,
     "genres": [
@@ -2006,7 +2026,7 @@ const MOVIES_DB = [
     "popularity": 0.4343
   },
   {
-    "id": 99,
+    "id": 100,
     "title": "Mr Bachchan",
     "year": 2024,
     "genres": [
@@ -2027,7 +2047,7 @@ const MOVIES_DB = [
     "popularity": 0.4949
   },
   {
-    "id": 100,
+    "id": 101,
     "title": "Naa Saami Ranga",
     "year": 2024,
     "genres": [
@@ -2046,7 +2066,7 @@ const MOVIES_DB = [
     "popularity": 0.6302
   },
   {
-    "id": 101,
+    "id": 102,
     "title": "Om Bheem Bush",
     "year": 2024,
     "genres": [
@@ -2066,7 +2086,7 @@ const MOVIES_DB = [
     "popularity": 0.638
   },
   {
-    "id": 102,
+    "id": 103,
     "title": "Ooru Peru Bhairavakona",
     "year": 2024,
     "genres": [
@@ -2087,7 +2107,7 @@ const MOVIES_DB = [
     "popularity": 0.6613
   },
   {
-    "id": 103,
+    "id": 104,
     "title": "Operation Valentine",
     "year": 2024,
     "genres": [
@@ -2108,7 +2128,7 @@ const MOVIES_DB = [
     "popularity": 1.1203
   },
   {
-    "id": 104,
+    "id": 105,
     "title": "Pushpa 2 - The Rule",
     "year": 2024,
     "genres": [
@@ -2129,7 +2149,7 @@ const MOVIES_DB = [
     "popularity": 10.6359
   },
   {
-    "id": 105,
+    "id": 106,
     "title": "Razakar: The Silent Genocide of Hyderabad",
     "year": 2024,
     "genres": [
@@ -2149,7 +2169,7 @@ const MOVIES_DB = [
     "popularity": 0.4956
   },
   {
-    "id": 106,
+    "id": 107,
     "title": "RRR: Behind & Beyond",
     "year": 2024,
     "genres": [
@@ -2168,7 +2188,7 @@ const MOVIES_DB = [
     "popularity": 0.5671
   },
   {
-    "id": 107,
+    "id": 108,
     "title": "Saindhav",
     "year": 2024,
     "genres": [
@@ -2188,7 +2208,7 @@ const MOVIES_DB = [
     "popularity": 0.5655
   },
   {
-    "id": 108,
+    "id": 109,
     "title": "Saripodhaa Sanivaaram",
     "year": 2024,
     "genres": [
@@ -2199,7 +2219,7 @@ const MOVIES_DB = [
     "heroine": "Priyanka Arul Mohan",
     "director": "Vivek Athreya",
     "music": "Jakes Bejoy",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Set in Sokulapalem, bound by a promise to his mother, Surya, an LIC agent leads a normal life on six days, maintains a careful ledger of eve",
     "poster_path": "/e2yVhbMkpi4JvvdIhvRpS0Muge7.jpg",
     "tagline": "",
@@ -2208,7 +2228,7 @@ const MOVIES_DB = [
     "popularity": 1.8683
   },
   {
-    "id": 109,
+    "id": 110,
     "title": "Satyabhama",
     "year": 2024,
     "genres": [
@@ -2229,7 +2249,7 @@ const MOVIES_DB = [
     "popularity": 0.6221
   },
   {
-    "id": 110,
+    "id": 111,
     "title": "Swag",
     "year": 2024,
     "genres": [
@@ -2249,7 +2269,7 @@ const MOVIES_DB = [
     "popularity": 0.4286
   },
   {
-    "id": 111,
+    "id": 112,
     "title": "The Family Star",
     "year": 2024,
     "genres": [
@@ -2270,7 +2290,7 @@ const MOVIES_DB = [
     "popularity": 2.9247
   },
   {
-    "id": 112,
+    "id": 113,
     "title": "Viswam",
     "year": 2024,
     "genres": [
@@ -2290,7 +2310,7 @@ const MOVIES_DB = [
     "popularity": 0.5568
   },
   {
-    "id": 113,
+    "id": 114,
     "title": "Zebra",
     "year": 2024,
     "genres": [
@@ -2311,7 +2331,7 @@ const MOVIES_DB = [
     "popularity": 0.5242
   },
   {
-    "id": 114,
+    "id": 115,
     "title": "Agent",
     "year": 2023,
     "genres": [
@@ -2331,7 +2351,7 @@ const MOVIES_DB = [
     "popularity": 1.7187
   },
   {
-    "id": 115,
+    "id": 116,
     "title": "Amigos",
     "year": 2023,
     "genres": [
@@ -2351,7 +2371,7 @@ const MOVIES_DB = [
     "popularity": 0.6727
   },
   {
-    "id": 116,
+    "id": 117,
     "title": "Anni Manchi Sakunamule",
     "year": 2023,
     "genres": [
@@ -2372,7 +2392,7 @@ const MOVIES_DB = [
     "popularity": 0.4526
   },
   {
-    "id": 117,
+    "id": 118,
     "title": "Asvins",
     "year": 2023,
     "genres": [
@@ -2393,7 +2413,7 @@ const MOVIES_DB = [
     "popularity": 0.4772
   },
   {
-    "id": 118,
+    "id": 119,
     "title": "Baby",
     "year": 2023,
     "genres": [
@@ -2413,7 +2433,7 @@ const MOVIES_DB = [
     "popularity": 0.8007
   },
   {
-    "id": 119,
+    "id": 120,
     "title": "Balagam",
     "year": 2023,
     "genres": [
@@ -2424,7 +2444,7 @@ const MOVIES_DB = [
     "heroine": "Kavya Kalyanram",
     "director": "Venu",
     "music": "Bheems Ceciroleo",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "A boisterous, bawdy, meddling village patriarch Komurayya’s death just before the engagement changes the course of  his grandson Saayilu's l",
     "poster_path": "/m5Wtp4BcMm6Z03rjik11AS5UYhd.jpg",
     "tagline": "",
@@ -2433,7 +2453,7 @@ const MOVIES_DB = [
     "popularity": 0.3907
   },
   {
-    "id": 120,
+    "id": 121,
     "title": "Bedurulanka 2012",
     "year": 2023,
     "genres": [
@@ -2453,7 +2473,7 @@ const MOVIES_DB = [
     "popularity": 0.3164
   },
   {
-    "id": 121,
+    "id": 122,
     "title": "Bhagavanth Kesari",
     "year": 2023,
     "genres": [
@@ -2474,7 +2494,7 @@ const MOVIES_DB = [
     "popularity": 0.7083
   },
   {
-    "id": 122,
+    "id": 123,
     "title": "Bhola Shankar",
     "year": 2023,
     "genres": [
@@ -2495,7 +2515,7 @@ const MOVIES_DB = [
     "popularity": 0.6092
   },
   {
-    "id": 123,
+    "id": 124,
     "title": "Boo",
     "year": 2023,
     "genres": [
@@ -2515,7 +2535,7 @@ const MOVIES_DB = [
     "popularity": 0.4196
   },
   {
-    "id": 124,
+    "id": 125,
     "title": "BRO",
     "year": 2023,
     "genres": [
@@ -2527,7 +2547,7 @@ const MOVIES_DB = [
     "heroine": "Ketika Sharma",
     "director": "Samuthirakani",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "After being fatally injured in a car crash, a man is given three months back on earth to make amends.",
     "poster_path": "/cCirdTe57qpOvb1NFKECbQRMmfQ.jpg",
     "tagline": "",
@@ -2536,7 +2556,7 @@ const MOVIES_DB = [
     "popularity": 0.841
   },
   {
-    "id": 125,
+    "id": 126,
     "title": "Bubblegum",
     "year": 2023,
     "genres": [
@@ -2556,7 +2576,7 @@ const MOVIES_DB = [
     "popularity": 0.8798
   },
   {
-    "id": 126,
+    "id": 127,
     "title": "Butta Bomma",
     "year": 2023,
     "genres": [
@@ -2573,10 +2593,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6.4,
     "vote_count": 7,
-    "popularity": 0.6009
+    "popularity": 0.4923
   },
   {
-    "id": 127,
+    "id": 128,
     "title": "Chakravyuham",
     "year": 2023,
     "genres": [
@@ -2596,7 +2616,7 @@ const MOVIES_DB = [
     "popularity": 0.4296
   },
   {
-    "id": 128,
+    "id": 129,
     "title": "Custody",
     "year": 2023,
     "genres": [
@@ -2616,7 +2636,7 @@ const MOVIES_DB = [
     "popularity": 0.6228
   },
   {
-    "id": 129,
+    "id": 130,
     "title": "Das Ka Dhamki",
     "year": 2023,
     "genres": [
@@ -2636,7 +2656,7 @@ const MOVIES_DB = [
     "popularity": 0.3291
   },
   {
-    "id": 130,
+    "id": 131,
     "title": "Dasara",
     "year": 2023,
     "genres": [
@@ -2647,7 +2667,7 @@ const MOVIES_DB = [
     "heroine": "Keerthy Suresh",
     "director": "Srikanth Odela",
     "music": "Santhosh Narayanan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "In 1990s, Set in small village Veerlapally, Dharani, Vennela, and Suri are childhood friends. Dharani loves Vennela, but she has Suri in her",
     "poster_path": "/4OTVoCVXa5aHDZl8opKoIV9Ezr5.jpg",
     "tagline": "",
@@ -2656,7 +2676,7 @@ const MOVIES_DB = [
     "popularity": 0.8526
   },
   {
-    "id": 131,
+    "id": 132,
     "title": "Devil",
     "year": 2023,
     "genres": [
@@ -2677,7 +2697,7 @@ const MOVIES_DB = [
     "popularity": 0.4417
   },
   {
-    "id": 132,
+    "id": 133,
     "title": "Extra Ordinary Man",
     "year": 2023,
     "genres": [
@@ -2697,7 +2717,7 @@ const MOVIES_DB = [
     "popularity": 0.6655
   },
   {
-    "id": 133,
+    "id": 134,
     "title": "Gandeevadhari Arjuna",
     "year": 2023,
     "genres": [
@@ -2717,7 +2737,7 @@ const MOVIES_DB = [
     "popularity": 0.9273
   },
   {
-    "id": 134,
+    "id": 135,
     "title": "HER: Chapter 1",
     "year": 2023,
     "genres": [
@@ -2738,7 +2758,7 @@ const MOVIES_DB = [
     "popularity": 0.5228
   },
   {
-    "id": 135,
+    "id": 136,
     "title": "Hi Nanna",
     "year": 2023,
     "genres": [
@@ -2750,7 +2770,7 @@ const MOVIES_DB = [
     "heroine": "Mrunal Thakur",
     "director": "Shouryuv",
     "music": "Hesham Abdul Wahab",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Six-year-old Mahi, a spirited child with cystic fibrosis, shares a deep yet complex bond with her father, Viraj, a dedicated single parent a",
     "poster_path": "/hhMLtq9m1aK0dpY9Wcq26XeDH2z.jpg",
     "tagline": "",
@@ -2759,7 +2779,7 @@ const MOVIES_DB = [
     "popularity": 4.0174
   },
   {
-    "id": 136,
+    "id": 137,
     "title": "Hidimbha",
     "year": 2023,
     "genres": [
@@ -2777,10 +2797,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 7,
     "vote_count": 4,
-    "popularity": 0.3705
+    "popularity": 0.401
   },
   {
-    "id": 137,
+    "id": 138,
     "title": "Keedaa Cola",
     "year": 2023,
     "genres": [
@@ -2800,7 +2820,7 @@ const MOVIES_DB = [
     "popularity": 0.4832
   },
   {
-    "id": 138,
+    "id": 139,
     "title": "Kushi",
     "year": 2023,
     "genres": [
@@ -2812,7 +2832,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "Shiva Nirvana",
     "music": "Hesham Abdul Wahab",
-    "rating": "Flop",
+    "rating": "Industry Hit",
     "hint": "Worlds and families collide when the son of a prominent atheist falls head over heels for the daughter of his father’s nemesis, a revered Hi",
     "poster_path": "/tiEnkpOarH20cCSikeLiWlvY1We.jpg",
     "tagline": "",
@@ -2821,7 +2841,7 @@ const MOVIES_DB = [
     "popularity": 1.1646
   },
   {
-    "id": 139,
+    "id": 140,
     "title": "Maa Oori Polimera 2",
     "year": 2023,
     "genres": [
@@ -2842,7 +2862,7 @@ const MOVIES_DB = [
     "popularity": 0.4085
   },
   {
-    "id": 140,
+    "id": 141,
     "title": "Mangalavaaram",
     "year": 2023,
     "genres": [
@@ -2860,27 +2880,6 @@ const MOVIES_DB = [
     "vote_average": 5.308,
     "vote_count": 13,
     "popularity": 0.9978
-  },
-  {
-    "id": 141,
-    "title": "Meter",
-    "year": 2023,
-    "genres": [
-      "Comedy",
-      "Action",
-      "Romance"
-    ],
-    "hero": "Kiran Abbavaram & Pawan",
-    "heroine": "Athulya Ravi",
-    "director": "Ramesh Kaduri",
-    "music": "Sai Karthik",
-    "rating": "Average",
-    "hint": "Arjun Kalyan, son of Raghunath, a police constable, ends up becoming a Sub Inspector despite his disinterest in the department. The chain of",
-    "poster_path": "/7Ov4b83BVRVVikifEhSYlAB80vp.jpg",
-    "tagline": "Measure of Passion",
-    "vote_average": 3,
-    "vote_count": 4,
-    "popularity": 0.3506
   },
   {
     "id": 142,
@@ -2922,7 +2921,7 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 7,
     "vote_count": 3,
-    "popularity": 0.3535
+    "popularity": 0.3205
   },
   {
     "id": 144,
@@ -3058,13 +3057,13 @@ const MOVIES_DB = [
     "heroine": "Shruti Haasan",
     "director": "Prashanth Neel",
     "music": "Ravi Basrur",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Set in the fictional dystopian city-state of Khansaar, the film follows the friendship between Deva, a tribesman, and Varadha, the prince of",
     "poster_path": "/nlu9WbcetNFRGXXPWITr30ob7W6.jpg",
     "tagline": "THE MOST VIOLENT MEN... CALLED ONE MAN... THE MOST VIOLENT",
     "vote_average": 6.659,
     "vote_count": 113,
-    "popularity": 7.1407
+    "popularity": 7.1914
   },
   {
     "id": 151,
@@ -3079,7 +3078,7 @@ const MOVIES_DB = [
     "heroine": "Reba Monica John",
     "director": "Ram Abbaraju",
     "music": "Gopi Sundar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Balu, a determined middle-class man who finds himself at a crossroads when Sarayu enters his life, rekindling his long-lost desire for roman",
     "poster_path": "/fuyNHfcDJVwLfhgjHYmXlQZyK93.jpg",
     "tagline": "",
@@ -3264,7 +3263,7 @@ const MOVIES_DB = [
     "heroine": "Samyuktha",
     "director": "Karthik Varma Dandu",
     "music": "B. Ajaneesh Loknath",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Set in a village named Rudravanam in 1990's, Surya along with his mother, visit there after a long time. Suddenly a series of mysterious dea",
     "poster_path": "/fqMn4h9ctOyumII2nXDnm5mRTxQ.jpg",
     "tagline": "",
@@ -3423,7 +3422,7 @@ const MOVIES_DB = [
     "heroine": "Aishwarya Lekshmi",
     "director": "Charukesh Sekar",
     "music": "Bharath Shankar",
-    "rating": "Industry Hit",
+    "rating": "Average",
     "hint": "Ammu's thought marriage was a fairy tale – full of love and magic, ends when her cop-husband Ravi hit her for the very first time. What Ammu",
     "poster_path": "/ckaM4pI0CzYHzGUG1bar9Q7LHbl.jpg",
     "tagline": "",
@@ -3979,7 +3978,7 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.143,
     "vote_count": 14,
-    "popularity": 0.4989
+    "popularity": 0.4599
   },
   {
     "id": 196,
@@ -4054,7 +4053,7 @@ const MOVIES_DB = [
     "heroine": "Sangeetha Krish",
     "director": "Sai Kiran",
     "music": "Prashanth R Vihari",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A mother and her teen daughter from a middle-class background, whose humble life goes upside down, when the daughter gets possessed by a gho",
     "poster_path": "/8tteFyJbPxvVr57K1CjGhKbqEjY.jpg",
     "tagline": "",
@@ -4219,7 +4218,7 @@ const MOVIES_DB = [
     "heroine": "Olivia Morris",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Blockbuster",
+    "rating": "Industry Hit",
     "hint": "A fictional history of two legendary revolutionaries' journey away from home before they began fighting for their country in the 1920s.",
     "poster_path": "/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
     "tagline": "Rise, Roar, Revolt",
@@ -4524,7 +4523,7 @@ const MOVIES_DB = [
     "heroine": "Shivani Rajashekar",
     "director": "Mallik Ram",
     "music": "Radhan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A boy and a girl ending up using the same phone number without each other's knowledge. What will be the consequences of this situation? will",
     "poster_path": "/mDaBilIfuY6v6V2xMvAdFkozoza.jpg",
     "tagline": "",
@@ -4550,7 +4549,7 @@ const MOVIES_DB = [
     "tagline": "When hope dies, when there is no faith, when evil spreads its wings, Akhanda arrives.",
     "vote_average": 5.685,
     "vote_count": 27,
-    "popularity": 0.8563
+    "popularity": 0.79
   },
   {
     "id": 224,
@@ -4634,26 +4633,6 @@ const MOVIES_DB = [
   },
   {
     "id": 228,
-    "title": "Cinema Bandi",
-    "year": 2021,
-    "genres": [
-      "Drama",
-      "Comedy"
-    ],
-    "hero": "Rag Mayur",
-    "heroine": "Sandeep Varanasi",
-    "director": "Praveen Kandregula",
-    "music": "Sirish Satyavolu",
-    "rating": "Hit",
-    "hint": "A struggling rickshaw driver’s life takes a rollicking turn when he comes upon an expensive camera and decides to make a film with his fello",
-    "poster_path": "/aaND5zIAgIzge8y0oaCOIJuJXBB.jpg",
-    "tagline": "Everyone is a filmmaker... at heart.",
-    "vote_average": 6.906,
-    "vote_count": 16,
-    "popularity": 0.283
-  },
-  {
-    "id": 229,
     "title": "Drushyam 2",
     "year": 2021,
     "genres": [
@@ -4665,7 +4644,7 @@ const MOVIES_DB = [
     "heroine": "Meena",
     "director": "Jeethu Joseph",
     "music": "Anup Rubens",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "7 years after the events of Drushyam, the family lives with the trauma from that fateful night. A gripping tale of an investigation and a fa",
     "poster_path": "/mKHsiNOoOnFRBap5HSVO8kLhJGF.jpg",
     "tagline": "The Resumption",
@@ -4674,7 +4653,7 @@ const MOVIES_DB = [
     "popularity": 0.47
   },
   {
-    "id": 230,
+    "id": 229,
     "title": "Eakam",
     "year": 2021,
     "genres": [
@@ -4694,7 +4673,7 @@ const MOVIES_DB = [
     "popularity": 0.3604
   },
   {
-    "id": 231,
+    "id": 230,
     "title": "Gaali Sampath",
     "year": 2021,
     "genres": [
@@ -4715,7 +4694,7 @@ const MOVIES_DB = [
     "popularity": 0.3538
   },
   {
-    "id": 232,
+    "id": 231,
     "title": "Gamanam",
     "year": 2021,
     "genres": [
@@ -4734,7 +4713,7 @@ const MOVIES_DB = [
     "popularity": 0.4054
   },
   {
-    "id": 233,
+    "id": 232,
     "title": "Gully Rowdy",
     "year": 2021,
     "genres": [
@@ -4754,7 +4733,7 @@ const MOVIES_DB = [
     "popularity": 0.3643
   },
   {
-    "id": 234,
+    "id": 233,
     "title": "Ishq",
     "year": 2021,
     "genres": [
@@ -4774,7 +4753,7 @@ const MOVIES_DB = [
     "popularity": 0.3329
   },
   {
-    "id": 235,
+    "id": 234,
     "title": "Jathi Ratnalu",
     "year": 2021,
     "genres": [
@@ -4785,7 +4764,7 @@ const MOVIES_DB = [
     "heroine": "Faria Abdullah",
     "director": "Anudeep",
     "music": "Radhan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Three young men leave their village to find decent jobs in the city. However, they find themselves in a pickle when a minister blackmails th",
     "poster_path": "/7MzvmgHRmhbJH1UZJhRCkAtxvEy.jpg",
     "tagline": "",
@@ -4794,7 +4773,7 @@ const MOVIES_DB = [
     "popularity": 0.7342
   },
   {
-    "id": 236,
+    "id": 235,
     "title": "Kapatadhaari",
     "year": 2021,
     "genres": [
@@ -4814,7 +4793,7 @@ const MOVIES_DB = [
     "popularity": 0.3608
   },
   {
-    "id": 237,
+    "id": 236,
     "title": "Krack",
     "year": 2021,
     "genres": [
@@ -4835,7 +4814,7 @@ const MOVIES_DB = [
     "popularity": 0.5057
   },
   {
-    "id": 238,
+    "id": 237,
     "title": "Lakshya",
     "year": 2021,
     "genres": [
@@ -4855,7 +4834,7 @@ const MOVIES_DB = [
     "popularity": 0.3631
   },
   {
-    "id": 239,
+    "id": 238,
     "title": "Love Story",
     "year": 2021,
     "genres": [
@@ -4866,7 +4845,7 @@ const MOVIES_DB = [
     "heroine": "Sai Pallavi",
     "director": "Sekhar Kammula",
     "music": "Pawan Ch",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Revanth and Mouni dream big when it comes to their lives. But with their social standing and gender proved to be a hindrance, will they mana",
     "poster_path": "/zP9tXuxoPRpCJM0UxbxZUHYB83n.jpg",
     "tagline": "",
@@ -4875,7 +4854,7 @@ const MOVIES_DB = [
     "popularity": 0.3356
   },
   {
-    "id": 240,
+    "id": 239,
     "title": "Maa Oori Polimera",
     "year": 2021,
     "genres": [
@@ -4895,7 +4874,7 @@ const MOVIES_DB = [
     "popularity": 0.4134
   },
   {
-    "id": 241,
+    "id": 240,
     "title": "Maestro",
     "year": 2021,
     "genres": [
@@ -4916,7 +4895,7 @@ const MOVIES_DB = [
     "popularity": 0.9753
   },
   {
-    "id": 242,
+    "id": 241,
     "title": "Maha Samudram",
     "year": 2021,
     "genres": [
@@ -4936,7 +4915,7 @@ const MOVIES_DB = [
     "popularity": 0.9231
   },
   {
-    "id": 243,
+    "id": 242,
     "title": "Manchi Rojulochaie",
     "year": 2021,
     "genres": [
@@ -4957,7 +4936,7 @@ const MOVIES_DB = [
     "popularity": 0.3994
   },
   {
-    "id": 244,
+    "id": 243,
     "title": "Mosagallu",
     "year": 2021,
     "genres": [
@@ -4974,10 +4953,10 @@ const MOVIES_DB = [
     "tagline": "The Story of The World's Biggest I.T. Scam",
     "vote_average": 4.7,
     "vote_count": 7,
-    "popularity": 0.4597
+    "popularity": 0.6044
   },
   {
-    "id": 245,
+    "id": 244,
     "title": "Most Eligible Bachelor",
     "year": 2021,
     "genres": [
@@ -4997,7 +4976,7 @@ const MOVIES_DB = [
     "popularity": 0.7619
   },
   {
-    "id": 246,
+    "id": 245,
     "title": "Naandhi",
     "year": 2021,
     "genres": [
@@ -5009,7 +4988,7 @@ const MOVIES_DB = [
     "heroine": "Varalaxmi Sarathkumar",
     "director": "Vijay Kanakamedala",
     "music": "Sricharan Pakala",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Surya is an IT employee leading a happy life till he’s marked as a suspect in a high-profile murder case. As an under-trial prisoner, he doe",
     "poster_path": "/j2t4J5qKvxN2UmPjggKiaaHbGE9.jpg",
     "tagline": "",
@@ -5018,7 +4997,7 @@ const MOVIES_DB = [
     "popularity": 0.3761
   },
   {
-    "id": 247,
+    "id": 246,
     "title": "Narappa",
     "year": 2021,
     "genres": [
@@ -5029,7 +5008,7 @@ const MOVIES_DB = [
     "heroine": "Priyamani",
     "director": "Srikanth Addala",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Narappa is forced to flee into the forest with his younger son, Sinappa, after Sinappa murders an upper caste landlord to avenge his older b",
     "poster_path": "/zEZDTXGoTsw9cLzLii6NUIuvpQ6.jpg",
     "tagline": "",
@@ -5038,7 +5017,7 @@ const MOVIES_DB = [
     "popularity": 0.4506
   },
   {
-    "id": 248,
+    "id": 247,
     "title": "Ninnila Ninnila",
     "year": 2021,
     "genres": [
@@ -5049,7 +5028,7 @@ const MOVIES_DB = [
     "heroine": "Ritu Varma",
     "director": "Ani I. V. Sasi",
     "music": "Rajesh Murugesan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "In London, Dev, an overweight, genius chef who suffers with muscle spasms, meets Tara and love blossoms, but things take an interesting turn",
     "poster_path": "/7vGK8p7XR7O32HMuw4JHyUtM9jE.jpg",
     "tagline": "",
@@ -5058,7 +5037,7 @@ const MOVIES_DB = [
     "popularity": 0.4143
   },
   {
-    "id": 249,
+    "id": 248,
     "title": "One Small Story",
     "year": 2021,
     "genres": [
@@ -5078,7 +5057,7 @@ const MOVIES_DB = [
     "popularity": 0.6013
   },
   {
-    "id": 250,
+    "id": 249,
     "title": "Paagal",
     "year": 2021,
     "genres": [
@@ -5098,7 +5077,7 @@ const MOVIES_DB = [
     "popularity": 0.6007
   },
   {
-    "id": 251,
+    "id": 250,
     "title": "Power Play",
     "year": 2021,
     "genres": [
@@ -5118,7 +5097,7 @@ const MOVIES_DB = [
     "popularity": 0.4145
   },
   {
-    "id": 252,
+    "id": 251,
     "title": "Pushpa: The Rise",
     "year": 2021,
     "genres": [
@@ -5130,7 +5109,7 @@ const MOVIES_DB = [
     "heroine": "Rashmika Mandanna",
     "director": "Sukumar",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "As Pushpa, a labourer, rises in the world of red sandalwood smuggling, he ends up making many enemies. However, violence ensues when the pol",
     "poster_path": "/7efdLqC6N46jIkECh41syntW6Zm.jpg",
     "tagline": "",
@@ -5139,7 +5118,7 @@ const MOVIES_DB = [
     "popularity": 6.0344
   },
   {
-    "id": 253,
+    "id": 252,
     "title": "Raja Raja Chora",
     "year": 2021,
     "genres": [
@@ -5160,7 +5139,7 @@ const MOVIES_DB = [
     "popularity": 0.3201
   },
   {
-    "id": 254,
+    "id": 253,
     "title": "Rang De",
     "year": 2021,
     "genres": [
@@ -5180,7 +5159,7 @@ const MOVIES_DB = [
     "popularity": 0.8247
   },
   {
-    "id": 255,
+    "id": 254,
     "title": "Red",
     "year": 2021,
     "genres": [
@@ -5201,7 +5180,7 @@ const MOVIES_DB = [
     "popularity": 0.5662
   },
   {
-    "id": 256,
+    "id": 255,
     "title": "Republic",
     "year": 2021,
     "genres": [
@@ -5212,7 +5191,7 @@ const MOVIES_DB = [
     "heroine": "Ramya Krishnan",
     "director": "Deva Katta",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Panja Abhiram is a youngster who wants to change the political system from the inside out. But when he’s chipped away at every turn, will he",
     "poster_path": "/u8cdUS3bNtql4NkqEZnyYkO843s.jpg",
     "tagline": "",
@@ -5221,7 +5200,7 @@ const MOVIES_DB = [
     "popularity": 0.5308
   },
   {
-    "id": 257,
+    "id": 256,
     "title": "Romantic",
     "year": 2021,
     "genres": [
@@ -5240,7 +5219,7 @@ const MOVIES_DB = [
     "popularity": 0.9178
   },
   {
-    "id": 258,
+    "id": 257,
     "title": "Seetimaarr",
     "year": 2021,
     "genres": [
@@ -5260,7 +5239,7 @@ const MOVIES_DB = [
     "popularity": 0.4503
   },
   {
-    "id": 259,
+    "id": 258,
     "title": "Senapathi",
     "year": 2021,
     "genres": [
@@ -5280,7 +5259,7 @@ const MOVIES_DB = [
     "popularity": 0.3452
   },
   {
-    "id": 260,
+    "id": 259,
     "title": "Shaadi Mubarak",
     "year": 2021,
     "genres": [
@@ -5300,7 +5279,7 @@ const MOVIES_DB = [
     "popularity": 0.3868
   },
   {
-    "id": 261,
+    "id": 260,
     "title": "Shyam Singha Roy",
     "year": 2021,
     "genres": [
@@ -5312,7 +5291,7 @@ const MOVIES_DB = [
     "heroine": "Sai Pallavi",
     "director": "Rahul Sankrityan",
     "music": "Mickey J Meyer",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A young filmmaker is in a soup right when he’s about to find his footing in the film industry. When he sets out to find an answer, turns out",
     "poster_path": "/5C2wGMdwTQDUMIltYnn9qGrOs8w.jpg",
     "tagline": "",
@@ -5321,7 +5300,7 @@ const MOVIES_DB = [
     "popularity": 0.8862
   },
   {
-    "id": 262,
+    "id": 261,
     "title": "Skylab",
     "year": 2021,
     "genres": [
@@ -5341,7 +5320,7 @@ const MOVIES_DB = [
     "popularity": 0.3186
   },
   {
-    "id": 263,
+    "id": 262,
     "title": "Sreekaram",
     "year": 2021,
     "genres": [
@@ -5360,7 +5339,7 @@ const MOVIES_DB = [
     "popularity": 0.5776
   },
   {
-    "id": 264,
+    "id": 263,
     "title": "Sridevi Soda Center",
     "year": 2021,
     "genres": [
@@ -5380,7 +5359,7 @@ const MOVIES_DB = [
     "popularity": 0.3162
   },
   {
-    "id": 265,
+    "id": 264,
     "title": "Super Over",
     "year": 2021,
     "genres": [
@@ -5399,7 +5378,7 @@ const MOVIES_DB = [
     "popularity": 0.3447
   },
   {
-    "id": 266,
+    "id": 265,
     "title": "Thimmarusu: Assignment Vali",
     "year": 2021,
     "genres": [
@@ -5419,7 +5398,7 @@ const MOVIES_DB = [
     "popularity": 0.3266
   },
   {
-    "id": 267,
+    "id": 266,
     "title": "Tuck Jagadish",
     "year": 2021,
     "genres": [
@@ -5440,7 +5419,7 @@ const MOVIES_DB = [
     "popularity": 1.3731
   },
   {
-    "id": 268,
+    "id": 267,
     "title": "Uppena",
     "year": 2021,
     "genres": [
@@ -5460,7 +5439,7 @@ const MOVIES_DB = [
     "popularity": 0.5574
   },
   {
-    "id": 269,
+    "id": 268,
     "title": "Vakeel Saab",
     "year": 2021,
     "genres": [
@@ -5472,16 +5451,16 @@ const MOVIES_DB = [
     "heroine": "Shruti Haasan",
     "director": "Venu Sriram",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Three girls find themselves accused of attempt to murder after escaping molestation. Their only hope is an alcoholic lawyer who agrees to ta",
     "poster_path": "/jiIKf2tXZJDnpeDxEsA5UnH6DID.jpg",
     "tagline": "",
     "vote_average": 6.472,
     "vote_count": 18,
-    "popularity": 0.7878
+    "popularity": 0.8394
   },
   {
-    "id": 270,
+    "id": 269,
     "title": "Varudu Kaavalenu",
     "year": 2021,
     "genres": [
@@ -5493,7 +5472,7 @@ const MOVIES_DB = [
     "heroine": "Ritu Varma",
     "director": "Lakshmi Sowjanya",
     "music": "S. Thaman",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Bhoomi’s mother wants her to get married soon but she’s particular about what she wants. Akash returns to India after a successful stint abr",
     "poster_path": "/4J7zfkZBUDADKQdehSwFync1BR0.jpg",
     "tagline": "",
@@ -5502,7 +5481,7 @@ const MOVIES_DB = [
     "popularity": 0.334
   },
   {
-    "id": 271,
+    "id": 270,
     "title": "Wild Dog",
     "year": 2021,
     "genres": [
@@ -5522,7 +5501,7 @@ const MOVIES_DB = [
     "popularity": 0.6386
   },
   {
-    "id": 272,
+    "id": 271,
     "title": "Zombie Reddy",
     "year": 2021,
     "genres": [
@@ -5542,7 +5521,7 @@ const MOVIES_DB = [
     "popularity": 0.6055
   },
   {
-    "id": 273,
+    "id": 272,
     "title": "Ala Vaikunthapurramuloo",
     "year": 2020,
     "genres": [
@@ -5554,7 +5533,7 @@ const MOVIES_DB = [
     "heroine": "Pooja Hegde",
     "director": "Trivikram Srinivas",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "After growing up enduring criticism from his father, a young man finds his world shaken upon learning he was switched at birth with a millio",
     "poster_path": "/50cWZdbrmptTRKCAIfx7lSTj12z.jpg",
     "tagline": "",
@@ -5563,7 +5542,7 @@ const MOVIES_DB = [
     "popularity": 3.3072
   },
   {
-    "id": 274,
+    "id": 273,
     "title": "Aswathama",
     "year": 2020,
     "genres": [
@@ -5584,7 +5563,7 @@ const MOVIES_DB = [
     "popularity": 0.4214
   },
   {
-    "id": 275,
+    "id": 274,
     "title": "Bhanumathi & Ramakrishna",
     "year": 2020,
     "genres": [
@@ -5605,7 +5584,7 @@ const MOVIES_DB = [
     "popularity": 0.3606
   },
   {
-    "id": 276,
+    "id": 275,
     "title": "Bheeshma",
     "year": 2020,
     "genres": [
@@ -5626,7 +5605,7 @@ const MOVIES_DB = [
     "popularity": 0.5658
   },
   {
-    "id": 277,
+    "id": 276,
     "title": "Colour Photo",
     "year": 2020,
     "genres": [
@@ -5637,7 +5616,7 @@ const MOVIES_DB = [
     "heroine": "Chandini Chowdary",
     "director": "Sandeep Raj",
     "music": "Kaala Bhairava",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Jayakrishna is a dark-skinned guy who falls head over heels on Deepu but keeps his feelings to himself. As time passes by, a gang in his col",
     "poster_path": "/c6P4zWRUbyoknRSBr1LUR3rzJX9.jpg",
     "tagline": "",
@@ -5646,7 +5625,7 @@ const MOVIES_DB = [
     "popularity": 0.4699
   },
   {
-    "id": 278,
+    "id": 277,
     "title": "Dirty Hari",
     "year": 2020,
     "genres": [
@@ -5666,7 +5645,7 @@ const MOVIES_DB = [
     "popularity": 1.3207
   },
   {
-    "id": 279,
+    "id": 278,
     "title": "Disco Raja",
     "year": 2020,
     "genres": [
@@ -5678,7 +5657,7 @@ const MOVIES_DB = [
     "heroine": "Payal Rajput",
     "director": "Vi Anand",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Found frozen and brain-dead in Ladakh, Vasu is brought back to life but with no memories of who he was, until he starts to regain his past a",
     "poster_path": "/cT0BUuzJJ9jvQD79Po7v7vGjdQH.jpg",
     "tagline": "",
@@ -5687,7 +5666,7 @@ const MOVIES_DB = [
     "popularity": 0.4796
   },
   {
-    "id": 280,
+    "id": 279,
     "title": "HIT: The First Case",
     "year": 2020,
     "genres": [
@@ -5699,7 +5678,7 @@ const MOVIES_DB = [
     "heroine": "Ruhani Sharma",
     "director": "Sailesh Kolanu",
     "music": "Vivek Sagar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Vikram Rudraraju is a 30-year-old cop working for the Telangana State Police. While Vikram is battling with his own traumatic past, the stak",
     "poster_path": "/dMxentLHEJPBMQCPXHrUKluODpe.jpg",
     "tagline": "",
@@ -5708,7 +5687,7 @@ const MOVIES_DB = [
     "popularity": 0.9695
   },
   {
-    "id": 281,
+    "id": 280,
     "title": "Jaanu",
     "year": 2020,
     "genres": [
@@ -5728,7 +5707,7 @@ const MOVIES_DB = [
     "popularity": 0.5725
   },
   {
-    "id": 282,
+    "id": 281,
     "title": "Krishna and His Leela",
     "year": 2020,
     "genres": [
@@ -5748,7 +5727,7 @@ const MOVIES_DB = [
     "popularity": 0.3169
   },
   {
-    "id": 283,
+    "id": 282,
     "title": "Madha",
     "year": 2020,
     "genres": [
@@ -5768,7 +5747,7 @@ const MOVIES_DB = [
     "popularity": 3.4171
   },
   {
-    "id": 284,
+    "id": 283,
     "title": "Maguva",
     "year": 2020,
     "genres": [
@@ -5787,7 +5766,7 @@ const MOVIES_DB = [
     "popularity": 0.3297
   },
   {
-    "id": 285,
+    "id": 284,
     "title": "Middle Class Melodies",
     "year": 2020,
     "genres": [
@@ -5799,7 +5778,7 @@ const MOVIES_DB = [
     "heroine": "Varsha Bollamma",
     "director": "Vinod Anantoju",
     "music": "Vikram RH",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Raghava, who runs a breakfast center in his village, dreams of starting a small hotel in the city. Against his father's wishes, he plans to ",
     "poster_path": "/6pMz4FDeoIbomupYYLFAsAy2D4q.jpg",
     "tagline": "",
@@ -5808,7 +5787,7 @@ const MOVIES_DB = [
     "popularity": 0.4181
   },
   {
-    "id": 286,
+    "id": 285,
     "title": "Miss India",
     "year": 2020,
     "genres": [
@@ -5827,7 +5806,7 @@ const MOVIES_DB = [
     "popularity": 0.6314
   },
   {
-    "id": 287,
+    "id": 286,
     "title": "Naked",
     "year": 2020,
     "genres": [
@@ -5847,7 +5826,7 @@ const MOVIES_DB = [
     "popularity": 0.6468
   },
   {
-    "id": 288,
+    "id": 287,
     "title": "Nishabdham",
     "year": 2020,
     "genres": [
@@ -5867,7 +5846,7 @@ const MOVIES_DB = [
     "popularity": 0.675
   },
   {
-    "id": 289,
+    "id": 288,
     "title": "Pressure Cooker",
     "year": 2020,
     "genres": [
@@ -5887,7 +5866,7 @@ const MOVIES_DB = [
     "popularity": 2.8471
   },
   {
-    "id": 290,
+    "id": 289,
     "title": "Sarileru Neekevvaru",
     "year": 2020,
     "genres": [
@@ -5903,10 +5882,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.906,
     "vote_count": 64,
-    "popularity": 1.8686
+    "popularity": 1.7933
   },
   {
-    "id": 291,
+    "id": 290,
     "title": "Solo Brathuke So Better",
     "year": 2020,
     "genres": [
@@ -5923,10 +5902,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.4,
     "vote_count": 8,
-    "popularity": 0.4239
+    "popularity": 0.4989
   },
   {
-    "id": 292,
+    "id": 291,
     "title": "Uma Maheswara Ugra Roopasya",
     "year": 2020,
     "genres": [
@@ -5937,16 +5916,16 @@ const MOVIES_DB = [
     "heroine": "Roopa Koduvayur",
     "director": "Venkatesh Maha",
     "music": "Bijibal",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Defeated and humiliated in a fight while trying to defuse a conflict among his fellow villagers, a photographer vows revenge on his attacker",
     "poster_path": "/k0IqarTyIOPfSM4R1OrJXtxWtsn.jpg",
     "tagline": "",
     "vote_average": 7.281,
     "vote_count": 16,
-    "popularity": 0.4726
+    "popularity": 0.3641
   },
   {
-    "id": 293,
+    "id": 292,
     "title": "V",
     "year": 2020,
     "genres": [
@@ -5958,7 +5937,7 @@ const MOVIES_DB = [
     "heroine": "Nivetha Thomas",
     "director": "Mohana Krishna Indraganti",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A celebrated cop, DCP Aditya, faces his toughest challenge when a taunting serial killer begins targeting victims and leaving notes meant fo",
     "poster_path": "/iBVcwOVZNGNCNlOLFmcYJW83tTu.jpg",
     "tagline": "",
@@ -5967,7 +5946,7 @@ const MOVIES_DB = [
     "popularity": 1.1845
   },
   {
-    "id": 294,
+    "id": 293,
     "title": "World Famous Lover",
     "year": 2020,
     "genres": [
@@ -5987,7 +5966,7 @@ const MOVIES_DB = [
     "popularity": 1.5143
   },
   {
-    "id": 295,
+    "id": 294,
     "title": "118",
     "year": 2019,
     "genres": [
@@ -6007,7 +5986,7 @@ const MOVIES_DB = [
     "popularity": 0.3603
   },
   {
-    "id": 296,
+    "id": 295,
     "title": "ABCD: American-Born Confused Desi",
     "year": 2019,
     "genres": [
@@ -6026,7 +6005,7 @@ const MOVIES_DB = [
     "popularity": 0.4192
   },
   {
-    "id": 297,
+    "id": 296,
     "title": "Agent Sai Srinivasa Athreya",
     "year": 2019,
     "genres": [
@@ -6038,16 +6017,16 @@ const MOVIES_DB = [
     "heroine": "Shruti Sharma",
     "director": "Swaroop RSJ",
     "music": "Mark K. Robin",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Agent Sai Srinivasa Athreya is a brilliant, underrated detective from Nellore who runs an agency called FBI which sees no business. He gets ",
     "poster_path": "/jMVfhhWfHLawVp3kd55KBy3VBsW.jpg",
     "tagline": "Sherlock Holmes is Fiction , Agent Sai Srinivasa Athreya is Original",
     "vote_average": 7.468,
     "vote_count": 62,
-    "popularity": 1.4237
+    "popularity": 1.4963
   },
   {
-    "id": 298,
+    "id": 297,
     "title": "Arjun Suravaram",
     "year": 2019,
     "genres": [
@@ -6068,7 +6047,7 @@ const MOVIES_DB = [
     "popularity": 0.3716
   },
   {
-    "id": 299,
+    "id": 298,
     "title": "Brochevarevarura",
     "year": 2019,
     "genres": [
@@ -6088,7 +6067,7 @@ const MOVIES_DB = [
     "popularity": 0.3997
   },
   {
-    "id": 300,
+    "id": 299,
     "title": "Chanakya",
     "year": 2019,
     "genres": [
@@ -6108,7 +6087,7 @@ const MOVIES_DB = [
     "popularity": 0.4315
   },
   {
-    "id": 301,
+    "id": 300,
     "title": "Chikati Gadilo Chithakotudu",
     "year": 2019,
     "genres": [
@@ -6129,7 +6108,7 @@ const MOVIES_DB = [
     "popularity": 0.4684
   },
   {
-    "id": 302,
+    "id": 301,
     "title": "Chitralahari",
     "year": 2019,
     "genres": [
@@ -6140,7 +6119,7 @@ const MOVIES_DB = [
     "heroine": "Kalyani Priyadarshan",
     "director": "Kishore Tirumala",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Vijay is a down-on-luck mechanical engineer who’s looking for that big break in life. Both his personal and professional lives are a mess; w",
     "poster_path": "/tnAj1uRrscUjBMrCwXxgjaSL0m6.jpg",
     "tagline": "Bar and Restaurant",
@@ -6149,7 +6128,7 @@ const MOVIES_DB = [
     "popularity": 0.3328
   },
   {
-    "id": 303,
+    "id": 302,
     "title": "Dear Comrade",
     "year": 2019,
     "genres": [
@@ -6170,7 +6149,7 @@ const MOVIES_DB = [
     "popularity": 1.7134
   },
   {
-    "id": 304,
+    "id": 303,
     "title": "Evaru",
     "year": 2019,
     "genres": [
@@ -6190,7 +6169,7 @@ const MOVIES_DB = [
     "popularity": 2.1857
   },
   {
-    "id": 305,
+    "id": 304,
     "title": "F2: Fun and Frustration",
     "year": 2019,
     "genres": [
@@ -6209,7 +6188,7 @@ const MOVIES_DB = [
     "popularity": 2.4274
   },
   {
-    "id": 306,
+    "id": 305,
     "title": "Falaknuma Das",
     "year": 2019,
     "genres": [
@@ -6230,7 +6209,7 @@ const MOVIES_DB = [
     "popularity": 0.4925
   },
   {
-    "id": 307,
+    "id": 306,
     "title": "Gaddalakonda Ganesh",
     "year": 2019,
     "genres": [
@@ -6250,7 +6229,7 @@ const MOVIES_DB = [
     "popularity": 0.9159
   },
   {
-    "id": 308,
+    "id": 307,
     "title": "Guna 369",
     "year": 2019,
     "genres": [
@@ -6270,7 +6249,7 @@ const MOVIES_DB = [
     "popularity": 0.4708
   },
   {
-    "id": 309,
+    "id": 308,
     "title": "Iddari Lokam Okate",
     "year": 2019,
     "genres": [
@@ -6290,7 +6269,7 @@ const MOVIES_DB = [
     "popularity": 0.4375
   },
   {
-    "id": 310,
+    "id": 309,
     "title": "iSmart Shankar",
     "year": 2019,
     "genres": [
@@ -6311,7 +6290,7 @@ const MOVIES_DB = [
     "popularity": 0.5987
   },
   {
-    "id": 311,
+    "id": 310,
     "title": "Jersey",
     "year": 2019,
     "genres": [
@@ -6321,7 +6300,7 @@ const MOVIES_DB = [
     "heroine": "Shraddha Srinath",
     "director": "Gowtam Tinnanuri",
     "music": "Anirudh Ravichander",
-    "rating": "Industry Hit",
+    "rating": "Hit",
     "hint": "After his career fails to take off, a gifted cricketer in his mid-thirties decides that he’s not ready to give up quite yet.",
     "poster_path": "/bU9q9yVtxeBiC0Do27CekHXNE6D.jpg",
     "tagline": "",
@@ -6330,7 +6309,7 @@ const MOVIES_DB = [
     "popularity": 0.8013
   },
   {
-    "id": 312,
+    "id": 311,
     "title": "Jessie",
     "year": 2019,
     "genres": [
@@ -6351,7 +6330,7 @@ const MOVIES_DB = [
     "popularity": 0.4919
   },
   {
-    "id": 313,
+    "id": 312,
     "title": "Kalki",
     "year": 2019,
     "genres": [
@@ -6372,7 +6351,7 @@ const MOVIES_DB = [
     "popularity": 0.368
   },
   {
-    "id": 314,
+    "id": 313,
     "title": "Maharshi",
     "year": 2019,
     "genres": [
@@ -6383,7 +6362,7 @@ const MOVIES_DB = [
     "heroine": "Pooja Hegde",
     "director": "Vamshi Paidipally",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Rishi Kumar is a billionaire and the CEO of Origins, someone who has always strived for the success he now owns. His friend Ravi needs help,",
     "poster_path": "/pV6xLQh54ga8oaQqJtUqLp12LwQ.jpg",
     "tagline": "Join the journey of Rishi",
@@ -6392,7 +6371,7 @@ const MOVIES_DB = [
     "popularity": 1.7968
   },
   {
-    "id": 315,
+    "id": 314,
     "title": "Majili",
     "year": 2019,
     "genres": [
@@ -6403,7 +6382,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "Shiva Nirvana",
     "music": "Gopi Sundar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Poorna fails to appreciate the blessings in his life due to his unfulfilled dream of a cricket career and a failed romance that changes him.",
     "poster_path": "/7Y9sZji8wsI5r4gOVBnb6CLBzrQ.jpg",
     "tagline": "There is love... There is pain...",
@@ -6412,7 +6391,7 @@ const MOVIES_DB = [
     "popularity": 0.753
   },
   {
-    "id": 316,
+    "id": 315,
     "title": "Mallesham",
     "year": 2019,
     "genres": [
@@ -6431,7 +6410,7 @@ const MOVIES_DB = [
     "popularity": 0.3613
   },
   {
-    "id": 317,
+    "id": 316,
     "title": "Manmadhudu 2",
     "year": 2019,
     "genres": [
@@ -6452,7 +6431,7 @@ const MOVIES_DB = [
     "popularity": 0.5237
   },
   {
-    "id": 318,
+    "id": 317,
     "title": "Mathu Vadalara",
     "year": 2019,
     "genres": [
@@ -6464,7 +6443,7 @@ const MOVIES_DB = [
     "heroine": "Athulya Chandra",
     "director": "Ritesh Rana",
     "music": "Kaala Bhairava",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Babu is a delivery boy living with his friends Yesu and Abhi. Due to his meagre salary, he decides to quit, but then Yesu gives him an idea.",
     "poster_path": "/lo0ALsfiSv5sxNBhCNh35AD1p0x.jpg",
     "tagline": "",
@@ -6473,7 +6452,7 @@ const MOVIES_DB = [
     "popularity": 0.5906
   },
   {
-    "id": 319,
+    "id": 318,
     "title": "Mr. Majnu",
     "year": 2019,
     "genres": [
@@ -6493,7 +6472,7 @@ const MOVIES_DB = [
     "popularity": 1.1646
   },
   {
-    "id": 320,
+    "id": 319,
     "title": "N.T.R: Kathanayakudu",
     "year": 2019,
     "genres": [
@@ -6512,7 +6491,7 @@ const MOVIES_DB = [
     "popularity": 0.8715
   },
   {
-    "id": 321,
+    "id": 320,
     "title": "N.T.R: Mahanayakudu",
     "year": 2019,
     "genres": [
@@ -6531,7 +6510,7 @@ const MOVIES_DB = [
     "popularity": 0.3846
   },
   {
-    "id": 322,
+    "id": 321,
     "title": "Nani's Gang Leader",
     "year": 2019,
     "genres": [
@@ -6552,7 +6531,7 @@ const MOVIES_DB = [
     "popularity": 0.936
   },
   {
-    "id": 323,
+    "id": 322,
     "title": "Ninu Veedani Needanu Nene",
     "year": 2019,
     "genres": [
@@ -6572,7 +6551,7 @@ const MOVIES_DB = [
     "popularity": 0.4858
   },
   {
-    "id": 324,
+    "id": 323,
     "title": "Oh! Baby",
     "year": 2019,
     "genres": [
@@ -6584,7 +6563,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "B. V. Nandini Reddy",
     "music": "Mickey J Meyer",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A 70-year-old woman transforms into her 24-year-old self after she's photographed at a studio, changing her life and those of the people aro",
     "poster_path": "/3dXjxNtK3c5xFXJnTe8cnOBLqqp.jpg",
     "tagline": "",
@@ -6593,7 +6572,7 @@ const MOVIES_DB = [
     "popularity": 1.3791
   },
   {
-    "id": 325,
+    "id": 324,
     "title": "Prati Roju Pandaage",
     "year": 2019,
     "genres": [
@@ -6605,7 +6584,7 @@ const MOVIES_DB = [
     "heroine": "Raashii Khanna",
     "director": "Maruthi Dasari",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Raghu Ramayya is a man with limited time to live. His children, who all live elsewhere, struggle to schedule their time around his death. Bu",
     "poster_path": "/p9EvfAQ62ecQR7OljTorTX6X9R9.jpg",
     "tagline": "",
@@ -6614,7 +6593,7 @@ const MOVIES_DB = [
     "popularity": 0.4523
   },
   {
-    "id": 326,
+    "id": 325,
     "title": "Raja Vaaru Rani Gaaru",
     "year": 2019,
     "genres": [
@@ -6634,7 +6613,7 @@ const MOVIES_DB = [
     "popularity": 0.5303
   },
   {
-    "id": 327,
+    "id": 326,
     "title": "Rakshasudu",
     "year": 2019,
     "genres": [
@@ -6655,7 +6634,7 @@ const MOVIES_DB = [
     "popularity": 0.3087
   },
   {
-    "id": 328,
+    "id": 327,
     "title": "Ranarangam",
     "year": 2019,
     "genres": [
@@ -6675,7 +6654,7 @@ const MOVIES_DB = [
     "popularity": 0.3824
   },
   {
-    "id": 329,
+    "id": 328,
     "title": "RDX Love",
     "year": 2019,
     "genres": [
@@ -6695,7 +6674,7 @@ const MOVIES_DB = [
     "popularity": 0.745
   },
   {
-    "id": 330,
+    "id": 329,
     "title": "Ruler",
     "year": 2019,
     "genres": [
@@ -6716,7 +6695,7 @@ const MOVIES_DB = [
     "popularity": 0.4378
   },
   {
-    "id": 331,
+    "id": 330,
     "title": "Saaho",
     "year": 2019,
     "genres": [
@@ -6737,7 +6716,7 @@ const MOVIES_DB = [
     "popularity": 3.1454
   },
   {
-    "id": 332,
+    "id": 331,
     "title": "Seven",
     "year": 2019,
     "genres": [
@@ -6756,7 +6735,7 @@ const MOVIES_DB = [
     "popularity": 0.337
   },
   {
-    "id": 333,
+    "id": 332,
     "title": "Sita",
     "year": 2019,
     "genres": [
@@ -6775,7 +6754,7 @@ const MOVIES_DB = [
     "popularity": 0.4284
   },
   {
-    "id": 334,
+    "id": 333,
     "title": "Sye Raa Narasimha Reddy",
     "year": 2019,
     "genres": [
@@ -6793,10 +6772,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6.269,
     "vote_count": 39,
-    "popularity": 0.9493
+    "popularity": 1.0699
   },
   {
-    "id": 335,
+    "id": 334,
     "title": "Tenali Ramakrishna BA.BL",
     "year": 2019,
     "genres": [
@@ -6816,7 +6795,7 @@ const MOVIES_DB = [
     "popularity": 0.6452
   },
   {
-    "id": 336,
+    "id": 335,
     "title": "Venky Mama",
     "year": 2019,
     "genres": [
@@ -6837,7 +6816,7 @@ const MOVIES_DB = [
     "popularity": 0.5633
   },
   {
-    "id": 337,
+    "id": 336,
     "title": "Vinaya Vidheya Rama",
     "year": 2019,
     "genres": [
@@ -6857,7 +6836,7 @@ const MOVIES_DB = [
     "popularity": 1.7806
   },
   {
-    "id": 338,
+    "id": 337,
     "title": "Yatra",
     "year": 2019,
     "genres": [
@@ -6876,7 +6855,7 @@ const MOVIES_DB = [
     "popularity": 0.4195
   },
   {
-    "id": 339,
+    "id": 338,
     "title": "Aatagallu",
     "year": 2018,
     "genres": [
@@ -6897,7 +6876,7 @@ const MOVIES_DB = [
     "popularity": 0.3857
   },
   {
-    "id": 340,
+    "id": 339,
     "title": "Agnyaathavaasi",
     "year": 2018,
     "genres": [
@@ -6917,7 +6896,7 @@ const MOVIES_DB = [
     "popularity": 0.4859
   },
   {
-    "id": 341,
+    "id": 340,
     "title": "Amar Akbar Anthony",
     "year": 2018,
     "genres": [
@@ -6937,7 +6916,7 @@ const MOVIES_DB = [
     "popularity": 0.5848
   },
   {
-    "id": 342,
+    "id": 341,
     "title": "Antariksham 9000 KMPH",
     "year": 2018,
     "genres": [
@@ -6957,7 +6936,7 @@ const MOVIES_DB = [
     "popularity": 0.3428
   },
   {
-    "id": 343,
+    "id": 342,
     "title": "Aravinda Sametha Veera Raghava",
     "year": 2018,
     "genres": [
@@ -6968,7 +6947,7 @@ const MOVIES_DB = [
     "heroine": "Pooja Hegde",
     "director": "Trivikram Srinivas",
     "music": "S. Thaman",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "A young scion of a powerful family with a long history of violence decides to put an end to the bloodshed which leads him to a path of self ",
     "poster_path": "/5X6RP7hkrkTZP2TYE7r72H1cfOY.jpg",
     "tagline": "",
@@ -6977,7 +6956,7 @@ const MOVIES_DB = [
     "popularity": 1.3063
   },
   {
-    "id": 344,
+    "id": 343,
     "title": "Awe!",
     "year": 2018,
     "genres": [
@@ -6998,7 +6977,7 @@ const MOVIES_DB = [
     "popularity": 0.4535
   },
   {
-    "id": 345,
+    "id": 344,
     "title": "Bhaagamathie",
     "year": 2018,
     "genres": [
@@ -7016,10 +6995,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6,
     "vote_count": 36,
-    "popularity": 0.5218
+    "popularity": 0.5372
   },
   {
-    "id": 346,
+    "id": 345,
     "title": "Bharat Ane Nenu",
     "year": 2018,
     "genres": [
@@ -7030,7 +7009,7 @@ const MOVIES_DB = [
     "heroine": "Kiara Advani",
     "director": "Koratala Siva",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Bharat, a graduate from Oxford, is forced to take up his father's position as the chief minister after his sudden demise. He is not happy wi",
     "poster_path": "/a0hFV8G0ofyPgPEjVcYrueuxFex.jpg",
     "tagline": "",
@@ -7039,7 +7018,7 @@ const MOVIES_DB = [
     "popularity": 1.2718
   },
   {
-    "id": 347,
+    "id": 346,
     "title": "C/o Kancharapalem",
     "year": 2018,
     "genres": [
@@ -7050,7 +7029,7 @@ const MOVIES_DB = [
     "heroine": "Nitya Sri",
     "director": "Venkatesh Maha",
     "music": "Sweekar Agasthi",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "From a schoolboy’s crush to a middle-aged bachelor’s office romance, four love stories spanning age, religion and status unfold in a small I",
     "poster_path": "/8bgyfPih4bORxtnFCwinqVElkYg.jpg",
     "tagline": "",
@@ -7059,7 +7038,7 @@ const MOVIES_DB = [
     "popularity": 0.5268
   },
   {
-    "id": 348,
+    "id": 347,
     "title": "Chal Mohan Ranga",
     "year": 2018,
     "genres": [
@@ -7080,7 +7059,7 @@ const MOVIES_DB = [
     "popularity": 0.4207
   },
   {
-    "id": 349,
+    "id": 348,
     "title": "Chalo",
     "year": 2018,
     "genres": [
@@ -7092,7 +7071,7 @@ const MOVIES_DB = [
     "heroine": "Rashmika Mandanna",
     "director": "Venky Kudumula",
     "music": "Mahati Swara Sagar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Hari loves getting into fights just for the sake of it and his father is tired of dealing with the consequences. But what happens when Hari ",
     "poster_path": "/lnXfx1z2q2FHhAu0Tb6rMl0TkBb.jpg",
     "tagline": "",
@@ -7101,7 +7080,7 @@ const MOVIES_DB = [
     "popularity": 0.4349
   },
   {
-    "id": 350,
+    "id": 349,
     "title": "Chi La Sow",
     "year": 2018,
     "genres": [
@@ -7112,7 +7091,7 @@ const MOVIES_DB = [
     "heroine": "Ruhani Sharma",
     "director": "Rahul Ravindran",
     "music": "Prashanth R Vihari",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "While Arjun doesn't want to get married, his parents set up a blind date for him at his place. The story revolves around Arjun, how he falls",
     "poster_path": "/56JobIOa39A2VtJfpSbCHnx0yCb.jpg",
     "tagline": "",
@@ -7121,7 +7100,7 @@ const MOVIES_DB = [
     "popularity": 0.3489
   },
   {
-    "id": 351,
+    "id": 350,
     "title": "Devadas",
     "year": 2018,
     "genres": [
@@ -7142,7 +7121,7 @@ const MOVIES_DB = [
     "popularity": 0.395
   },
   {
-    "id": 352,
+    "id": 351,
     "title": "Ee Maaya Peremito",
     "year": 2018,
     "genres": [
@@ -7161,7 +7140,7 @@ const MOVIES_DB = [
     "popularity": 0.7552
   },
   {
-    "id": 353,
+    "id": 352,
     "title": "Ee Nagaraniki Emaindi?",
     "year": 2018,
     "genres": [
@@ -7172,7 +7151,7 @@ const MOVIES_DB = [
     "heroine": "Anisha Ambrose",
     "director": "Tharun Bhascker",
     "music": "Vivek Sagar",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Four friends, with a bittersweet history, get drunk and embark on a journey to Goa. On the trip, they lose an expensive ring which threatens",
     "poster_path": "/4E8Cvh2D87vJDKKKkTbHYXNbsK9.jpg",
     "tagline": "",
@@ -7181,7 +7160,7 @@ const MOVIES_DB = [
     "popularity": 0.5028
   },
   {
-    "id": 354,
+    "id": 353,
     "title": "Geetha Govindam",
     "year": 2018,
     "genres": [
@@ -7200,7 +7179,7 @@ const MOVIES_DB = [
     "popularity": 3.3374
   },
   {
-    "id": 355,
+    "id": 354,
     "title": "Goodachari",
     "year": 2018,
     "genres": [
@@ -7221,27 +7200,7 @@ const MOVIES_DB = [
     "popularity": 0.509
   },
   {
-    "id": 356,
-    "title": "Happy Wedding",
-    "year": 2018,
-    "genres": [
-      "Romance",
-      "Drama"
-    ],
-    "hero": "Sumanth Ashwin & Murali Sharma",
-    "heroine": "Niharika Konidela",
-    "director": "Lakshman Karya",
-    "music": "Shakthi Kanth Karthick",
-    "rating": "Average",
-    "hint": "A simpleton guy Anand and a modern girl Akshara fall in love and decide to get married. However, their lives turn upside down when Akshara's",
-    "poster_path": "/pVaugNVqnEkGj0tRqtyZRV9UDjV.jpg",
-    "tagline": "",
-    "vote_average": 8,
-    "vote_count": 3,
-    "popularity": 0.3399
-  },
-  {
-    "id": 357,
+    "id": 355,
     "title": "Hello Guru Prema Kosame",
     "year": 2018,
     "genres": [
@@ -7261,7 +7220,7 @@ const MOVIES_DB = [
     "popularity": 0.5017
   },
   {
-    "id": 358,
+    "id": 356,
     "title": "Hushaaru",
     "year": 2018,
     "genres": [
@@ -7280,7 +7239,7 @@ const MOVIES_DB = [
     "popularity": 0.3981
   },
   {
-    "id": 359,
+    "id": 357,
     "title": "Inttelligent",
     "year": 2018,
     "genres": [
@@ -7301,7 +7260,7 @@ const MOVIES_DB = [
     "popularity": 0.401
   },
   {
-    "id": 360,
+    "id": 358,
     "title": "Jai Simha",
     "year": 2018,
     "genres": [
@@ -7322,7 +7281,7 @@ const MOVIES_DB = [
     "popularity": 0.391
   },
   {
-    "id": 361,
+    "id": 359,
     "title": "Jamba Lakidi Pamba",
     "year": 2018,
     "genres": [
@@ -7342,7 +7301,7 @@ const MOVIES_DB = [
     "popularity": 0.4103
   },
   {
-    "id": 362,
+    "id": 360,
     "title": "Kavacham",
     "year": 2018,
     "genres": [
@@ -7359,10 +7318,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.1,
     "vote_count": 12,
-    "popularity": 0.5545
+    "popularity": 0.576
   },
   {
-    "id": 363,
+    "id": 361,
     "title": "Krishnarjuna Yudham",
     "year": 2018,
     "genres": [
@@ -7383,7 +7342,7 @@ const MOVIES_DB = [
     "popularity": 0.5979
   },
   {
-    "id": 364,
+    "id": 362,
     "title": "Mahanati",
     "year": 2018,
     "genres": [
@@ -7394,7 +7353,7 @@ const MOVIES_DB = [
     "heroine": "Keerthy Suresh",
     "director": "Nag Ashwin",
     "music": "Mickey J Meyer",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Mahanati depicts the life and career of one of Telugu cinema's greatest and most iconic starlets, the first Indian female super star, Savitr",
     "poster_path": "/5hwtlwoLdSpkoeusT0sf8qW5VFB.jpg",
     "tagline": "Come Be A Part of History",
@@ -7403,7 +7362,7 @@ const MOVIES_DB = [
     "popularity": 0.9045
   },
   {
-    "id": 365,
+    "id": 363,
     "title": "Manchi Lakshanalunna Abbayi",
     "year": 2018,
     "genres": [
@@ -7423,7 +7382,7 @@ const MOVIES_DB = [
     "popularity": 0.5218
   },
   {
-    "id": 366,
+    "id": 364,
     "title": "Naa Peru Surya - Naa Illu India",
     "year": 2018,
     "genres": [
@@ -7443,7 +7402,7 @@ const MOVIES_DB = [
     "popularity": 1.2207
   },
   {
-    "id": 367,
+    "id": 365,
     "title": "Nannu Dochukunduvate",
     "year": 2018,
     "genres": [
@@ -7462,7 +7421,7 @@ const MOVIES_DB = [
     "popularity": 0.38
   },
   {
-    "id": 368,
+    "id": 366,
     "title": "Nartanasala",
     "year": 2018,
     "genres": [
@@ -7483,7 +7442,7 @@ const MOVIES_DB = [
     "popularity": 0.315
   },
   {
-    "id": 369,
+    "id": 367,
     "title": "Needi Naadi Oke Katha",
     "year": 2018,
     "genres": [
@@ -7503,7 +7462,7 @@ const MOVIES_DB = [
     "popularity": 0.3493
   },
   {
-    "id": 370,
+    "id": 368,
     "title": "Next Enti?",
     "year": 2018,
     "genres": [
@@ -7524,7 +7483,7 @@ const MOVIES_DB = [
     "popularity": 0.5831
   },
   {
-    "id": 371,
+    "id": 369,
     "title": "Officer",
     "year": 2018,
     "genres": [
@@ -7543,7 +7502,7 @@ const MOVIES_DB = [
     "popularity": 0.3265
   },
   {
-    "id": 372,
+    "id": 370,
     "title": "Padi Padi Leche Manasu",
     "year": 2018,
     "genres": [
@@ -7554,7 +7513,7 @@ const MOVIES_DB = [
     "heroine": "Sai Pallavi",
     "director": "Hanu Raghavapudi",
     "music": "Vishal Chandrasekhar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A young couple navigates through the highs and lows of a budding relationship.",
     "poster_path": "/r9A3wnHgt9iIOZLGKuitvK9Mevh.jpg",
     "tagline": "",
@@ -7563,7 +7522,7 @@ const MOVIES_DB = [
     "popularity": 0.7542
   },
   {
-    "id": 373,
+    "id": 371,
     "title": "Pantham",
     "year": 2018,
     "genres": [
@@ -7580,10 +7539,10 @@ const MOVIES_DB = [
     "tagline": "For A Cause",
     "vote_average": 6.2,
     "vote_count": 4,
-    "popularity": 0.3663
+    "popularity": 0.3514
   },
   {
-    "id": 374,
+    "id": 372,
     "title": "Paper Boy",
     "year": 2018,
     "genres": [
@@ -7602,7 +7561,7 @@ const MOVIES_DB = [
     "popularity": 0.3853
   },
   {
-    "id": 375,
+    "id": 373,
     "title": "Rangasthalam",
     "year": 2018,
     "genres": [
@@ -7622,7 +7581,7 @@ const MOVIES_DB = [
     "popularity": 1.6943
   },
   {
-    "id": 376,
+    "id": 374,
     "title": "RX 100",
     "year": 2018,
     "genres": [
@@ -7643,7 +7602,7 @@ const MOVIES_DB = [
     "popularity": 0.7722
   },
   {
-    "id": 377,
+    "id": 375,
     "title": "Saakshyam",
     "year": 2018,
     "genres": [
@@ -7664,7 +7623,7 @@ const MOVIES_DB = [
     "popularity": 0.5201
   },
   {
-    "id": 378,
+    "id": 376,
     "title": "Sammohanam",
     "year": 2018,
     "genres": [
@@ -7675,7 +7634,7 @@ const MOVIES_DB = [
     "heroine": "Aditi Rao Hydari",
     "director": "Mohana Krishna Indraganti",
     "music": "Vivek Sagar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A cartoonist, who detests films and movie stars, finds himself in an awkward situation when he falls in love with a film actress",
     "poster_path": "/dDhd9izD7UUKQFBXM7CpBJPSKCE.jpg",
     "tagline": "",
@@ -7684,7 +7643,7 @@ const MOVIES_DB = [
     "popularity": 0.3399
   },
   {
-    "id": 379,
+    "id": 377,
     "title": "Savyasachi",
     "year": 2018,
     "genres": [
@@ -7704,7 +7663,7 @@ const MOVIES_DB = [
     "popularity": 0.4592
   },
   {
-    "id": 380,
+    "id": 378,
     "title": "Shailaja Reddy Alludu",
     "year": 2018,
     "genres": [
@@ -7724,7 +7683,7 @@ const MOVIES_DB = [
     "popularity": 0.5636
   },
   {
-    "id": 381,
+    "id": 379,
     "title": "Srinivasa Kalyanam",
     "year": 2018,
     "genres": [
@@ -7744,7 +7703,7 @@ const MOVIES_DB = [
     "popularity": 0.4293
   },
   {
-    "id": 382,
+    "id": 380,
     "title": "Taxiwala",
     "year": 2018,
     "genres": [
@@ -7765,7 +7724,7 @@ const MOVIES_DB = [
     "popularity": 0.4855
   },
   {
-    "id": 383,
+    "id": 381,
     "title": "Tej... I Love You",
     "year": 2018,
     "genres": [
@@ -7785,7 +7744,7 @@ const MOVIES_DB = [
     "popularity": 0.3835
   },
   {
-    "id": 384,
+    "id": 382,
     "title": "Tholi Prema",
     "year": 2018,
     "genres": [
@@ -7796,7 +7755,7 @@ const MOVIES_DB = [
     "heroine": "Raashii Khanna",
     "director": "Venky Atluri",
     "music": "S. Thaman",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Aaditya  is an impulsive individual who takes decisions spontaneously and is unafraid to speak his mind. The love of his life Varsha is his ",
     "poster_path": "/6MHOVeocRLz20acZ9WrWtHD1bbh.jpg",
     "tagline": "A Jouney of Love",
@@ -7805,7 +7764,7 @@ const MOVIES_DB = [
     "popularity": 0.6681
   },
   {
-    "id": 385,
+    "id": 383,
     "title": "Touch Chesi Chudu",
     "year": 2018,
     "genres": [
@@ -7824,7 +7783,7 @@ const MOVIES_DB = [
     "popularity": 0.5863
   },
   {
-    "id": 386,
+    "id": 384,
     "title": "Veera Bhoga Vasantha Rayalu",
     "year": 2018,
     "genres": [
@@ -7844,7 +7803,7 @@ const MOVIES_DB = [
     "popularity": 0.5137
   },
   {
-    "id": 387,
+    "id": 385,
     "title": "Anando Brahma",
     "year": 2017,
     "genres": [
@@ -7856,7 +7815,7 @@ const MOVIES_DB = [
     "heroine": "Taapsee Pannu",
     "director": "Mahi V. Raghav",
     "music": "Krishna Kumar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "An NRI enlists the help of his cop-friend to sell off his ancestral home, but later hears rumours of it being haunted. Unwilling to let go o",
     "poster_path": "/v2WyGlUieUZF7EoDjUwSfy16NSs.jpg",
     "tagline": "",
@@ -7865,7 +7824,7 @@ const MOVIES_DB = [
     "popularity": 0.4699
   },
   {
-    "id": 388,
+    "id": 386,
     "title": "Andhhagadu",
     "year": 2017,
     "genres": [
@@ -7886,7 +7845,7 @@ const MOVIES_DB = [
     "popularity": 0.5144
   },
   {
-    "id": 389,
+    "id": 387,
     "title": "Arjun Reddy",
     "year": 2017,
     "genres": [
@@ -7906,7 +7865,7 @@ const MOVIES_DB = [
     "popularity": 1.3851
   },
   {
-    "id": 390,
+    "id": 388,
     "title": "Babu Baga Busy",
     "year": 2017,
     "genres": [
@@ -7925,7 +7884,7 @@ const MOVIES_DB = [
     "popularity": 0.3063
   },
   {
-    "id": 391,
+    "id": 389,
     "title": "Bāhubali 2: The Conclusion",
     "year": 2017,
     "genres": [
@@ -7937,7 +7896,7 @@ const MOVIES_DB = [
     "heroine": "Anushka Shetty",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Blockbuster",
+    "rating": "Industry Hit",
     "hint": "When Mahendra, the son of Bāhubali, learns about his heritage, he begins to look for answers. His story is juxtaposed with past events that ",
     "poster_path": "/21sC2assImQIYCEDA84Qh9d1RsK.jpg",
     "tagline": "",
@@ -7946,7 +7905,7 @@ const MOVIES_DB = [
     "popularity": 7.1355
   },
   {
-    "id": 392,
+    "id": 390,
     "title": "DJ: Duvvada Jagannadham",
     "year": 2017,
     "genres": [
@@ -7967,7 +7926,7 @@ const MOVIES_DB = [
     "popularity": 1.2899
   },
   {
-    "id": 393,
+    "id": 391,
     "title": "Dwaraka",
     "year": 2017,
     "genres": [
@@ -7986,7 +7945,7 @@ const MOVIES_DB = [
     "popularity": 0.5128
   },
   {
-    "id": 394,
+    "id": 392,
     "title": "Fidaa",
     "year": 2017,
     "genres": [
@@ -7998,7 +7957,7 @@ const MOVIES_DB = [
     "heroine": "Sai Pallavi",
     "director": "Sekhar Kammula",
     "music": "Shakthi Kanth Karthick",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Two young people embark on a winding and rocky path to love after meeting at a wedding.",
     "poster_path": "/cvpwHdJuUzm544lvleBIAxGdzBB.jpg",
     "tagline": "",
@@ -8007,7 +7966,7 @@ const MOVIES_DB = [
     "popularity": 0.673
   },
   {
-    "id": 395,
+    "id": 393,
     "title": "Gautamiputra Satakarni",
     "year": 2017,
     "genres": [
@@ -8028,7 +7987,7 @@ const MOVIES_DB = [
     "popularity": 0.421
   },
   {
-    "id": 396,
+    "id": 394,
     "title": "Goutham Nanda",
     "year": 2017,
     "genres": [
@@ -8039,7 +7998,7 @@ const MOVIES_DB = [
     "heroine": "Hansika Motwani",
     "director": "Sampath Nandi",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Goutham is a billionaire and his father gives him a year’s time to enjoy his life to the fullest. The deal between the two is that after a y",
     "poster_path": "/eCetl5Ze6kezwl8Ibs3FKUTLtqA.jpg",
     "tagline": "",
@@ -8048,27 +8007,7 @@ const MOVIES_DB = [
     "popularity": 0.5075
   },
   {
-    "id": 397,
-    "title": "Guru",
-    "year": 2017,
-    "genres": [
-      "Drama",
-      "Action"
-    ],
-    "hero": "Venkatesh & Nassar",
-    "heroine": "Ritika Singh",
-    "director": "Sudha Kongara Prasad",
-    "music": "Santhosh Narayanan",
-    "rating": "Blockbuster",
-    "hint": "A grumpy boxing coach takes on a young, rebellious woman under his wings and starts training her for the world championship. But their bigge",
-    "poster_path": "/beYqbxGlwSK1A8ww7j4NR2uiRHN.jpg",
-    "tagline": "",
-    "vote_average": 7.4,
-    "vote_count": 11,
-    "popularity": 0.2294
-  },
-  {
-    "id": 398,
+    "id": 395,
     "title": "Hello!",
     "year": 2017,
     "genres": [
@@ -8080,7 +8019,7 @@ const MOVIES_DB = [
     "heroine": "Kalyani Priyadarshan",
     "director": "Vikram Kumar",
     "music": "Anup Rubens",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Avinash/Seenu is a street urchin brought up by his loving adoptive parents Saru and Prakash. The love of his life is the girl he meets durin",
     "poster_path": "/8oVa20YGZMi3INlVFkCl453Cs21.jpg",
     "tagline": "",
@@ -8089,7 +8028,7 @@ const MOVIES_DB = [
     "popularity": 3.3017
   },
   {
-    "id": 399,
+    "id": 396,
     "title": "Jai Lava Kusa",
     "year": 2017,
     "genres": [
@@ -8100,7 +8039,7 @@ const MOVIES_DB = [
     "heroine": "Nivetha Thomas",
     "director": "Bobby Kolli",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Jai, Lava and Kusa are triplets who get separated during their childhood because of small clashes. While Jai becomes an evil blooded crimina",
     "poster_path": "/soaeBBssklbEo3Rq8JcdxG1yfTO.jpg",
     "tagline": "",
@@ -8109,7 +8048,7 @@ const MOVIES_DB = [
     "popularity": 0.5704
   },
   {
-    "id": 400,
+    "id": 397,
     "title": "Jawaan",
     "year": 2017,
     "genres": [
@@ -8130,7 +8069,7 @@ const MOVIES_DB = [
     "popularity": 0.5044
   },
   {
-    "id": 401,
+    "id": 398,
     "title": "Jaya Janaki Nayaka",
     "year": 2017,
     "genres": [
@@ -8151,7 +8090,7 @@ const MOVIES_DB = [
     "popularity": 0.9139
   },
   {
-    "id": 402,
+    "id": 399,
     "title": "Katamarayudu",
     "year": 2017,
     "genres": [
@@ -8171,7 +8110,7 @@ const MOVIES_DB = [
     "popularity": 0.534
   },
   {
-    "id": 403,
+    "id": 400,
     "title": "Keshava",
     "year": 2017,
     "genres": [
@@ -8192,7 +8131,7 @@ const MOVIES_DB = [
     "popularity": 0.3861
   },
   {
-    "id": 404,
+    "id": 401,
     "title": "Khaidi No. 150",
     "year": 2017,
     "genres": [
@@ -8213,7 +8152,7 @@ const MOVIES_DB = [
     "popularity": 0.7098
   },
   {
-    "id": 405,
+    "id": 402,
     "title": "Kittu Unnadu Jagratha",
     "year": 2017,
     "genres": [
@@ -8233,7 +8172,7 @@ const MOVIES_DB = [
     "popularity": 0.3662
   },
   {
-    "id": 406,
+    "id": 403,
     "title": "LIE",
     "year": 2017,
     "genres": [
@@ -8254,7 +8193,7 @@ const MOVIES_DB = [
     "popularity": 0.6
   },
   {
-    "id": 407,
+    "id": 404,
     "title": "M.C.A",
     "year": 2017,
     "genres": [
@@ -8275,7 +8214,7 @@ const MOVIES_DB = [
     "popularity": 0.392
   },
   {
-    "id": 408,
+    "id": 405,
     "title": "Mahanubhavudu",
     "year": 2017,
     "genres": [
@@ -8296,7 +8235,7 @@ const MOVIES_DB = [
     "popularity": 0.4848
   },
   {
-    "id": 409,
+    "id": 406,
     "title": "Malli Raava",
     "year": 2017,
     "genres": [
@@ -8308,7 +8247,7 @@ const MOVIES_DB = [
     "heroine": "Aakanksha Singh",
     "director": "Gowtam Tinnanuri",
     "music": "Shravan Bharadwaj",
-    "rating": "Industry Hit",
+    "rating": "Average",
     "hint": "Karthik and Anjali are childhood sweethearts who fell in love when they're fourteen. Despite having immense love for each other, circumstanc",
     "poster_path": "/rgFG0l8Aud8QksOg3rdUwdBnSAo.jpg",
     "tagline": "",
@@ -8317,7 +8256,7 @@ const MOVIES_DB = [
     "popularity": 0.354
   },
   {
-    "id": 410,
+    "id": 407,
     "title": "Mental Madhilo",
     "year": 2017,
     "genres": [
@@ -8328,7 +8267,7 @@ const MOVIES_DB = [
     "heroine": "Nivetha Pethuraj",
     "director": "Vivek Athreya",
     "music": "Prashanth R Vihari",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Aravind Krishna, an indecisive man finds himself in a tight spot when he is forced to choose between two women.",
     "poster_path": "/1jpjT3cj1UuaRNAV0pnjndyMPzz.jpg",
     "tagline": "|| Do Not Listen to Us ||",
@@ -8337,7 +8276,7 @@ const MOVIES_DB = [
     "popularity": 0.3467
   },
   {
-    "id": 411,
+    "id": 408,
     "title": "Mister",
     "year": 2017,
     "genres": [
@@ -8358,7 +8297,7 @@ const MOVIES_DB = [
     "popularity": 0.4448
   },
   {
-    "id": 412,
+    "id": 409,
     "title": "Nakshatram",
     "year": 2017,
     "genres": [
@@ -8379,7 +8318,7 @@ const MOVIES_DB = [
     "popularity": 0.5173
   },
   {
-    "id": 413,
+    "id": 410,
     "title": "Nene Raju Nene Mantri",
     "year": 2017,
     "genres": [
@@ -8400,7 +8339,7 @@ const MOVIES_DB = [
     "popularity": 1.0209
   },
   {
-    "id": 414,
+    "id": 411,
     "title": "Nenu Local",
     "year": 2017,
     "genres": [
@@ -8420,7 +8359,7 @@ const MOVIES_DB = [
     "popularity": 0.5528
   },
   {
-    "id": 415,
+    "id": 412,
     "title": "Ninnu Kori",
     "year": 2017,
     "genres": [
@@ -8441,7 +8380,7 @@ const MOVIES_DB = [
     "popularity": 0.7464
   },
   {
-    "id": 416,
+    "id": 413,
     "title": "Okka Kshanam",
     "year": 2017,
     "genres": [
@@ -8459,10 +8398,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6.6,
     "vote_count": 9,
-    "popularity": 0.3256
+    "popularity": 0.3436
   },
   {
-    "id": 417,
+    "id": 414,
     "title": "Om Namo Venkatesaya",
     "year": 2017,
     "genres": [
@@ -8481,7 +8420,7 @@ const MOVIES_DB = [
     "popularity": 0.6869
   },
   {
-    "id": 418,
+    "id": 415,
     "title": "Oxygen",
     "year": 2017,
     "genres": [
@@ -8501,7 +8440,7 @@ const MOVIES_DB = [
     "popularity": 0.5634
   },
   {
-    "id": 419,
+    "id": 416,
     "title": "Paisa Vasool",
     "year": 2017,
     "genres": [
@@ -8522,7 +8461,7 @@ const MOVIES_DB = [
     "popularity": 0.5183
   },
   {
-    "id": 420,
+    "id": 417,
     "title": "PSV Garuda Vega",
     "year": 2017,
     "genres": [
@@ -8542,7 +8481,7 @@ const MOVIES_DB = [
     "popularity": 0.8189
   },
   {
-    "id": 421,
+    "id": 418,
     "title": "Radha",
     "year": 2017,
     "genres": [
@@ -8563,7 +8502,7 @@ const MOVIES_DB = [
     "popularity": 0.6593
   },
   {
-    "id": 422,
+    "id": 419,
     "title": "Raja the Great",
     "year": 2017,
     "genres": [
@@ -8583,7 +8522,7 @@ const MOVIES_DB = [
     "popularity": 0.758
   },
   {
-    "id": 423,
+    "id": 420,
     "title": "Raju Gari Gadhi 2",
     "year": 2017,
     "genres": [
@@ -8604,7 +8543,7 @@ const MOVIES_DB = [
     "popularity": 0.5264
   },
   {
-    "id": 424,
+    "id": 421,
     "title": "Rarandoi Veduka Chudham",
     "year": 2017,
     "genres": [
@@ -8625,7 +8564,7 @@ const MOVIES_DB = [
     "popularity": 0.7883
   },
   {
-    "id": 425,
+    "id": 422,
     "title": "Shamantakamani",
     "year": 2017,
     "genres": [
@@ -8646,7 +8585,7 @@ const MOVIES_DB = [
     "popularity": 0.3761
   },
   {
-    "id": 426,
+    "id": 423,
     "title": "Shatamanam Bhavati",
     "year": 2017,
     "genres": [
@@ -8666,7 +8605,7 @@ const MOVIES_DB = [
     "popularity": 0.5067
   },
   {
-    "id": 427,
+    "id": 424,
     "title": "The Ghazi Attack",
     "year": 2017,
     "genres": [
@@ -8687,7 +8626,7 @@ const MOVIES_DB = [
     "popularity": 0.8595
   },
   {
-    "id": 428,
+    "id": 425,
     "title": "Winner",
     "year": 2017,
     "genres": [
@@ -8707,7 +8646,7 @@ const MOVIES_DB = [
     "popularity": 0.4838
   },
   {
-    "id": 429,
+    "id": 426,
     "title": "Yuddham Sharanam",
     "year": 2017,
     "genres": [
@@ -8728,7 +8667,7 @@ const MOVIES_DB = [
     "popularity": 0.438
   },
   {
-    "id": 430,
+    "id": 427,
     "title": "A Aa",
     "year": 2016,
     "genres": [
@@ -8740,7 +8679,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "Trivikram Srinivas",
     "music": "Mickey J Meyer",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "The love affair, conspired by creation, between Anasuya Ramalingam and Aanand Vihari.",
     "poster_path": "/pDkmxToe0sNQGNaur5pYWGWFXEX.jpg",
     "tagline": "Anasuya Ramalingam vs Anand Vihari",
@@ -8749,7 +8688,7 @@ const MOVIES_DB = [
     "popularity": 0.9677
   },
   {
-    "id": 431,
+    "id": 428,
     "title": "Brahmotsavam",
     "year": 2016,
     "genres": [
@@ -8769,7 +8708,7 @@ const MOVIES_DB = [
     "popularity": 0.5714
   },
   {
-    "id": 432,
+    "id": 429,
     "title": "Dhruva",
     "year": 2016,
     "genres": [
@@ -8781,7 +8720,7 @@ const MOVIES_DB = [
     "heroine": "Rakul Preet Singh",
     "director": "Surender Reddy",
     "music": "HipHop Tamizha Adhi",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A committed police officer is on a very dangerous mission to destroy the most corrupt person in the country, Siddharth Abhimanyu.",
     "poster_path": "/hh7D1fLjet1Ce1kcCkk5TVr3g9O.jpg",
     "tagline": "My enemy is my strength",
@@ -8790,7 +8729,7 @@ const MOVIES_DB = [
     "popularity": 0.5034
   },
   {
-    "id": 433,
+    "id": 430,
     "title": "Dictator",
     "year": 2016,
     "genres": [
@@ -8810,7 +8749,7 @@ const MOVIES_DB = [
     "popularity": 0.3472
   },
   {
-    "id": 434,
+    "id": 431,
     "title": "Eedo Rakam Aado Rakam",
     "year": 2016,
     "genres": [
@@ -8830,7 +8769,7 @@ const MOVIES_DB = [
     "popularity": 0.4696
   },
   {
-    "id": 435,
+    "id": 432,
     "title": "Ekkadiki Pothavu Chinnavada",
     "year": 2016,
     "genres": [
@@ -8850,7 +8789,7 @@ const MOVIES_DB = [
     "popularity": 0.6272
   },
   {
-    "id": 436,
+    "id": 433,
     "title": "Express Raja",
     "year": 2016,
     "genres": [
@@ -8871,7 +8810,7 @@ const MOVIES_DB = [
     "popularity": 0.3421
   },
   {
-    "id": 437,
+    "id": 434,
     "title": "Gentleman",
     "year": 2016,
     "genres": [
@@ -8882,7 +8821,7 @@ const MOVIES_DB = [
     "heroine": "Nivetha Thomas",
     "director": "Mohana Krishna Indraganti",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Two girls, Catherine and Aishwarya, meet on a flight and become friends. They share stories about their respective boyfriends, and Catherine",
     "poster_path": "/9ntagSmaXYUBVMjikmqMqKJ3Pcq.jpg",
     "tagline": "",
@@ -8891,7 +8830,7 @@ const MOVIES_DB = [
     "popularity": 0.4913
   },
   {
-    "id": 438,
+    "id": 435,
     "title": "Hyper",
     "year": 2016,
     "genres": [
@@ -8912,7 +8851,7 @@ const MOVIES_DB = [
     "popularity": 0.582
   },
   {
-    "id": 439,
+    "id": 436,
     "title": "Intlo Deyyam Nakem Bhayam",
     "year": 2016,
     "genres": [
@@ -8932,7 +8871,7 @@ const MOVIES_DB = [
     "popularity": 0.3153
   },
   {
-    "id": 440,
+    "id": 437,
     "title": "Jaguar",
     "year": 2016,
     "genres": [
@@ -8951,7 +8890,7 @@ const MOVIES_DB = [
     "popularity": 0.6073
   },
   {
-    "id": 441,
+    "id": 438,
     "title": "Janatha Garage",
     "year": 2016,
     "genres": [
@@ -8971,7 +8910,7 @@ const MOVIES_DB = [
     "popularity": 0.681
   },
   {
-    "id": 442,
+    "id": 439,
     "title": "Krishna Gaadi Veera Prema Gaadha",
     "year": 2016,
     "genres": [
@@ -8983,7 +8922,7 @@ const MOVIES_DB = [
     "heroine": "Mehreen Pirzada",
     "director": "Hanu Raghavapudi",
     "music": "Vishal Chandrasekhar",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Krishna and Mahalakshmi have been in love since childhood. But he is a coward and she is the sister of a local factionist.",
     "poster_path": "/hhSJy8zMncrf1daXnyaH8YdFx9y.jpg",
     "tagline": "",
@@ -8992,7 +8931,7 @@ const MOVIES_DB = [
     "popularity": 0.4226
   },
   {
-    "id": 443,
+    "id": 440,
     "title": "Kshanam",
     "year": 2016,
     "genres": [
@@ -9012,7 +8951,7 @@ const MOVIES_DB = [
     "popularity": 0.4167
   },
   {
-    "id": 444,
+    "id": 441,
     "title": "Majnu",
     "year": 2016,
     "genres": [
@@ -9029,10 +8968,10 @@ const MOVIES_DB = [
     "tagline": "Stop Drinking Start Loving",
     "vote_average": 6.2,
     "vote_count": 15,
-    "popularity": 0.3839
+    "popularity": 0.4178
   },
   {
-    "id": 445,
+    "id": 442,
     "title": "Manamantha",
     "year": 2016,
     "genres": [
@@ -9044,7 +8983,7 @@ const MOVIES_DB = [
     "heroine": "Gautami Tadimalla",
     "director": "Chandra Sekhar Yeleti",
     "music": "Mahesh Shankar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Sairam, an assistant manager in a supermarket treads on an unethical path for a promotion, leading to dire consequences. Gayatri a thrifty h",
     "poster_path": "/mRYPSu2qc7nw3unnpzCJjrPR5nI.jpg",
     "tagline": "We Are All One",
@@ -9053,7 +8992,7 @@ const MOVIES_DB = [
     "popularity": 0.5442
   },
   {
-    "id": 446,
+    "id": 443,
     "title": "Naanna Nenu Naa Boyfriends",
     "year": 2016,
     "genres": [
@@ -9073,7 +9012,7 @@ const MOVIES_DB = [
     "popularity": 0.3924
   },
   {
-    "id": 447,
+    "id": 444,
     "title": "Nannaku Prematho...",
     "year": 2016,
     "genres": [
@@ -9092,7 +9031,7 @@ const MOVIES_DB = [
     "popularity": 1.109
   },
   {
-    "id": 448,
+    "id": 445,
     "title": "Nenu.. Sailaja...",
     "year": 2016,
     "genres": [
@@ -9112,7 +9051,7 @@ const MOVIES_DB = [
     "popularity": 0.4407
   },
   {
-    "id": 449,
+    "id": 446,
     "title": "Oopiri",
     "year": 2016,
     "genres": [
@@ -9133,7 +9072,7 @@ const MOVIES_DB = [
     "popularity": 0.8972
   },
   {
-    "id": 450,
+    "id": 447,
     "title": "Pelli Choopulu",
     "year": 2016,
     "genres": [
@@ -9144,16 +9083,16 @@ const MOVIES_DB = [
     "heroine": "Ritu Varma",
     "director": "Tharun Bhascker",
     "music": "Vivek Sagar",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Fed up with his carefree attitude, Prasanth's father fixes his marriage to make him responsible. However, meeting an ambitious girl changes ",
     "poster_path": "/um5GCXgYAVwP46yzt9vD83MAXKd.jpg",
     "tagline": "",
     "vote_average": 7.244,
     "vote_count": 41,
-    "popularity": 0.4338
+    "popularity": 0.4872
   },
   {
-    "id": 451,
+    "id": 448,
     "title": "Premam",
     "year": 2016,
     "genres": [
@@ -9164,7 +9103,7 @@ const MOVIES_DB = [
     "heroine": "Shruti Haasan",
     "director": "Chandoo Mondeti",
     "music": "Rajesh Murugesan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Vikram falls in love with three women at different stages of his life which changes him as a person until he finally meets the love of his l",
     "poster_path": "/vl1PRGLe5oX9csZtNUWZ5nVcGwK.jpg",
     "tagline": "Love Stories End. Feelings Don't...",
@@ -9173,7 +9112,7 @@ const MOVIES_DB = [
     "popularity": 0.5303
   },
   {
-    "id": 452,
+    "id": 449,
     "title": "Sardaar Gabbar Singh",
     "year": 2016,
     "genres": [
@@ -9193,7 +9132,7 @@ const MOVIES_DB = [
     "popularity": 0.5802
   },
   {
-    "id": 453,
+    "id": 450,
     "title": "Sarrainodu",
     "year": 2016,
     "genres": [
@@ -9210,10 +9149,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6.156,
     "vote_count": 48,
-    "popularity": 0.8249
+    "popularity": 0.8195
   },
   {
-    "id": 454,
+    "id": 451,
     "title": "Soggade Chinni Nayana",
     "year": 2016,
     "genres": [
@@ -9234,7 +9173,7 @@ const MOVIES_DB = [
     "popularity": 0.4702
   },
   {
-    "id": 455,
+    "id": 452,
     "title": "Speedunnodu",
     "year": 2016,
     "genres": [
@@ -9255,7 +9194,7 @@ const MOVIES_DB = [
     "popularity": 0.4488
   },
   {
-    "id": 456,
+    "id": 453,
     "title": "Srirastu Subhamastu",
     "year": 2016,
     "genres": [
@@ -9274,7 +9213,7 @@ const MOVIES_DB = [
     "popularity": 0.374
   },
   {
-    "id": 457,
+    "id": 454,
     "title": "Supreme",
     "year": 2016,
     "genres": [
@@ -9295,7 +9234,7 @@ const MOVIES_DB = [
     "popularity": 0.6663
   },
   {
-    "id": 458,
+    "id": 455,
     "title": "Vangaveeti",
     "year": 2016,
     "genres": [
@@ -9315,7 +9254,7 @@ const MOVIES_DB = [
     "popularity": 0.3883
   },
   {
-    "id": 459,
+    "id": 456,
     "title": "365 Days",
     "year": 2015,
     "genres": [
@@ -9334,7 +9273,7 @@ const MOVIES_DB = [
     "popularity": 0.7495
   },
   {
-    "id": 460,
+    "id": 457,
     "title": "Akhil",
     "year": 2015,
     "genres": [
@@ -9355,7 +9294,7 @@ const MOVIES_DB = [
     "popularity": 1.6545
   },
   {
-    "id": 461,
+    "id": 458,
     "title": "Bāhubali: The Beginning",
     "year": 2015,
     "genres": [
@@ -9366,7 +9305,7 @@ const MOVIES_DB = [
     "heroine": "Tamannaah Bhatia",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Blockbuster",
+    "rating": "Industry Hit",
     "hint": "The young Shivudu is left as a foundling in a small village by his mother. By the time he’s grown up, it has become apparent that he possess",
     "poster_path": "/9BAjt8nSSms62uOVYn1t3C3dVto.jpg",
     "tagline": "",
@@ -9375,7 +9314,7 @@ const MOVIES_DB = [
     "popularity": 5.0484
   },
   {
-    "id": 462,
+    "id": 459,
     "title": "Bengal Tiger",
     "year": 2015,
     "genres": [
@@ -9396,7 +9335,7 @@ const MOVIES_DB = [
     "popularity": 0.5699
   },
   {
-    "id": 463,
+    "id": 460,
     "title": "Bhale Bhale Magadivoy",
     "year": 2015,
     "genres": [
@@ -9407,7 +9346,7 @@ const MOVIES_DB = [
     "heroine": "Lavanya Tripathi",
     "director": "Maruthi Dasari",
     "music": "Gopi Sundar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Forgetful Lucky falls in love with the demure Nandana. But she doesn’t know he has trouble remembering things and her dad does!",
     "poster_path": "/fa2Nv68gcmgZJbKCJV5T45fwA8P.jpg",
     "tagline": "",
@@ -9416,7 +9355,7 @@ const MOVIES_DB = [
     "popularity": 0.4299
   },
   {
-    "id": 464,
+    "id": 461,
     "title": "Bruce Lee: The Fighter",
     "year": 2015,
     "genres": [
@@ -9437,7 +9376,7 @@ const MOVIES_DB = [
     "popularity": 0.7705
   },
   {
-    "id": 465,
+    "id": 462,
     "title": "Cinema Chupista Maava",
     "year": 2015,
     "genres": [
@@ -9458,7 +9397,7 @@ const MOVIES_DB = [
     "popularity": 0.3671
   },
   {
-    "id": 466,
+    "id": 463,
     "title": "Columbus",
     "year": 2015,
     "genres": [
@@ -9479,7 +9418,7 @@ const MOVIES_DB = [
     "popularity": 0.3385
   },
   {
-    "id": 467,
+    "id": 464,
     "title": "Dohchay",
     "year": 2015,
     "genres": [
@@ -9500,7 +9439,7 @@ const MOVIES_DB = [
     "popularity": 0.4459
   },
   {
-    "id": 468,
+    "id": 465,
     "title": "Dongata",
     "year": 2015,
     "genres": [
@@ -9520,7 +9459,7 @@ const MOVIES_DB = [
     "popularity": 0.3668
   },
   {
-    "id": 469,
+    "id": 466,
     "title": "Gopala Gopala",
     "year": 2015,
     "genres": [
@@ -9541,7 +9480,7 @@ const MOVIES_DB = [
     "popularity": 0.472
   },
   {
-    "id": 470,
+    "id": 467,
     "title": "James Bond",
     "year": 2015,
     "genres": [
@@ -9560,7 +9499,7 @@ const MOVIES_DB = [
     "popularity": 0.5207
   },
   {
-    "id": 471,
+    "id": 468,
     "title": "Jil",
     "year": 2015,
     "genres": [
@@ -9579,7 +9518,7 @@ const MOVIES_DB = [
     "popularity": 0.4214
   },
   {
-    "id": 472,
+    "id": 469,
     "title": "Kanche",
     "year": 2015,
     "genres": [
@@ -9600,7 +9539,7 @@ const MOVIES_DB = [
     "popularity": 0.3575
   },
   {
-    "id": 473,
+    "id": 470,
     "title": "Kick 2",
     "year": 2015,
     "genres": [
@@ -9621,27 +9560,7 @@ const MOVIES_DB = [
     "popularity": 0.5419
   },
   {
-    "id": 474,
-    "title": "Kumari 21F",
-    "year": 2015,
-    "genres": [
-      "Drama",
-      "Romance"
-    ],
-    "hero": "Raj Tarun & Noel Sean",
-    "heroine": "Hebah Patel",
-    "director": "Palnati Surya Pratap",
-    "music": "Devi Sri Prasad",
-    "rating": "Hit",
-    "hint": "A young man's love for his girlfriend, who is a model and moves very free to every one is tested by the rumors surrounding her.",
-    "poster_path": "/fRDKBHTANhw2UsN15teWPijL56u.jpg",
-    "tagline": "",
-    "vote_average": 7.1,
-    "vote_count": 12,
-    "popularity": 0.2738
-  },
-  {
-    "id": 475,
+    "id": 471,
     "title": "Lion",
     "year": 2015,
     "genres": [
@@ -9660,7 +9579,7 @@ const MOVIES_DB = [
     "popularity": 0.5673
   },
   {
-    "id": 476,
+    "id": 472,
     "title": "Loafer",
     "year": 2015,
     "genres": [
@@ -9681,7 +9600,7 @@ const MOVIES_DB = [
     "popularity": 0.441
   },
   {
-    "id": 477,
+    "id": 473,
     "title": "Malli Malli Idhi Rani Roju",
     "year": 2015,
     "genres": [
@@ -9692,7 +9611,7 @@ const MOVIES_DB = [
     "heroine": "Nithya Menen",
     "director": "Kranthi Madhav",
     "music": "Gopi Sundar",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "An unfortunate incident separates a state-level athlete from his lover, who then moves to Malaysia. Years later, she returns to India but ce",
     "poster_path": "/s0UHAKFzQcodqK1xfDtquzLjfiN.jpg",
     "tagline": "Life is Waiting",
@@ -9701,7 +9620,7 @@ const MOVIES_DB = [
     "popularity": 0.4019
   },
   {
-    "id": 478,
+    "id": 474,
     "title": "Pandaga Chesko",
     "year": 2015,
     "genres": [
@@ -9722,7 +9641,7 @@ const MOVIES_DB = [
     "popularity": 0.6105
   },
   {
-    "id": 479,
+    "id": 475,
     "title": "Pataas",
     "year": 2015,
     "genres": [
@@ -9742,7 +9661,7 @@ const MOVIES_DB = [
     "popularity": 0.5786
   },
   {
-    "id": 480,
+    "id": 476,
     "title": "Raju Gari Gadhi",
     "year": 2015,
     "genres": [
@@ -9762,7 +9681,7 @@ const MOVIES_DB = [
     "popularity": 0.4105
   },
   {
-    "id": 481,
+    "id": 477,
     "title": "Rudhramadevi",
     "year": 2015,
     "genres": [
@@ -9783,7 +9702,7 @@ const MOVIES_DB = [
     "popularity": 1.722
   },
   {
-    "id": 482,
+    "id": 478,
     "title": "Shivam",
     "year": 2015,
     "genres": [
@@ -9804,27 +9723,7 @@ const MOVIES_DB = [
     "popularity": 3.5516
   },
   {
-    "id": 483,
-    "title": "Singham 123",
-    "year": 2015,
-    "genres": [
-      "Comedy",
-      "Action"
-    ],
-    "hero": "Sampoornesh Babu & Prudhviraj",
-    "heroine": "Sanam Shetty",
-    "director": "Akshat Ajay Sharma",
-    "music": "Unknown",
-    "rating": "Hit",
-    "hint": "Singham 123 is a spoof action comedy starring Sampoornesh Babu playing the role of a \"Sensational\", \"Seductive\", \"Supercop\". Set in the back",
-    "poster_path": "/plJWXM4THCeOIlnCkd02X93cDzX.jpg",
-    "tagline": "Sensational Seductive Supercop",
-    "vote_average": 6.9,
-    "vote_count": 12,
-    "popularity": 0.2234
-  },
-  {
-    "id": 484,
+    "id": 479,
     "title": "Son of Satyamurthy",
     "year": 2015,
     "genres": [
@@ -9845,7 +9744,7 @@ const MOVIES_DB = [
     "popularity": 1.3897
   },
   {
-    "id": 485,
+    "id": 480,
     "title": "Soukhyam",
     "year": 2015,
     "genres": [
@@ -9864,7 +9763,7 @@ const MOVIES_DB = [
     "popularity": 0.4644
   },
   {
-    "id": 486,
+    "id": 481,
     "title": "Srimanthudu",
     "year": 2015,
     "genres": [
@@ -9875,7 +9774,7 @@ const MOVIES_DB = [
     "heroine": "Shruti Haasan",
     "director": "Koratala Siva",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Harsha, a multi-millionaire guy who has everything but there is something else he's looking for and in the process he adopts a complete vill",
     "poster_path": "/qHSgSMZUiIqKCe76PBs6QuA6MRM.jpg",
     "tagline": "",
@@ -9884,7 +9783,7 @@ const MOVIES_DB = [
     "popularity": 0.779
   },
   {
-    "id": 487,
+    "id": 482,
     "title": "Surya Vs Surya",
     "year": 2015,
     "genres": [
@@ -9904,7 +9803,7 @@ const MOVIES_DB = [
     "popularity": 0.4686
   },
   {
-    "id": 488,
+    "id": 483,
     "title": "Temper",
     "year": 2015,
     "genres": [
@@ -9916,7 +9815,7 @@ const MOVIES_DB = [
     "heroine": "Kajal Aggarwal",
     "director": "Puri Jagannadh",
     "music": "Anup Rubens",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Daya is a corrupt cop who joins hands with the local don. When Daya's girlfriend gets kidnapped, it triggers Daya to go against Vasu and his",
     "poster_path": "/hA793thpccdoAHSOZ5GNbtdSQlC.jpg",
     "tagline": "",
@@ -9925,7 +9824,7 @@ const MOVIES_DB = [
     "popularity": 0.6443
   },
   {
-    "id": 489,
+    "id": 484,
     "title": "Yavade Subramanyam",
     "year": 2015,
     "genres": [
@@ -9937,7 +9836,7 @@ const MOVIES_DB = [
     "heroine": "Malvika Nair",
     "director": "Nag Ashwin",
     "music": "Radhan",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "A corporate man who sets out on a journey of self-discovery and heads to the Himalayas.",
     "poster_path": "/tyR4gGikluyrYPeHTtkA0UuRIQa.jpg",
     "tagline": "",
@@ -9946,7 +9845,7 @@ const MOVIES_DB = [
     "popularity": 0.4309
   },
   {
-    "id": 490,
+    "id": 485,
     "title": "1: Nenokkadine",
     "year": 2014,
     "genres": [
@@ -9958,7 +9857,7 @@ const MOVIES_DB = [
     "heroine": "Kriti Sanon",
     "director": "Sukumar",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A rock star must overcome his psychological inhibitions to seek revenge for his parents' death.",
     "poster_path": "/dYpqpA7BsDHeyAGs9AAEPhZmbck.jpg",
     "tagline": "",
@@ -9967,7 +9866,7 @@ const MOVIES_DB = [
     "popularity": 0.9303
   },
   {
-    "id": 491,
+    "id": 486,
     "title": "Aagadu",
     "year": 2014,
     "genres": [
@@ -9988,7 +9887,7 @@ const MOVIES_DB = [
     "popularity": 0.5597
   },
   {
-    "id": 492,
+    "id": 487,
     "title": "Alludu Seenu",
     "year": 2014,
     "genres": [
@@ -10008,7 +9907,7 @@ const MOVIES_DB = [
     "popularity": 0.4547
   },
   {
-    "id": 493,
+    "id": 488,
     "title": "Anukshanam",
     "year": 2014,
     "genres": [
@@ -10029,7 +9928,7 @@ const MOVIES_DB = [
     "popularity": 0.3207
   },
   {
-    "id": 494,
+    "id": 489,
     "title": "Autonagar Surya",
     "year": 2014,
     "genres": [
@@ -10050,7 +9949,7 @@ const MOVIES_DB = [
     "popularity": 0.4259
   },
   {
-    "id": 495,
+    "id": 490,
     "title": "Chinnadana Nee Kosam",
     "year": 2014,
     "genres": [
@@ -10070,7 +9969,7 @@ const MOVIES_DB = [
     "popularity": 0.3616
   },
   {
-    "id": 496,
+    "id": 491,
     "title": "Current Theega",
     "year": 2014,
     "genres": [
@@ -10089,7 +9988,7 @@ const MOVIES_DB = [
     "popularity": 0.3493
   },
   {
-    "id": 497,
+    "id": 492,
     "title": "Dikkulu Choodaku Ramayya",
     "year": 2014,
     "genres": [
@@ -10108,7 +10007,7 @@ const MOVIES_DB = [
     "popularity": 0.3461
   },
   {
-    "id": 498,
+    "id": 493,
     "title": "Drushyam",
     "year": 2014,
     "genres": [
@@ -10120,7 +10019,7 @@ const MOVIES_DB = [
     "heroine": "Meena",
     "director": "Sripriya",
     "music": "Sharreth",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Rambabu, a cable operator, lives with his beloved wife Jyothi and two daughters. One day, his family inadvertently gets involved in a grave ",
     "poster_path": "/ujH3QanyIVzlTVst80Upk0Tmr2c.jpg",
     "tagline": "Visuals can be deceiving.",
@@ -10129,7 +10028,7 @@ const MOVIES_DB = [
     "popularity": 0.534
   },
   {
-    "id": 499,
+    "id": 494,
     "title": "Govindudu Andarivaadele",
     "year": 2014,
     "genres": [
@@ -10149,7 +10048,7 @@ const MOVIES_DB = [
     "popularity": 0.5887
   },
   {
-    "id": 500,
+    "id": 495,
     "title": "Heart Attack",
     "year": 2014,
     "genres": [
@@ -10169,7 +10068,7 @@ const MOVIES_DB = [
     "popularity": 0.3674
   },
   {
-    "id": 501,
+    "id": 496,
     "title": "Karthikeya",
     "year": 2014,
     "genres": [
@@ -10189,7 +10088,7 @@ const MOVIES_DB = [
     "popularity": 0.4169
   },
   {
-    "id": 502,
+    "id": 497,
     "title": "Legend",
     "year": 2014,
     "genres": [
@@ -10209,7 +10108,7 @@ const MOVIES_DB = [
     "popularity": 0.5564
   },
   {
-    "id": 503,
+    "id": 498,
     "title": "Loukyam",
     "year": 2014,
     "genres": [
@@ -10230,7 +10129,7 @@ const MOVIES_DB = [
     "popularity": 0.5512
   },
   {
-    "id": 504,
+    "id": 499,
     "title": "Manam",
     "year": 2014,
     "genres": [
@@ -10251,7 +10150,7 @@ const MOVIES_DB = [
     "popularity": 0.989
   },
   {
-    "id": 505,
+    "id": 500,
     "title": "Mukunda",
     "year": 2014,
     "genres": [
@@ -10270,7 +10169,7 @@ const MOVIES_DB = [
     "popularity": 0.481
   },
   {
-    "id": 506,
+    "id": 501,
     "title": "Oka Laila Kosam",
     "year": 2014,
     "genres": [
@@ -10288,10 +10187,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.4,
     "vote_count": 15,
-    "popularity": 0.5933
+    "popularity": 0.5392
   },
   {
-    "id": 507,
+    "id": 502,
     "title": "Oohalu Gusagusalade",
     "year": 2014,
     "genres": [
@@ -10302,7 +10201,7 @@ const MOVIES_DB = [
     "heroine": "Raashii Khanna",
     "director": "Srinivas Avasarala",
     "music": "Kalyani Malik",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Venky, who aspires to become a newsreader, must face the challenges posed by his boss, Uday. Things get worse when Uday seeks Venky's help t",
     "poster_path": "/mjdE0IHq06phpwnsRy8Fb8lA4wt.jpg",
     "tagline": "",
@@ -10311,7 +10210,7 @@ const MOVIES_DB = [
     "popularity": 0.3206
   },
   {
-    "id": 508,
+    "id": 503,
     "title": "Paandavulu Paandavulu Thummeda",
     "year": 2014,
     "genres": [
@@ -10332,7 +10231,7 @@ const MOVIES_DB = [
     "popularity": 0.3566
   },
   {
-    "id": 509,
+    "id": 504,
     "title": "Power",
     "year": 2014,
     "genres": [
@@ -10352,7 +10251,7 @@ const MOVIES_DB = [
     "popularity": 0.4413
   },
   {
-    "id": 510,
+    "id": 505,
     "title": "Ra Ra Krishnayya",
     "year": 2014,
     "genres": [
@@ -10373,7 +10272,7 @@ const MOVIES_DB = [
     "popularity": 0.5193
   },
   {
-    "id": 511,
+    "id": 506,
     "title": "Rabhasa",
     "year": 2014,
     "genres": [
@@ -10393,7 +10292,7 @@ const MOVIES_DB = [
     "popularity": 0.4117
   },
   {
-    "id": 512,
+    "id": 507,
     "title": "Race Gurram",
     "year": 2014,
     "genres": [
@@ -10404,7 +10303,7 @@ const MOVIES_DB = [
     "heroine": "Shruti Haasan",
     "director": "Surender Reddy",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Ram and Lakshman, aka Lucky, are brothers who are polar opposites in nature. Their mother wishes to see them united.",
     "poster_path": "/gu3bzAFuQH3fZEFnCsj9uWGZH0v.jpg",
     "tagline": "",
@@ -10413,7 +10312,7 @@ const MOVIES_DB = [
     "popularity": 0.9814
   },
   {
-    "id": 513,
+    "id": 508,
     "title": "Rowdy",
     "year": 2014,
     "genres": [
@@ -10433,7 +10332,7 @@ const MOVIES_DB = [
     "popularity": 0.3682
   },
   {
-    "id": 514,
+    "id": 509,
     "title": "Run Raja Run",
     "year": 2014,
     "genres": [
@@ -10454,7 +10353,7 @@ const MOVIES_DB = [
     "popularity": 0.6429
   },
   {
-    "id": 515,
+    "id": 510,
     "title": "Yevadu",
     "year": 2014,
     "genres": [
@@ -10474,7 +10373,7 @@ const MOVIES_DB = [
     "popularity": 0.9196
   },
   {
-    "id": 516,
+    "id": 511,
     "title": "Atharintiki Daaredi",
     "year": 2013,
     "genres": [
@@ -10486,7 +10385,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "Trivikram Srinivas",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Goutham promises his grandfather that he will reunite him with his estranged daughter, Sunanda. Posing as a driver, Goutham enters Sunanda's",
     "poster_path": "/htv7AcIhJc94dPmbkhVdZ5tFET7.jpg",
     "tagline": "",
@@ -10495,7 +10394,7 @@ const MOVIES_DB = [
     "popularity": 0.4279
   },
   {
-    "id": 517,
+    "id": 512,
     "title": "Baadshah",
     "year": 2013,
     "genres": [
@@ -10515,7 +10414,7 @@ const MOVIES_DB = [
     "popularity": 0.5273
   },
   {
-    "id": 518,
+    "id": 513,
     "title": "Balupu",
     "year": 2013,
     "genres": [
@@ -10535,7 +10434,7 @@ const MOVIES_DB = [
     "popularity": 0.4594
   },
   {
-    "id": 519,
+    "id": 514,
     "title": "Doosukeltha",
     "year": 2013,
     "genres": [
@@ -10555,7 +10454,7 @@ const MOVIES_DB = [
     "popularity": 0.5164
   },
   {
-    "id": 520,
+    "id": 515,
     "title": "Greeku Veerudu",
     "year": 2013,
     "genres": [
@@ -10575,7 +10474,7 @@ const MOVIES_DB = [
     "popularity": 0.6442
   },
   {
-    "id": 521,
+    "id": 516,
     "title": "Gunde Jaari Gallanthayyinde",
     "year": 2013,
     "genres": [
@@ -10585,7 +10484,7 @@ const MOVIES_DB = [
     "heroine": "Nithya Menen",
     "director": "Vijay Kumar Konda",
     "music": "Unknown",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Karthik works in a software company. He falls in love at first sight with a girl Sruthi who attends his friend’s wedding. He gets hold of th",
     "poster_path": "/tHnIXiVSqGD4MNXZtK8csXq3aId.jpg",
     "tagline": "",
@@ -10594,7 +10493,7 @@ const MOVIES_DB = [
     "popularity": 0.3626
   },
   {
-    "id": 522,
+    "id": 517,
     "title": "Gundello Godari",
     "year": 2013,
     "genres": [
@@ -10610,10 +10509,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 4,
     "vote_count": 4,
-    "popularity": 0.4795
+    "popularity": 0.546
   },
   {
-    "id": 523,
+    "id": 518,
     "title": "Iddarammayilatho",
     "year": 2013,
     "genres": [
@@ -10633,7 +10532,7 @@ const MOVIES_DB = [
     "popularity": 0.6159
   },
   {
-    "id": 524,
+    "id": 519,
     "title": "Jabardasth",
     "year": 2013,
     "genres": [
@@ -10653,7 +10552,7 @@ const MOVIES_DB = [
     "popularity": 0.384
   },
   {
-    "id": 525,
+    "id": 520,
     "title": "Masala",
     "year": 2013,
     "genres": [
@@ -10674,7 +10573,7 @@ const MOVIES_DB = [
     "popularity": 0.4564
   },
   {
-    "id": 526,
+    "id": 521,
     "title": "Mirchi",
     "year": 2013,
     "genres": [
@@ -10694,7 +10593,7 @@ const MOVIES_DB = [
     "popularity": 0.508
   },
   {
-    "id": 527,
+    "id": 522,
     "title": "Naayak",
     "year": 2013,
     "genres": [
@@ -10714,7 +10613,7 @@ const MOVIES_DB = [
     "popularity": 0.8936
   },
   {
-    "id": 528,
+    "id": 523,
     "title": "Ongole Githa",
     "year": 2013,
     "genres": [
@@ -10734,7 +10633,7 @@ const MOVIES_DB = [
     "popularity": 0.3627
   },
   {
-    "id": 529,
+    "id": 524,
     "title": "Prema Katha Chitram",
     "year": 2013,
     "genres": [
@@ -10754,7 +10653,7 @@ const MOVIES_DB = [
     "popularity": 0.3406
   },
   {
-    "id": 530,
+    "id": 525,
     "title": "Ramayya Vasthavayya",
     "year": 2013,
     "genres": [
@@ -10774,7 +10673,7 @@ const MOVIES_DB = [
     "popularity": 0.6137
   },
   {
-    "id": 531,
+    "id": 526,
     "title": "Sahasam",
     "year": 2013,
     "genres": [
@@ -10794,7 +10693,7 @@ const MOVIES_DB = [
     "popularity": 0.3291
   },
   {
-    "id": 532,
+    "id": 527,
     "title": "Seethamma Vakitlo Sirimalle Chettu",
     "year": 2013,
     "genres": [
@@ -10811,10 +10710,10 @@ const MOVIES_DB = [
     "tagline": "Simple but Beautiful",
     "vote_average": 7,
     "vote_count": 41,
-    "popularity": 0.7906
+    "popularity": 0.8443
   },
   {
-    "id": 533,
+    "id": 528,
     "title": "Shadow",
     "year": 2013,
     "genres": [
@@ -10835,7 +10734,7 @@ const MOVIES_DB = [
     "popularity": 0.3994
   },
   {
-    "id": 534,
+    "id": 529,
     "title": "Swamy Ra Ra",
     "year": 2013,
     "genres": [
@@ -10855,7 +10754,7 @@ const MOVIES_DB = [
     "popularity": 0.3669
   },
   {
-    "id": 535,
+    "id": 530,
     "title": "Tadakha",
     "year": 2013,
     "genres": [
@@ -10876,7 +10775,7 @@ const MOVIES_DB = [
     "popularity": 0.4694
   },
   {
-    "id": 536,
+    "id": 531,
     "title": "Uyyala Jampala",
     "year": 2013,
     "genres": [
@@ -10895,7 +10794,7 @@ const MOVIES_DB = [
     "popularity": 0.4232
   },
   {
-    "id": 537,
+    "id": 532,
     "title": "Venkatadri Express",
     "year": 2013,
     "genres": [
@@ -10916,7 +10815,7 @@ const MOVIES_DB = [
     "popularity": 0.3927
   },
   {
-    "id": 538,
+    "id": 533,
     "title": "Adhinayakudu",
     "year": 2012,
     "genres": [
@@ -10936,7 +10835,7 @@ const MOVIES_DB = [
     "popularity": 0.3165
   },
   {
-    "id": 539,
+    "id": 534,
     "title": "Andala Rakshasi",
     "year": 2012,
     "genres": [
@@ -10947,7 +10846,7 @@ const MOVIES_DB = [
     "heroine": "Lavanya Tripathi",
     "director": "Hanu Raghavapudi",
     "music": "Radhan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Gautham, a wealthy man, falls for a woman named Mithuna only to learn that she loves another man. However, a sudden chain of events changes ",
     "poster_path": "/xTJSZ1XtPrZrjbHcASNf9GWMXBw.jpg",
     "tagline": "",
@@ -10956,7 +10855,7 @@ const MOVIES_DB = [
     "popularity": 0.5158
   },
   {
-    "id": 540,
+    "id": 535,
     "title": "Avunu",
     "year": 2012,
     "genres": [
@@ -10972,10 +10871,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 6.2,
     "vote_count": 5,
-    "popularity": 0.4629
+    "popularity": 0.4732
   },
   {
-    "id": 541,
+    "id": 536,
     "title": "Bodyguard",
     "year": 2012,
     "genres": [
@@ -10996,7 +10895,7 @@ const MOVIES_DB = [
     "popularity": 0.6842
   },
   {
-    "id": 542,
+    "id": 537,
     "title": "Businessman",
     "year": 2012,
     "genres": [
@@ -11016,7 +10915,7 @@ const MOVIES_DB = [
     "popularity": 1.6008
   },
   {
-    "id": 543,
+    "id": 538,
     "title": "Cameraman Ganga Tho Rambabu",
     "year": 2012,
     "genres": [
@@ -11036,7 +10935,7 @@ const MOVIES_DB = [
     "popularity": 0.3052
   },
   {
-    "id": 544,
+    "id": 539,
     "title": "Damarukam",
     "year": 2012,
     "genres": [
@@ -11057,7 +10956,7 @@ const MOVIES_DB = [
     "popularity": 0.5981
   },
   {
-    "id": 545,
+    "id": 540,
     "title": "Daruvu",
     "year": 2012,
     "genres": [
@@ -11078,7 +10977,7 @@ const MOVIES_DB = [
     "popularity": 0.3887
   },
   {
-    "id": 546,
+    "id": 541,
     "title": "Dhammu",
     "year": 2012,
     "genres": [
@@ -11098,7 +10997,7 @@ const MOVIES_DB = [
     "popularity": 0.6378
   },
   {
-    "id": 547,
+    "id": 542,
     "title": "Dhenikaina Ready",
     "year": 2012,
     "genres": [
@@ -11119,7 +11018,7 @@ const MOVIES_DB = [
     "popularity": 0.4245
   },
   {
-    "id": 548,
+    "id": 543,
     "title": "Eega",
     "year": 2012,
     "genres": [
@@ -11139,7 +11038,7 @@ const MOVIES_DB = [
     "popularity": 1.6084
   },
   {
-    "id": 549,
+    "id": 544,
     "title": "Endukante Premanta",
     "year": 2012,
     "genres": [
@@ -11160,7 +11059,7 @@ const MOVIES_DB = [
     "popularity": 0.9842
   },
   {
-    "id": 550,
+    "id": 545,
     "title": "Gabbar Singh",
     "year": 2012,
     "genres": [
@@ -11180,7 +11079,7 @@ const MOVIES_DB = [
     "popularity": 0.4804
   },
   {
-    "id": 551,
+    "id": 546,
     "title": "Julayi",
     "year": 2012,
     "genres": [
@@ -11192,7 +11091,7 @@ const MOVIES_DB = [
     "heroine": "Ileana D'Cruz",
     "director": "Trivikram Srinivas",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "An intelligent young man and a timid cop team up to catch a criminal who wants revenge after a foiled bank robbery.",
     "poster_path": "/tIUBifudyRCKhF1utslaDoDRteW.jpg",
     "tagline": "",
@@ -11201,7 +11100,7 @@ const MOVIES_DB = [
     "popularity": 0.6716
   },
   {
-    "id": 552,
+    "id": 547,
     "title": "Ko Antey Koti",
     "year": 2012,
     "genres": [
@@ -11221,7 +11120,7 @@ const MOVIES_DB = [
     "popularity": 0.3544
   },
   {
-    "id": 553,
+    "id": 548,
     "title": "Krishnam Vande Jagadgurum",
     "year": 2012,
     "genres": [
@@ -11241,7 +11140,7 @@ const MOVIES_DB = [
     "popularity": 0.3624
   },
   {
-    "id": 554,
+    "id": 549,
     "title": "Life Is Beautiful",
     "year": 2012,
     "genres": [
@@ -11262,7 +11161,7 @@ const MOVIES_DB = [
     "popularity": 0.4357
   },
   {
-    "id": 555,
+    "id": 550,
     "title": "Nippu",
     "year": 2012,
     "genres": [
@@ -11282,7 +11181,7 @@ const MOVIES_DB = [
     "popularity": 0.6931
   },
   {
-    "id": 556,
+    "id": 551,
     "title": "Poola Rangadu",
     "year": 2012,
     "genres": [
@@ -11302,7 +11201,7 @@ const MOVIES_DB = [
     "popularity": 0.3602
   },
   {
-    "id": 557,
+    "id": 552,
     "title": "Rachcha",
     "year": 2012,
     "genres": [
@@ -11323,7 +11222,7 @@ const MOVIES_DB = [
     "popularity": 0.4229
   },
   {
-    "id": 558,
+    "id": 553,
     "title": "Routine Love Story",
     "year": 2012,
     "genres": [
@@ -11343,7 +11242,7 @@ const MOVIES_DB = [
     "popularity": 0.3149
   },
   {
-    "id": 559,
+    "id": 554,
     "title": "Sarocharu",
     "year": 2012,
     "genres": [
@@ -11363,7 +11262,7 @@ const MOVIES_DB = [
     "popularity": 0.3284
   },
   {
-    "id": 560,
+    "id": 555,
     "title": "Shirdi Sai",
     "year": 2012,
     "genres": [
@@ -11382,7 +11281,7 @@ const MOVIES_DB = [
     "popularity": 0.4386
   },
   {
-    "id": 561,
+    "id": 556,
     "title": "Sudigaadu",
     "year": 2012,
     "genres": [
@@ -11401,7 +11300,7 @@ const MOVIES_DB = [
     "popularity": 0.4262
   },
   {
-    "id": 562,
+    "id": 557,
     "title": "Yamudiki Mogudu",
     "year": 2012,
     "genres": [
@@ -11420,7 +11319,7 @@ const MOVIES_DB = [
     "popularity": 0.4409
   },
   {
-    "id": 563,
+    "id": 558,
     "title": "Yeto Vellipoyindhi Manasu",
     "year": 2012,
     "genres": [
@@ -11431,7 +11330,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "Gautham Vasudev Menon",
     "music": "Ilaiyaraaja",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "The romantic lives of two people – Varun and Nithya, are chronicled in this film from their school days until their adult lives. They fall i",
     "poster_path": "/oIwMIEsRK4sisfoaSHCdATMjiVg.jpg",
     "tagline": "This could be your love story!",
@@ -11440,7 +11339,7 @@ const MOVIES_DB = [
     "popularity": 0.655
   },
   {
-    "id": 564,
+    "id": 559,
     "title": "100% Love",
     "year": 2011,
     "genres": [
@@ -11461,7 +11360,7 @@ const MOVIES_DB = [
     "popularity": 0.4111
   },
   {
-    "id": 565,
+    "id": 560,
     "title": "Aha Naa Pellanta",
     "year": 2011,
     "genres": [
@@ -11481,7 +11380,7 @@ const MOVIES_DB = [
     "popularity": 0.3013
   },
   {
-    "id": 566,
+    "id": 561,
     "title": "Ala Modalaindi",
     "year": 2011,
     "genres": [
@@ -11492,7 +11391,7 @@ const MOVIES_DB = [
     "heroine": "Nithya Menen",
     "director": "B. V. Nandini Reddy",
     "music": "Kalyani Malik",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Gowtam works as a reporter for a television channel. He is nursing a heart break after his girlfriend dumped him for another guy. He attends",
     "poster_path": "/cKX4ySefAsNhMDb2TbjLyLBCsi3.jpg",
     "tagline": "A Crazy Story",
@@ -11501,7 +11400,7 @@ const MOVIES_DB = [
     "popularity": 0.4488
   },
   {
-    "id": 567,
+    "id": 562,
     "title": "Badrinath",
     "year": 2011,
     "genres": [
@@ -11522,7 +11421,7 @@ const MOVIES_DB = [
     "popularity": 0.7058
   },
   {
-    "id": 568,
+    "id": 563,
     "title": "Dhada",
     "year": 2011,
     "genres": [
@@ -11542,7 +11441,7 @@ const MOVIES_DB = [
     "popularity": 0.3386
   },
   {
-    "id": 569,
+    "id": 564,
     "title": "Dongala Mutha",
     "year": 2011,
     "genres": [
@@ -11563,7 +11462,7 @@ const MOVIES_DB = [
     "popularity": 0.4056
   },
   {
-    "id": 570,
+    "id": 565,
     "title": "Dookudu",
     "year": 2011,
     "genres": [
@@ -11584,7 +11483,7 @@ const MOVIES_DB = [
     "popularity": 0.8625
   },
   {
-    "id": 571,
+    "id": 566,
     "title": "Gaganam",
     "year": 2011,
     "genres": [
@@ -11605,7 +11504,7 @@ const MOVIES_DB = [
     "popularity": 0.4571
   },
   {
-    "id": 572,
+    "id": 567,
     "title": "Golconda High School",
     "year": 2011,
     "genres": [
@@ -11624,7 +11523,7 @@ const MOVIES_DB = [
     "popularity": 0.6567
   },
   {
-    "id": 573,
+    "id": 568,
     "title": "Kandireega",
     "year": 2011,
     "genres": [
@@ -11645,7 +11544,7 @@ const MOVIES_DB = [
     "popularity": 0.4609
   },
   {
-    "id": 574,
+    "id": 569,
     "title": "Katha Screenplay Darsakatvam Appalaraju",
     "year": 2011,
     "genres": [
@@ -11664,7 +11563,7 @@ const MOVIES_DB = [
     "popularity": 0.5208
   },
   {
-    "id": 575,
+    "id": 570,
     "title": "Mirapakay",
     "year": 2011,
     "genres": [
@@ -11684,7 +11583,7 @@ const MOVIES_DB = [
     "popularity": 0.6846
   },
   {
-    "id": 576,
+    "id": 571,
     "title": "Mogudu",
     "year": 2011,
     "genres": [
@@ -11703,7 +11602,7 @@ const MOVIES_DB = [
     "popularity": 0.3828
   },
   {
-    "id": 577,
+    "id": 572,
     "title": "Mr. Perfect",
     "year": 2011,
     "genres": [
@@ -11714,7 +11613,7 @@ const MOVIES_DB = [
     "heroine": "Kajal Aggarwal",
     "director": "Dasaradh",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Vicky breaks his engagement with Priya, his childhood friend, after he learns that she is making many compromises for his sake. However, tim",
     "poster_path": "/pUYe5umIwPWUNWLQ7gfghHR7nCX.jpg",
     "tagline": "",
@@ -11723,7 +11622,7 @@ const MOVIES_DB = [
     "popularity": 0.7969
   },
   {
-    "id": 578,
+    "id": 573,
     "title": "Nenu Naa Rakshasi",
     "year": 2011,
     "genres": [
@@ -11743,7 +11642,7 @@ const MOVIES_DB = [
     "popularity": 0.457
   },
   {
-    "id": 579,
+    "id": 574,
     "title": "Oh My Friend",
     "year": 2011,
     "genres": [
@@ -11762,7 +11661,7 @@ const MOVIES_DB = [
     "popularity": 0.3823
   },
   {
-    "id": 580,
+    "id": 575,
     "title": "Once Upon a Warrior",
     "year": 2011,
     "genres": [
@@ -11783,7 +11682,7 @@ const MOVIES_DB = [
     "popularity": 0.965
   },
   {
-    "id": 581,
+    "id": 576,
     "title": "Oosaravelli",
     "year": 2011,
     "genres": [
@@ -11800,10 +11699,10 @@ const MOVIES_DB = [
     "tagline": "Vengeance With A Difference",
     "vote_average": 5.357,
     "vote_count": 28,
-    "popularity": 0.5507
+    "popularity": 0.609
   },
   {
-    "id": 582,
+    "id": 577,
     "title": "Panjaa",
     "year": 2011,
     "genres": [
@@ -11822,7 +11721,7 @@ const MOVIES_DB = [
     "popularity": 0.5869
   },
   {
-    "id": 583,
+    "id": 578,
     "title": "Pilla Zamindar",
     "year": 2011,
     "genres": [
@@ -11833,7 +11732,7 @@ const MOVIES_DB = [
     "heroine": "Hariprriya",
     "director": "Ashok G.",
     "music": "V. Selvaganesh",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "PJ is the grandson of a wealthy zamindar and an irresponsible youngster who is spoilt by the pampering and excessive money. His grandfather ",
     "poster_path": "/5xO7sOhqb2Avx52gqySMCS6Ie1d.jpg",
     "tagline": "*Conditions Apply",
@@ -11842,7 +11741,7 @@ const MOVIES_DB = [
     "popularity": 0.5679
   },
   {
-    "id": 584,
+    "id": 579,
     "title": "Raaj",
     "year": 2011,
     "genres": [
@@ -11861,7 +11760,7 @@ const MOVIES_DB = [
     "popularity": 0.4349
   },
   {
-    "id": 585,
+    "id": 580,
     "title": "Rajanna",
     "year": 2011,
     "genres": [
@@ -11880,7 +11779,7 @@ const MOVIES_DB = [
     "popularity": 0.4204
   },
   {
-    "id": 586,
+    "id": 581,
     "title": "Seema Tapakai",
     "year": 2011,
     "genres": [
@@ -11899,7 +11798,7 @@ const MOVIES_DB = [
     "popularity": 0.3621
   },
   {
-    "id": 587,
+    "id": 582,
     "title": "Shakti",
     "year": 2011,
     "genres": [
@@ -11919,7 +11818,7 @@ const MOVIES_DB = [
     "popularity": 0.6599
   },
   {
-    "id": 588,
+    "id": 583,
     "title": "Solo",
     "year": 2011,
     "genres": [
@@ -11939,7 +11838,7 @@ const MOVIES_DB = [
     "popularity": 0.3542
   },
   {
-    "id": 589,
+    "id": 584,
     "title": "Sri Rama Rajyam",
     "year": 2011,
     "genres": [
@@ -11958,7 +11857,7 @@ const MOVIES_DB = [
     "popularity": 0.4016
   },
   {
-    "id": 590,
+    "id": 585,
     "title": "Teen Maar",
     "year": 2011,
     "genres": [
@@ -11977,7 +11876,7 @@ const MOVIES_DB = [
     "popularity": 0.4199
   },
   {
-    "id": 591,
+    "id": 586,
     "title": "Veera",
     "year": 2011,
     "genres": [
@@ -11998,7 +11897,7 @@ const MOVIES_DB = [
     "popularity": 0.4577
   },
   {
-    "id": 592,
+    "id": 587,
     "title": "Wanted",
     "year": 2011,
     "genres": [
@@ -12018,7 +11917,7 @@ const MOVIES_DB = [
     "popularity": 0.6074
   },
   {
-    "id": 593,
+    "id": 588,
     "title": "Adhurs",
     "year": 2010,
     "genres": [
@@ -12039,7 +11938,7 @@ const MOVIES_DB = [
     "popularity": 0.4671
   },
   {
-    "id": 594,
+    "id": 589,
     "title": "Baava",
     "year": 2010,
     "genres": [
@@ -12058,7 +11957,7 @@ const MOVIES_DB = [
     "popularity": 0.3554
   },
   {
-    "id": 595,
+    "id": 590,
     "title": "Brindavanam",
     "year": 2010,
     "genres": [
@@ -12070,7 +11969,7 @@ const MOVIES_DB = [
     "heroine": "Kajal Aggarwal",
     "director": "Vamshi Paidipally",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Indu makes her boyfriend Krishna act like her friend Bhoomi's lover so that her family will stop searching for a groom. However, their lives",
     "poster_path": "/8l2z3abBgXvIpQUEHLVt9sLMcCp.jpg",
     "tagline": "",
@@ -12079,7 +11978,7 @@ const MOVIES_DB = [
     "popularity": 0.5707
   },
   {
-    "id": 596,
+    "id": 591,
     "title": "Don Seenu",
     "year": 2010,
     "genres": [
@@ -12100,7 +11999,7 @@ const MOVIES_DB = [
     "popularity": 0.5518
   },
   {
-    "id": 597,
+    "id": 592,
     "title": "Golimaar",
     "year": 2010,
     "genres": [
@@ -12112,7 +12011,7 @@ const MOVIES_DB = [
     "heroine": "Priyamani",
     "director": "Puri Jagannadh",
     "music": "Chakri",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Gangaram (Gopichand), an orphan raised by M.S. Narayana always craves to be a Police Officer and he becomes one. His intensity, dedication a",
     "poster_path": "/fggeRCAz6iq5lJSZ1eR59z92gfR.jpg",
     "tagline": "",
@@ -12121,7 +12020,7 @@ const MOVIES_DB = [
     "popularity": 0.5798
   },
   {
-    "id": 598,
+    "id": 593,
     "title": "Khaleja",
     "year": 2010,
     "genres": [
@@ -12133,7 +12032,7 @@ const MOVIES_DB = [
     "heroine": "Anushka Shetty",
     "director": "Trivikram Srinivas",
     "music": "Mani Sharma",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "A village is hounded by an unknown disease, decimating its population. The village priest prophesies that God's avatar will save them. Siddh",
     "poster_path": "/rsQbJT4vjyQe6Mpry1i8Tnf86wp.jpg",
     "tagline": "",
@@ -12142,7 +12041,7 @@ const MOVIES_DB = [
     "popularity": 0.8132
   },
   {
-    "id": 599,
+    "id": 594,
     "title": "Komaram Puli",
     "year": 2010,
     "genres": [
@@ -12162,7 +12061,7 @@ const MOVIES_DB = [
     "popularity": 0.5769
   },
   {
-    "id": 600,
+    "id": 595,
     "title": "Leader",
     "year": 2010,
     "genres": [
@@ -12173,7 +12072,7 @@ const MOVIES_DB = [
     "heroine": "Priya Anand",
     "director": "Sekhar Kammula",
     "music": "Mickey J Meyer",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Upon the death of his father, Arjun Prasad campaigns to become the CM of Andhra. He hopes to eradicate corruption from Indian Politics.",
     "poster_path": "/kh4YPMvpyore0jFPyQ2eV5JSihv.jpg",
     "tagline": "The Campaign Begins",
@@ -12182,7 +12081,7 @@ const MOVIES_DB = [
     "popularity": 0.5086
   },
   {
-    "id": 601,
+    "id": 596,
     "title": "Maryada Ramanna",
     "year": 2010,
     "genres": [
@@ -12194,7 +12093,7 @@ const MOVIES_DB = [
     "heroine": "Saloni Aswani",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Ramu returns to his hometown to sell a piece of land he owns and falls in love with a young woman only to find out that her parents want him",
     "poster_path": "/mdhZF0tSHkdh0GSuyOLQZLS22wm.jpg",
     "tagline": "",
@@ -12203,7 +12102,7 @@ const MOVIES_DB = [
     "popularity": 0.6596
   },
   {
-    "id": 602,
+    "id": 597,
     "title": "Nagavalli",
     "year": 2010,
     "genres": [
@@ -12224,7 +12123,7 @@ const MOVIES_DB = [
     "popularity": 0.5813
   },
   {
-    "id": 603,
+    "id": 598,
     "title": "Namo Venkatesa",
     "year": 2010,
     "genres": [
@@ -12245,7 +12144,7 @@ const MOVIES_DB = [
     "popularity": 0.4483
   },
   {
-    "id": 604,
+    "id": 599,
     "title": "Orange",
     "year": 2010,
     "genres": [
@@ -12256,7 +12155,7 @@ const MOVIES_DB = [
     "heroine": "Genelia D'Souza",
     "director": "Bhaskar",
     "music": "Harris Jayaraj",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A young man falls in love with a girl but has to keep lying to make her happy. Unable to continue, he tells her that it cannot go on and bre",
     "poster_path": "/3y2WLXeySVHExhR9VM5JwP8OPtw.jpg",
     "tagline": "Will you sacrifiece for love?",
@@ -12265,7 +12164,7 @@ const MOVIES_DB = [
     "popularity": 0.5075
   },
   {
-    "id": 605,
+    "id": 600,
     "title": "Panchakshari",
     "year": 2010,
     "genres": [
@@ -12284,27 +12183,7 @@ const MOVIES_DB = [
     "popularity": 0.3416
   },
   {
-    "id": 606,
-    "title": "Prasthanam",
-    "year": 2010,
-    "genres": [
-      "Action",
-      "Drama"
-    ],
-    "hero": "Sharwanand & Sai Kumar",
-    "heroine": "Pavitra Lokesh",
-    "director": "Deva Katta",
-    "music": "Mahesh Shankar",
-    "rating": "Hit",
-    "hint": "Chinna, a young man, hates Mitra, his stepbrother, who is loyal and obedient to Loki, their father, who gives him preference in politics. Ch",
-    "poster_path": "/vn6zHyo4kASQ8mY6PIHBxiBSuS.jpg",
-    "tagline": "",
-    "vote_average": 6.538,
-    "vote_count": 13,
-    "popularity": 0.2809
-  },
-  {
-    "id": 607,
+    "id": 601,
     "title": "Ragada",
     "year": 2010,
     "genres": [
@@ -12323,7 +12202,7 @@ const MOVIES_DB = [
     "popularity": 0.437
   },
   {
-    "id": 608,
+    "id": 602,
     "title": "Shambo Shiva Shambo",
     "year": 2010,
     "genres": [
@@ -12333,7 +12212,7 @@ const MOVIES_DB = [
     "heroine": "Priyamani",
     "director": "Samuthirakani",
     "music": "Sundar C. Babu",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Santosh, the son of a politicians, is in love with his family’s arch rival's daughter. Karunakar, Malli, and Chandu are his friends who sacr",
     "poster_path": "/o27bRY4iTz83gpr9Kkd3YAzZm2o.jpg",
     "tagline": "",
@@ -12342,7 +12221,7 @@ const MOVIES_DB = [
     "popularity": 0.6791
   },
   {
-    "id": 609,
+    "id": 603,
     "title": "Simha",
     "year": 2010,
     "genres": [
@@ -12362,7 +12241,7 @@ const MOVIES_DB = [
     "popularity": 0.4443
   },
   {
-    "id": 610,
+    "id": 604,
     "title": "Varudu",
     "year": 2010,
     "genres": [
@@ -12381,7 +12260,7 @@ const MOVIES_DB = [
     "popularity": 0.4884
   },
   {
-    "id": 611,
+    "id": 605,
     "title": "Vedam",
     "year": 2010,
     "genres": [
@@ -12392,7 +12271,7 @@ const MOVIES_DB = [
     "heroine": "Anushka Shetty",
     "director": "Radha Krishna Jagarlamudi",
     "music": "M.M. Keeravaani",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Five people from varied strata of society – a slum dweller who works as a cable operator, a runaway prostitute, a desperate woman drowning i",
     "poster_path": "/fwozjObCQSZsGdUw0dJXJSdEocj.jpg",
     "tagline": "",
@@ -12401,7 +12280,7 @@ const MOVIES_DB = [
     "popularity": 1.2173
   },
   {
-    "id": 612,
+    "id": 606,
     "title": "Ye Maaya Chesave",
     "year": 2010,
     "genres": [
@@ -12412,7 +12291,7 @@ const MOVIES_DB = [
     "heroine": "Samantha Ruth Prabhu",
     "director": "Gautham Vasudev Menon",
     "music": "A.R. Rahman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "An aspiring Hindu director falls in love with a Christian girl whose parents disapprove of their impending relationship.",
     "poster_path": "/w6mHYrsmDK9EZh75JcFwv5xGJDO.jpg",
     "tagline": "A Different Love Story, Yet Again",
@@ -12421,7 +12300,7 @@ const MOVIES_DB = [
     "popularity": 0.4017
   },
   {
-    "id": 613,
+    "id": 607,
     "title": "Aarya 2",
     "year": 2009,
     "genres": [
@@ -12433,7 +12312,7 @@ const MOVIES_DB = [
     "heroine": "Kajal Aggarwal",
     "director": "Sukumar",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Two young boys staying together at an orphanage become friends. One of them is adopted by a wealthy family and grows up to become the owner ",
     "poster_path": "/kjbbx8kV6pNhNXX9aRsVDwyEJbm.jpg",
     "tagline": "Baby He Loves You",
@@ -12442,7 +12321,7 @@ const MOVIES_DB = [
     "popularity": 1.0321
   },
   {
-    "id": 614,
+    "id": 608,
     "title": "Anjaneyulu",
     "year": 2009,
     "genres": [
@@ -12462,7 +12341,7 @@ const MOVIES_DB = [
     "popularity": 0.377
   },
   {
-    "id": 615,
+    "id": 609,
     "title": "Arundhati",
     "year": 2009,
     "genres": [
@@ -12474,7 +12353,7 @@ const MOVIES_DB = [
     "heroine": "Anushka Shetty",
     "director": "Kodi Ramakrishna",
     "music": "Saluri Koteswara Rao",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Arundhati  belongs to Gadwal samsthanam in 1920’s. She is known for her bravery in saving the Samstanam by killing Pasupathi an evildoer. Bu",
     "poster_path": "/xQ0mGlnlAt6wLWZc3rm6LGFPzwl.jpg",
     "tagline": "",
@@ -12483,7 +12362,7 @@ const MOVIES_DB = [
     "popularity": 1.7126
   },
   {
-    "id": 616,
+    "id": 610,
     "title": "Baanam",
     "year": 2009,
     "genres": [
@@ -12503,7 +12382,7 @@ const MOVIES_DB = [
     "popularity": 0.3162
   },
   {
-    "id": 617,
+    "id": 611,
     "title": "Bendu Apparao R.M.P",
     "year": 2009,
     "genres": [
@@ -12522,7 +12401,7 @@ const MOVIES_DB = [
     "popularity": 0.5812
   },
   {
-    "id": 618,
+    "id": 612,
     "title": "Billa",
     "year": 2009,
     "genres": [
@@ -12542,7 +12421,7 @@ const MOVIES_DB = [
     "popularity": 0.467
   },
   {
-    "id": 619,
+    "id": 613,
     "title": "Bumper Offer",
     "year": 2009,
     "genres": [
@@ -12562,7 +12441,7 @@ const MOVIES_DB = [
     "popularity": 0.3271
   },
   {
-    "id": 620,
+    "id": 614,
     "title": "Ek Niranjan",
     "year": 2009,
     "genres": [
@@ -12583,7 +12462,7 @@ const MOVIES_DB = [
     "popularity": 0.3834
   },
   {
-    "id": 621,
+    "id": 615,
     "title": "Fitting Master",
     "year": 2009,
     "genres": [
@@ -12603,7 +12482,7 @@ const MOVIES_DB = [
     "popularity": 0.3797
   },
   {
-    "id": 622,
+    "id": 616,
     "title": "Ganesh",
     "year": 2009,
     "genres": [
@@ -12623,7 +12502,7 @@ const MOVIES_DB = [
     "popularity": 0.4055
   },
   {
-    "id": 623,
+    "id": 617,
     "title": "Josh",
     "year": 2009,
     "genres": [
@@ -12643,7 +12522,7 @@ const MOVIES_DB = [
     "popularity": 0.4905
   },
   {
-    "id": 624,
+    "id": 618,
     "title": "Kick",
     "year": 2009,
     "genres": [
@@ -12655,7 +12534,7 @@ const MOVIES_DB = [
     "heroine": "Ileana D'Cruz",
     "director": "Surender Reddy",
     "music": "S. Thaman",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Kalyan is a kind of guy who prefers a life full of thrills than leading a regular life style. He seeks kick in whatever he does. He finds li",
     "poster_path": "/lei28oUtPXyzGjkf6YKaIlAscAV.jpg",
     "tagline": "",
@@ -12664,7 +12543,7 @@ const MOVIES_DB = [
     "popularity": 0.5923
   },
   {
-    "id": 625,
+    "id": 619,
     "title": "Konchem Ishtam Konchem Kashtam",
     "year": 2009,
     "genres": [
@@ -12675,7 +12554,7 @@ const MOVIES_DB = [
     "heroine": "Tamannaah Bhatia",
     "director": "Kishore Kumar",
     "music": "Ehsaan Noorani",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Geeta's father disapproves of her relationship with Siddhu as he isn't too pleased with the fact that the latter's parents are divorced. Det",
     "poster_path": "/dT3MwBS3X0FJx22GngeMom8mKI4.jpg",
     "tagline": "",
@@ -12684,7 +12563,7 @@ const MOVIES_DB = [
     "popularity": 0.4508
   },
   {
-    "id": 626,
+    "id": 620,
     "title": "Magadheera",
     "year": 2009,
     "genres": [
@@ -12694,7 +12573,7 @@ const MOVIES_DB = [
     "heroine": "Kajal Aggarwal",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Blockbuster",
+    "rating": "Industry Hit",
     "hint": "A street-bike racer chances upon a woman and is struck by visions of a past life where they were both star-crossed lovers in a war-ridden ki",
     "poster_path": "/xK7MEV56GF291VG0U5XnVJuvNv3.jpg",
     "tagline": "",
@@ -12703,7 +12582,7 @@ const MOVIES_DB = [
     "popularity": 1.6047
   },
   {
-    "id": 627,
+    "id": 621,
     "title": "Maska",
     "year": 2009,
     "genres": [
@@ -12723,7 +12602,7 @@ const MOVIES_DB = [
     "popularity": 0.4226
   },
   {
-    "id": 628,
+    "id": 622,
     "title": "Oy!",
     "year": 2009,
     "genres": [
@@ -12735,7 +12614,7 @@ const MOVIES_DB = [
     "heroine": "Shamili",
     "director": "Anand Ranga",
     "music": "Yuvan Shankar Raja",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Uday, a rich businessman, falls in love with a simple girl named Sandhya. He gets to know that Sandhya is terminally ill but still pursues h",
     "poster_path": "/rtbyMYxBv5hV0lJQHbbqI4l0Z8J.jpg",
     "tagline": "His first love called him…",
@@ -12744,7 +12623,7 @@ const MOVIES_DB = [
     "popularity": 0.401
   },
   {
-    "id": 629,
+    "id": 623,
     "title": "Sasirekha Parinayam",
     "year": 2009,
     "genres": [
@@ -12763,7 +12642,7 @@ const MOVIES_DB = [
     "popularity": 0.3737
   },
   {
-    "id": 630,
+    "id": 624,
     "title": "Shankam",
     "year": 2009,
     "genres": [
@@ -12783,7 +12662,7 @@ const MOVIES_DB = [
     "popularity": 0.3913
   },
   {
-    "id": 631,
+    "id": 625,
     "title": "Villagelo Vinayakudu",
     "year": 2009,
     "genres": [
@@ -12803,7 +12682,7 @@ const MOVIES_DB = [
     "popularity": 0.3722
   },
   {
-    "id": 632,
+    "id": 626,
     "title": "Ashta Chamma",
     "year": 2008,
     "genres": [
@@ -12824,7 +12703,7 @@ const MOVIES_DB = [
     "popularity": 0.3104
   },
   {
-    "id": 633,
+    "id": 627,
     "title": "Avakai Biryani",
     "year": 2008,
     "genres": [
@@ -12844,7 +12723,7 @@ const MOVIES_DB = [
     "popularity": 0.3342
   },
   {
-    "id": 634,
+    "id": 628,
     "title": "Blade Babji",
     "year": 2008,
     "genres": [
@@ -12864,7 +12743,7 @@ const MOVIES_DB = [
     "popularity": 0.4638
   },
   {
-    "id": 635,
+    "id": 629,
     "title": "Bujjigaadu: Made in Chennai",
     "year": 2008,
     "genres": [
@@ -12885,7 +12764,7 @@ const MOVIES_DB = [
     "popularity": 0.4925
   },
   {
-    "id": 636,
+    "id": 630,
     "title": "Chintakayala Ravi",
     "year": 2008,
     "genres": [
@@ -12906,7 +12785,7 @@ const MOVIES_DB = [
     "popularity": 0.4797
   },
   {
-    "id": 637,
+    "id": 631,
     "title": "Gamyam",
     "year": 2008,
     "genres": [
@@ -12916,7 +12795,7 @@ const MOVIES_DB = [
     "heroine": "Kamalinee Mukherjee",
     "director": "Radha Krishna Jagarlamudi",
     "music": "E.S. Murthy",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Two guys, a thief and a rich man, meet in a journey that the latter starts to find love. On their way they find the destinies of their lives",
     "poster_path": "/xOnX16iyA6bI8YL9ryeKjYl4YVK.jpg",
     "tagline": "",
@@ -12925,7 +12804,7 @@ const MOVIES_DB = [
     "popularity": 0.5501
   },
   {
-    "id": 638,
+    "id": 632,
     "title": "Hare Ram",
     "year": 2008,
     "genres": [
@@ -12945,7 +12824,7 @@ const MOVIES_DB = [
     "popularity": 0.3499
   },
   {
-    "id": 639,
+    "id": 633,
     "title": "Jalsa",
     "year": 2008,
     "genres": [
@@ -12956,7 +12835,7 @@ const MOVIES_DB = [
     "heroine": "Ileana D'Cruz",
     "director": "Trivikram Srinivas",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Sanjay falls in love with Indu. Her father Rammohan Reddy doesnt approve of it and she is married to someone else. Later, Bhagyamathi falls ",
     "poster_path": "/sAc0AX16f0jBlVfU85XbaU9ZKI2.jpg",
     "tagline": "",
@@ -12965,7 +12844,7 @@ const MOVIES_DB = [
     "popularity": 0.5303
   },
   {
-    "id": 640,
+    "id": 634,
     "title": "Kantri",
     "year": 2008,
     "genres": [
@@ -12984,7 +12863,7 @@ const MOVIES_DB = [
     "popularity": 0.6209
   },
   {
-    "id": 641,
+    "id": 635,
     "title": "King",
     "year": 2008,
     "genres": [
@@ -13005,7 +12884,7 @@ const MOVIES_DB = [
     "popularity": 0.7585
   },
   {
-    "id": 642,
+    "id": 636,
     "title": "Kotha Bangaru Lokam",
     "year": 2008,
     "genres": [
@@ -13026,7 +12905,7 @@ const MOVIES_DB = [
     "popularity": 0.6245
   },
   {
-    "id": 643,
+    "id": 637,
     "title": "Krishna",
     "year": 2008,
     "genres": [
@@ -13046,28 +12925,7 @@ const MOVIES_DB = [
     "popularity": 0.4856
   },
   {
-    "id": 644,
-    "title": "Krishnarjuna",
-    "year": 2008,
-    "genres": [
-      "Family",
-      "Comedy",
-      "Drama"
-    ],
-    "hero": "Nagarjuna Akkineni & Vishnu Manchu",
-    "heroine": "Mamta Mohandas",
-    "director": "P. Vasu",
-    "music": "M.M. Keeravaani",
-    "rating": "Average",
-    "hint": "Influenced by an astrologer, Pedababu fixes his sister's wedding with Arjun, an orphan, and plans to get him killed. However, Lord Krishna c",
-    "poster_path": "/wVTmTf1iR99ZkZPvdE3o5v79sPs.jpg",
-    "tagline": "",
-    "vote_average": 5.2,
-    "vote_count": 3,
-    "popularity": 0.3512
-  },
-  {
-    "id": 645,
+    "id": 638,
     "title": "Neninthe",
     "year": 2008,
     "genres": [
@@ -13078,7 +12936,7 @@ const MOVIES_DB = [
     "heroine": "Siya Gautham",
     "director": "Puri Jagannadh",
     "music": "Unknown",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Ravi is an assistant director who dreams of making his own film, but producers are hesitant. Meanwhile, he falls in love with dancer Sandhya",
     "poster_path": "/x2HnxPPoyNnSDi9p3ZaTC9ejlOn.jpg",
     "tagline": "",
@@ -13087,7 +12945,7 @@ const MOVIES_DB = [
     "popularity": 1.1558
   },
   {
-    "id": 646,
+    "id": 639,
     "title": "Nenu Meeku Telusa...?",
     "year": 2008,
     "genres": [
@@ -13106,7 +12964,7 @@ const MOVIES_DB = [
     "popularity": 0.3317
   },
   {
-    "id": 647,
+    "id": 640,
     "title": "Okka Magaadu",
     "year": 2008,
     "genres": [
@@ -13125,7 +12983,7 @@ const MOVIES_DB = [
     "popularity": 0.3117
   },
   {
-    "id": 648,
+    "id": 641,
     "title": "Ontari",
     "year": 2008,
     "genres": [
@@ -13145,7 +13003,7 @@ const MOVIES_DB = [
     "popularity": 0.4279
   },
   {
-    "id": 649,
+    "id": 642,
     "title": "Parugu",
     "year": 2008,
     "genres": [
@@ -13166,7 +13024,7 @@ const MOVIES_DB = [
     "popularity": 1.2029
   },
   {
-    "id": 650,
+    "id": 643,
     "title": "Pourudu",
     "year": 2008,
     "genres": [
@@ -13186,7 +13044,7 @@ const MOVIES_DB = [
     "popularity": 0.4388
   },
   {
-    "id": 651,
+    "id": 644,
     "title": "Ready",
     "year": 2008,
     "genres": [
@@ -13207,7 +13065,7 @@ const MOVIES_DB = [
     "popularity": 0.5406
   },
   {
-    "id": 652,
+    "id": 645,
     "title": "Ullasanga Utsahanga",
     "year": 2008,
     "genres": [
@@ -13226,7 +13084,7 @@ const MOVIES_DB = [
     "popularity": 0.3711
   },
   {
-    "id": 653,
+    "id": 646,
     "title": "Aadavari Matalaku Ardhalu Verule",
     "year": 2007,
     "genres": [
@@ -13238,7 +13096,7 @@ const MOVIES_DB = [
     "heroine": "Trisha Krishnan",
     "director": "Selvaraghavan",
     "music": "Yuvan Shankar Raja",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Ganesh, an unemployed man, lands up in a company where Keerthi, the girl he loves, works but who is already engaged to someone else. Sudden ",
     "poster_path": "/5ODOTnYdBPucewTglpjR3AvnxzG.jpg",
     "tagline": "",
@@ -13247,7 +13105,7 @@ const MOVIES_DB = [
     "popularity": 0.7714
   },
   {
-    "id": 654,
+    "id": 647,
     "title": "Aata",
     "year": 2007,
     "genres": [
@@ -13266,7 +13124,7 @@ const MOVIES_DB = [
     "popularity": 0.3269
   },
   {
-    "id": 655,
+    "id": 648,
     "title": "Athidhi",
     "year": 2007,
     "genres": [
@@ -13283,10 +13141,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.833,
     "vote_count": 18,
-    "popularity": 0.8186
+    "popularity": 0.833
   },
   {
-    "id": 656,
+    "id": 649,
     "title": "Athili Sathibabu LKG",
     "year": 2007,
     "genres": [
@@ -13305,7 +13163,7 @@ const MOVIES_DB = [
     "popularity": 0.3992
   },
   {
-    "id": 657,
+    "id": 650,
     "title": "Chirutha",
     "year": 2007,
     "genres": [
@@ -13326,7 +13184,7 @@ const MOVIES_DB = [
     "popularity": 0.6608
   },
   {
-    "id": 658,
+    "id": 651,
     "title": "Desamuduru",
     "year": 2007,
     "genres": [
@@ -13346,27 +13204,7 @@ const MOVIES_DB = [
     "popularity": 0.4888
   },
   {
-    "id": 659,
-    "title": "Dhee",
-    "year": 2007,
-    "genres": [
-      "Comedy",
-      "Action"
-    ],
-    "hero": "Vishnu Manchu & Srihari",
-    "heroine": "Genelia D'Souza",
-    "director": "Sreenu Vaitla",
-    "music": "Chakri",
-    "rating": "Hit",
-    "hint": "Babloo (Vishnu) likes to have fun and is always getting in trouble so his father (Chandramohan) gets him a job with Shanker Goud (Srihari). ",
-    "poster_path": "/pi39lj9U806VIj6EHUScSTpjGLt.jpg",
-    "tagline": "Kotti Choodu",
-    "vote_average": 6.929,
-    "vote_count": 14,
-    "popularity": 0.2707
-  },
-  {
-    "id": 660,
+    "id": 652,
     "title": "Don",
     "year": 2007,
     "genres": [
@@ -13387,7 +13225,7 @@ const MOVIES_DB = [
     "popularity": 0.4952
   },
   {
-    "id": 661,
+    "id": 653,
     "title": "Dubai Seenu",
     "year": 2007,
     "genres": [
@@ -13406,26 +13244,7 @@ const MOVIES_DB = [
     "popularity": 0.5314
   },
   {
-    "id": 662,
-    "title": "Happy Days",
-    "year": 2007,
-    "genres": [
-      "Drama"
-    ],
-    "hero": "Varun Sandesh & Rahul Haridas",
-    "heroine": "Tamannaah Bhatia",
-    "director": "Sekhar Kammula",
-    "music": "Mickey J Meyer",
-    "rating": "Hit",
-    "hint": "Eight youngsters become a close-knit group after attending engineering college and sharing their experiences.",
-    "poster_path": "/9PTzngN3VOmxQg6vFOkAGFMSxWi.jpg",
-    "tagline": "",
-    "vote_average": 6.462,
-    "vote_count": 39,
-    "popularity": 0.255
-  },
-  {
-    "id": 663,
+    "id": 654,
     "title": "Jagadam",
     "year": 2007,
     "genres": [
@@ -13446,7 +13265,7 @@ const MOVIES_DB = [
     "popularity": 0.4723
   },
   {
-    "id": 664,
+    "id": 655,
     "title": "Lakshyam",
     "year": 2007,
     "genres": [
@@ -13465,7 +13284,7 @@ const MOVIES_DB = [
     "popularity": 0.3385
   },
   {
-    "id": 665,
+    "id": 656,
     "title": "Munna",
     "year": 2007,
     "genres": [
@@ -13485,7 +13304,7 @@ const MOVIES_DB = [
     "popularity": 0.7308
   },
   {
-    "id": 666,
+    "id": 657,
     "title": "Okkadunnadu",
     "year": 2007,
     "genres": [
@@ -13504,7 +13323,7 @@ const MOVIES_DB = [
     "popularity": 0.5032
   },
   {
-    "id": 667,
+    "id": 658,
     "title": "Shankar Dada Zindabad",
     "year": 2007,
     "genres": [
@@ -13524,7 +13343,7 @@ const MOVIES_DB = [
     "popularity": 0.3547
   },
   {
-    "id": 668,
+    "id": 659,
     "title": "Thulasi",
     "year": 2007,
     "genres": [
@@ -13545,7 +13364,7 @@ const MOVIES_DB = [
     "popularity": 0.352
   },
   {
-    "id": 669,
+    "id": 660,
     "title": "Yamadonga",
     "year": 2007,
     "genres": [
@@ -13566,7 +13385,7 @@ const MOVIES_DB = [
     "popularity": 0.8723
   },
   {
-    "id": 670,
+    "id": 661,
     "title": "Yogi",
     "year": 2007,
     "genres": [
@@ -13585,7 +13404,7 @@ const MOVIES_DB = [
     "popularity": 0.508
   },
   {
-    "id": 671,
+    "id": 662,
     "title": "Annavaram",
     "year": 2006,
     "genres": [
@@ -13605,7 +13424,7 @@ const MOVIES_DB = [
     "popularity": 0.3298
   },
   {
-    "id": 672,
+    "id": 663,
     "title": "Ashok",
     "year": 2006,
     "genres": [
@@ -13626,7 +13445,7 @@ const MOVIES_DB = [
     "popularity": 0.4231
   },
   {
-    "id": 673,
+    "id": 664,
     "title": "Asthram",
     "year": 2006,
     "genres": [
@@ -13647,7 +13466,7 @@ const MOVIES_DB = [
     "popularity": 0.3223
   },
   {
-    "id": 674,
+    "id": 665,
     "title": "Bangaram",
     "year": 2006,
     "genres": [
@@ -13667,7 +13486,7 @@ const MOVIES_DB = [
     "popularity": 0.5225
   },
   {
-    "id": 675,
+    "id": 666,
     "title": "Bommarillu",
     "year": 2006,
     "genres": [
@@ -13678,7 +13497,7 @@ const MOVIES_DB = [
     "heroine": "Genelia D'Souza",
     "director": "Bhaskar",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Siddu is the son of an over-protective business man. Every decision of his is made by his father, which leads him into frustration. He half-",
     "poster_path": "/oYN5XJzV9dYGwzq4fmp41xcIaDS.jpg",
     "tagline": "Love makes life beautiful...",
@@ -13687,7 +13506,7 @@ const MOVIES_DB = [
     "popularity": 0.5497
   },
   {
-    "id": 676,
+    "id": 667,
     "title": "Boss",
     "year": 2006,
     "genres": [
@@ -13707,7 +13526,7 @@ const MOVIES_DB = [
     "popularity": 0.4535
   },
   {
-    "id": 677,
+    "id": 668,
     "title": "Chukkallo Chandrudu",
     "year": 2006,
     "genres": [
@@ -13726,7 +13545,7 @@ const MOVIES_DB = [
     "popularity": 0.3571
   },
   {
-    "id": 678,
+    "id": 669,
     "title": "Devadasu",
     "year": 2006,
     "genres": [
@@ -13745,7 +13564,7 @@ const MOVIES_DB = [
     "popularity": 0.3301
   },
   {
-    "id": 679,
+    "id": 670,
     "title": "Godavari",
     "year": 2006,
     "genres": [
@@ -13756,7 +13575,7 @@ const MOVIES_DB = [
     "heroine": "Kamalinee Mukherjee",
     "director": "Sekhar Kammula",
     "music": "K M Radha Krishnan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Sreram, an idealist recovering from heartbreak, and Seetha, an independent fashion designer facing setbacks, both cross paths on a cruise on",
     "poster_path": "/3SDynWhHwPrQ3pjouFgTKqBrI02.jpg",
     "tagline": "",
@@ -13765,7 +13584,7 @@ const MOVIES_DB = [
     "popularity": 0.5392
   },
   {
-    "id": 680,
+    "id": 671,
     "title": "Happy",
     "year": 2006,
     "genres": [
@@ -13785,7 +13604,7 @@ const MOVIES_DB = [
     "popularity": 0.6894
   },
   {
-    "id": 681,
+    "id": 672,
     "title": "Khatarnak",
     "year": 2006,
     "genres": [
@@ -13806,7 +13625,7 @@ const MOVIES_DB = [
     "popularity": 0.3647
   },
   {
-    "id": 682,
+    "id": 673,
     "title": "Kithakithalu",
     "year": 2006,
     "genres": [
@@ -13826,7 +13645,7 @@ const MOVIES_DB = [
     "popularity": 0.4436
   },
   {
-    "id": 683,
+    "id": 674,
     "title": "Lakshmi",
     "year": 2006,
     "genres": [
@@ -13845,7 +13664,7 @@ const MOVIES_DB = [
     "popularity": 0.3587
   },
   {
-    "id": 684,
+    "id": 675,
     "title": "Pokiri",
     "year": 2006,
     "genres": [
@@ -13857,7 +13676,7 @@ const MOVIES_DB = [
     "heroine": "Ileana D'Cruz",
     "director": "Puri Jagannadh",
     "music": "Mani Sharma",
-    "rating": "Blockbuster",
+    "rating": "Industry Hit",
     "hint": "Pandu is a contract killer and will accept any contract provided the amount is right. The police want him for questioning, while the underwo",
     "poster_path": "/rQ8NH5f3CxRrmqZWMZNYPwLmjDS.jpg",
     "tagline": "",
@@ -13866,7 +13685,7 @@ const MOVIES_DB = [
     "popularity": 0.7204
   },
   {
-    "id": 685,
+    "id": 676,
     "title": "Pournami",
     "year": 2006,
     "genres": [
@@ -13887,7 +13706,7 @@ const MOVIES_DB = [
     "popularity": 0.4874
   },
   {
-    "id": 686,
+    "id": 677,
     "title": "Rakhi",
     "year": 2006,
     "genres": [
@@ -13907,7 +13726,7 @@ const MOVIES_DB = [
     "popularity": 0.4455
   },
   {
-    "id": 687,
+    "id": 678,
     "title": "Ranam",
     "year": 2006,
     "genres": [
@@ -13928,7 +13747,7 @@ const MOVIES_DB = [
     "popularity": 0.3666
   },
   {
-    "id": 688,
+    "id": 679,
     "title": "Sainikudu",
     "year": 2006,
     "genres": [
@@ -13948,7 +13767,7 @@ const MOVIES_DB = [
     "popularity": 0.589
   },
   {
-    "id": 689,
+    "id": 680,
     "title": "Shock",
     "year": 2006,
     "genres": [
@@ -13968,7 +13787,7 @@ const MOVIES_DB = [
     "popularity": 0.4723
   },
   {
-    "id": 690,
+    "id": 681,
     "title": "Sri Ramadasu",
     "year": 2006,
     "genres": [
@@ -13989,7 +13808,7 @@ const MOVIES_DB = [
     "popularity": 0.4034
   },
   {
-    "id": 691,
+    "id": 682,
     "title": "Stalin",
     "year": 2006,
     "genres": [
@@ -14009,7 +13828,7 @@ const MOVIES_DB = [
     "popularity": 0.7873
   },
   {
-    "id": 692,
+    "id": 683,
     "title": "Style",
     "year": 2006,
     "genres": [
@@ -14029,7 +13848,7 @@ const MOVIES_DB = [
     "popularity": 0.348
   },
   {
-    "id": 693,
+    "id": 684,
     "title": "Vanaja",
     "year": 2006,
     "genres": [
@@ -14048,7 +13867,7 @@ const MOVIES_DB = [
     "popularity": 0.469
   },
   {
-    "id": 694,
+    "id": 685,
     "title": "Vikramarkudu",
     "year": 2006,
     "genres": [
@@ -14059,7 +13878,7 @@ const MOVIES_DB = [
     "heroine": "Anushka Shetty",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A thief's life changes after he discovers a little girl who claims he is her father, and what follows is violence after a gang hunting for h",
     "poster_path": "/b0yLhLXvlPS5uwyacBVNnR4KoOZ.jpg",
     "tagline": "",
@@ -14068,7 +13887,7 @@ const MOVIES_DB = [
     "popularity": 0.8061
   },
   {
-    "id": 695,
+    "id": 686,
     "title": "A Film by Aravind",
     "year": 2005,
     "genres": [
@@ -14088,7 +13907,7 @@ const MOVIES_DB = [
     "popularity": 0.3552
   },
   {
-    "id": 696,
+    "id": 687,
     "title": "Andarivaadu",
     "year": 2005,
     "genres": [
@@ -14108,7 +13927,7 @@ const MOVIES_DB = [
     "popularity": 0.7045
   },
   {
-    "id": 697,
+    "id": 688,
     "title": "Anukokunda Oka Roju",
     "year": 2005,
     "genres": [
@@ -14128,7 +13947,7 @@ const MOVIES_DB = [
     "popularity": 0.3533
   },
   {
-    "id": 698,
+    "id": 689,
     "title": "Athadu",
     "year": 2005,
     "genres": [
@@ -14140,7 +13959,7 @@ const MOVIES_DB = [
     "heroine": "Trisha Krishnan",
     "director": "Trivikram Srinivas",
     "music": "Mani Sharma",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "A hitman, Nandu, is hired to stage the assassination of a politician. However, when the politician is actually killed and Nandu is framed fo",
     "poster_path": "/AlopJ5sUgsf0pFn8FfXqdhyfL2Z.jpg",
     "tagline": "WANTED",
@@ -14149,7 +13968,7 @@ const MOVIES_DB = [
     "popularity": 1.1528
   },
   {
-    "id": 699,
+    "id": 690,
     "title": "Balu",
     "year": 2005,
     "genres": [
@@ -14169,7 +13988,7 @@ const MOVIES_DB = [
     "popularity": 0.3375
   },
   {
-    "id": 700,
+    "id": 691,
     "title": "Bhadra",
     "year": 2005,
     "genres": [
@@ -14188,7 +14007,7 @@ const MOVIES_DB = [
     "popularity": 0.7558
   },
   {
-    "id": 701,
+    "id": 692,
     "title": "Bhageeratha",
     "year": 2005,
     "genres": [
@@ -14207,7 +14026,7 @@ const MOVIES_DB = [
     "popularity": 0.3303
   },
   {
-    "id": 702,
+    "id": 693,
     "title": "Bunny",
     "year": 2005,
     "genres": [
@@ -14228,7 +14047,7 @@ const MOVIES_DB = [
     "popularity": 0.3245
   },
   {
-    "id": 703,
+    "id": 694,
     "title": "Chakram",
     "year": 2005,
     "genres": [
@@ -14248,7 +14067,7 @@ const MOVIES_DB = [
     "popularity": 0.4967
   },
   {
-    "id": 704,
+    "id": 695,
     "title": "Chatrapathi",
     "year": 2005,
     "genres": [
@@ -14268,7 +14087,7 @@ const MOVIES_DB = [
     "popularity": 0.6935
   },
   {
-    "id": 705,
+    "id": 696,
     "title": "Evadi Gola Vadide",
     "year": 2005,
     "genres": [
@@ -14288,7 +14107,7 @@ const MOVIES_DB = [
     "popularity": 0.4745
   },
   {
-    "id": 706,
+    "id": 697,
     "title": "Jai Chiranjeeva",
     "year": 2005,
     "genres": [
@@ -14307,7 +14126,7 @@ const MOVIES_DB = [
     "popularity": 0.4093
   },
   {
-    "id": 707,
+    "id": 698,
     "title": "Naa Alludu",
     "year": 2005,
     "genres": [
@@ -14327,7 +14146,26 @@ const MOVIES_DB = [
     "popularity": 0.3447
   },
   {
-    "id": 708,
+    "id": 699,
+    "title": "Narasimhudu",
+    "year": 2005,
+    "genres": [
+      "Action"
+    ],
+    "hero": "N.T. Rama Rao Jr. & Ashish Vidhyarthi",
+    "heroine": "Sameera Reddy",
+    "director": "B. Gopal",
+    "music": "Mani Sharma",
+    "rating": "Average",
+    "hint": "A young, orphaned boy is adopted by the villagers and he grows up striving for their wellbeing. When the sons of two corrupt men rape an 11-",
+    "poster_path": "/r84ZLKzmiYpbRuV6Npch4uHhU8h.jpg",
+    "tagline": "",
+    "vote_average": 3.6,
+    "vote_count": 5,
+    "popularity": 0.3232
+  },
+  {
+    "id": 700,
     "title": "Nuvvostanante Nenoddantana",
     "year": 2005,
     "genres": [
@@ -14339,7 +14177,7 @@ const MOVIES_DB = [
     "heroine": "Trisha Krishnan",
     "director": "Prabhu Deva",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Siri and Santosh fall in love with each other and plan to get married. However, his mother disapproves of their relationship.",
     "poster_path": "/zixbDSR1gOHgcATGdMaq20LjZEL.jpg",
     "tagline": "",
@@ -14348,7 +14186,7 @@ const MOVIES_DB = [
     "popularity": 0.6576
   },
   {
-    "id": 709,
+    "id": 701,
     "title": "Radha Gopalam",
     "year": 2005,
     "genres": [
@@ -14367,7 +14205,7 @@ const MOVIES_DB = [
     "popularity": 0.3914
   },
   {
-    "id": 710,
+    "id": 702,
     "title": "Soggadu",
     "year": 2005,
     "genres": [
@@ -14387,7 +14225,7 @@ const MOVIES_DB = [
     "popularity": 0.3016
   },
   {
-    "id": 711,
+    "id": 703,
     "title": "Super",
     "year": 2005,
     "genres": [
@@ -14407,7 +14245,7 @@ const MOVIES_DB = [
     "popularity": 0.4257
   },
   {
-    "id": 712,
+    "id": 704,
     "title": "143 (and I Miss You)",
     "year": 2004,
     "genres": [
@@ -14426,7 +14264,7 @@ const MOVIES_DB = [
     "popularity": 0.3102
   },
   {
-    "id": 713,
+    "id": 705,
     "title": "Aa Naluguru",
     "year": 2004,
     "genres": [
@@ -14436,7 +14274,7 @@ const MOVIES_DB = [
     "heroine": "Aamani",
     "director": "Chandra Siddhartha",
     "music": "R. P. Patnaik",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "This film is a tale of a willing loser, a good everyday guy who constantly sticks to his principles, fails, and finally takes a drastic step",
     "poster_path": "/wDaJEVkKpgARsBnaR15M3ovzoPg.jpg",
     "tagline": "",
@@ -14445,7 +14283,7 @@ const MOVIES_DB = [
     "popularity": 0.3648
   },
   {
-    "id": 714,
+    "id": 706,
     "title": "Aarya",
     "year": 2004,
     "genres": [
@@ -14456,7 +14294,7 @@ const MOVIES_DB = [
     "heroine": "Anuradha Mehta",
     "director": "Sukumar",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Aarya is a happy-go-lucky young man who goes to college. When he falls in love with Geetha at first sight, he proposes to her - in front of ",
     "poster_path": "/z7jMlu7SfftU7Wng77ElkIKpS1B.jpg",
     "tagline": "Feel My Love",
@@ -14465,7 +14303,7 @@ const MOVIES_DB = [
     "popularity": 4.0882
   },
   {
-    "id": 715,
+    "id": 707,
     "title": "Adavi Ramudu",
     "year": 2004,
     "genres": [
@@ -14475,7 +14313,7 @@ const MOVIES_DB = [
     "heroine": "Aarthi Agarwal",
     "director": "B. Gopal",
     "music": "Mani Sharma",
-    "rating": "Average",
+    "rating": "Industry Hit",
     "hint": "Madhu comes to a village in childhood here she taught a boy and tells him to be educated person.10 years later the boy Ramadu(Prabhas) retur",
     "poster_path": "/hyFMf4CVCfxUfSqW788j6nQR9Lq.jpg",
     "tagline": "",
@@ -14484,7 +14322,7 @@ const MOVIES_DB = [
     "popularity": 0.4228
   },
   {
-    "id": 716,
+    "id": 708,
     "title": "Anand",
     "year": 2004,
     "genres": [
@@ -14495,7 +14333,7 @@ const MOVIES_DB = [
     "heroine": "Kamalinee Mukherjee",
     "director": "Sekhar Kammula",
     "music": "K M Radha Krishnan",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A rich guy falls in love with an independent and strong-minded girl, and moves into her simple neighborhood to earn her love.",
     "poster_path": "/nEy1ue2wOGPfGsgVAhRzurRo6Xt.jpg",
     "tagline": "Manchi coffee lanti cinema!",
@@ -14504,7 +14342,7 @@ const MOVIES_DB = [
     "popularity": 0.3055
   },
   {
-    "id": 717,
+    "id": 709,
     "title": "Andhrawala",
     "year": 2004,
     "genres": [
@@ -14523,7 +14361,7 @@ const MOVIES_DB = [
     "popularity": 0.3009
   },
   {
-    "id": 718,
+    "id": 710,
     "title": "Anji",
     "year": 2004,
     "genres": [
@@ -14543,7 +14381,7 @@ const MOVIES_DB = [
     "popularity": 0.4851
   },
   {
-    "id": 719,
+    "id": 711,
     "title": "Arjun",
     "year": 2004,
     "genres": [
@@ -14563,7 +14401,7 @@ const MOVIES_DB = [
     "popularity": 0.385
   },
   {
-    "id": 720,
+    "id": 712,
     "title": "Gharshana",
     "year": 2004,
     "genres": [
@@ -14575,7 +14413,7 @@ const MOVIES_DB = [
     "heroine": "Asin Thottumkal",
     "director": "Gautham Vasudev Menon",
     "music": "Harris Jayaraj",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Rama Chandra (played by Daggubati Venkatesh) is the Deputy Commissioner of Police of Hyderabad City. His upbringing as an orphan, and the sp",
     "poster_path": "/fWOWOkWHV2HDr6wW0O7E6SPx4oQ.jpg",
     "tagline": "The Final Battle",
@@ -14584,7 +14422,7 @@ const MOVIES_DB = [
     "popularity": 0.4352
   },
   {
-    "id": 721,
+    "id": 713,
     "title": "Gudumba Shankar",
     "year": 2004,
     "genres": [
@@ -14605,7 +14443,7 @@ const MOVIES_DB = [
     "popularity": 0.398
   },
   {
-    "id": 722,
+    "id": 714,
     "title": "Malliswari",
     "year": 2004,
     "genres": [
@@ -14616,7 +14454,7 @@ const MOVIES_DB = [
     "heroine": "Katrina Kaif",
     "director": "K. Vijaya Bhaskar",
     "music": "Saluri Koteswara Rao",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A man falls in love with a woman, unbeknownst to the fact that she is a princess in hiding.",
     "poster_path": "/kY5BFcSodBPz3P2KVNLaT6DZyLW.jpg",
     "tagline": "The Princess",
@@ -14625,7 +14463,7 @@ const MOVIES_DB = [
     "popularity": 0.6452
   },
   {
-    "id": 723,
+    "id": 715,
     "title": "Mass",
     "year": 2004,
     "genres": [
@@ -14646,7 +14484,7 @@ const MOVIES_DB = [
     "popularity": 0.4688
   },
   {
-    "id": 724,
+    "id": 716,
     "title": "Naa Autograph Sweet Memories",
     "year": 2004,
     "genres": [
@@ -14667,7 +14505,7 @@ const MOVIES_DB = [
     "popularity": 0.5076
   },
   {
-    "id": 725,
+    "id": 717,
     "title": "Naani",
     "year": 2004,
     "genres": [
@@ -14688,7 +14526,7 @@ const MOVIES_DB = [
     "popularity": 0.605
   },
   {
-    "id": 726,
+    "id": 718,
     "title": "Nenunnanu",
     "year": 2004,
     "genres": [
@@ -14707,7 +14545,7 @@ const MOVIES_DB = [
     "popularity": 0.3383
   },
   {
-    "id": 727,
+    "id": 719,
     "title": "Samba",
     "year": 2004,
     "genres": [
@@ -14728,7 +14566,7 @@ const MOVIES_DB = [
     "popularity": 0.3092
   },
   {
-    "id": 728,
+    "id": 720,
     "title": "Shankar Dada M.B.B.S.",
     "year": 2004,
     "genres": [
@@ -14738,7 +14576,7 @@ const MOVIES_DB = [
     "heroine": "Sonali Bendre",
     "director": "Jayant Paranji",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Shankar Dada is a local goon who sets out to fulfill his parents' dream of him being a doctor. With help from his sidekick ATM, he enrolls h",
     "poster_path": "/rBkVDxKUGsElewghzsf7e1JKJ3f.jpg",
     "tagline": "",
@@ -14747,7 +14585,7 @@ const MOVIES_DB = [
     "popularity": 0.8298
   },
   {
-    "id": 729,
+    "id": 721,
     "title": "Sri Anjaneyam",
     "year": 2004,
     "genres": [
@@ -14766,7 +14604,7 @@ const MOVIES_DB = [
     "popularity": 0.3729
   },
   {
-    "id": 730,
+    "id": 722,
     "title": "Sye",
     "year": 2004,
     "genres": [
@@ -14777,7 +14615,7 @@ const MOVIES_DB = [
     "heroine": "Genelia D'Souza",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "The story is set in the backdrop of a college that is riven by two groups led by Prithvi and Shashank. Though there is nothing malicious bet",
     "poster_path": "/yetEKct1tQ1RDLQJKReaYirh5BI.jpg",
     "tagline": "A Challenge",
@@ -14786,7 +14624,7 @@ const MOVIES_DB = [
     "popularity": 1.1136
   },
   {
-    "id": 731,
+    "id": 723,
     "title": "Varsham",
     "year": 2004,
     "genres": [
@@ -14807,7 +14645,7 @@ const MOVIES_DB = [
     "popularity": 0.7758
   },
   {
-    "id": 732,
+    "id": 724,
     "title": "Venky",
     "year": 2004,
     "genres": [
@@ -14818,7 +14656,7 @@ const MOVIES_DB = [
     "heroine": "Sneha",
     "director": "Sreenu Vaitla",
     "music": "Devi Sri Prasad",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Venky is headed to Hyderabad to join the police force. However, he ends up embroiled in a double murder on the train. When he joins the acad",
     "poster_path": "/xCtw4lF84m57WIh1nIOnZvKMvKw.jpg",
     "tagline": "",
@@ -14827,7 +14665,7 @@ const MOVIES_DB = [
     "popularity": 0.5371
   },
   {
-    "id": 733,
+    "id": 725,
     "title": "Vijayendra Varma",
     "year": 2004,
     "genres": [
@@ -14846,7 +14684,7 @@ const MOVIES_DB = [
     "popularity": 0.3567
   },
   {
-    "id": 734,
+    "id": 726,
     "title": "Yagnam",
     "year": 2004,
     "genres": [
@@ -14865,7 +14703,7 @@ const MOVIES_DB = [
     "popularity": 0.4172
   },
   {
-    "id": 735,
+    "id": 727,
     "title": "Amma Nanna O Tamila Ammayi",
     "year": 2003,
     "genres": [
@@ -14876,7 +14714,7 @@ const MOVIES_DB = [
     "heroine": "Asin Thottumkal",
     "director": "Puri Jagannadh",
     "music": "Chakri",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Chandu is very passionate about kickboxing and his life revolves around his mother and his girlfriend. His life is shattered when his dying ",
     "poster_path": "/szkBh5ADjZxxAaMoOeZGOBhxzKR.jpg",
     "tagline": "",
@@ -14885,7 +14723,7 @@ const MOVIES_DB = [
     "popularity": 0.3693
   },
   {
-    "id": 736,
+    "id": 728,
     "title": "Dil",
     "year": 2003,
     "genres": [
@@ -14906,7 +14744,7 @@ const MOVIES_DB = [
     "popularity": 0.5454
   },
   {
-    "id": 737,
+    "id": 729,
     "title": "Ela Cheppanu",
     "year": 2003,
     "genres": [
@@ -14925,7 +14763,7 @@ const MOVIES_DB = [
     "popularity": 1.5804
   },
   {
-    "id": 738,
+    "id": 730,
     "title": "Gangotri",
     "year": 2003,
     "genres": [
@@ -14945,7 +14783,7 @@ const MOVIES_DB = [
     "popularity": 0.5682
   },
   {
-    "id": 739,
+    "id": 731,
     "title": "Johnny",
     "year": 2003,
     "genres": [
@@ -14965,7 +14803,7 @@ const MOVIES_DB = [
     "popularity": 0.5247
   },
   {
-    "id": 740,
+    "id": 732,
     "title": "Naaga",
     "year": 2003,
     "genres": [
@@ -14985,7 +14823,7 @@ const MOVIES_DB = [
     "popularity": 0.386
   },
   {
-    "id": 741,
+    "id": 733,
     "title": "Nijam",
     "year": 2003,
     "genres": [
@@ -15005,7 +14843,7 @@ const MOVIES_DB = [
     "popularity": 0.3133
   },
   {
-    "id": 742,
+    "id": 734,
     "title": "Okkadu",
     "year": 2003,
     "genres": [
@@ -15017,7 +14855,7 @@ const MOVIES_DB = [
     "heroine": "Bhumika Chawla",
     "director": "Gunasekhar",
     "music": "Mani Sharma",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Ajay, a fiery Kabaddi player from Hyderabad, visits Kurnool for a tournament and rescues Swapna from a faction leader Obul Reddy, who wants ",
     "poster_path": "/nVBa5QWSPrVzFyHK2XWrsruQzyl.jpg",
     "tagline": "",
@@ -15026,7 +14864,7 @@ const MOVIES_DB = [
     "popularity": 1.0404
   },
   {
-    "id": 743,
+    "id": 735,
     "title": "Raghavendra",
     "year": 2003,
     "genres": [
@@ -15047,7 +14885,7 @@ const MOVIES_DB = [
     "popularity": 0.677
   },
   {
-    "id": 744,
+    "id": 736,
     "title": "Satyam",
     "year": 2003,
     "genres": [
@@ -15066,7 +14904,7 @@ const MOVIES_DB = [
     "popularity": 0.3334
   },
   {
-    "id": 745,
+    "id": 737,
     "title": "Simhadri",
     "year": 2003,
     "genres": [
@@ -15077,7 +14915,7 @@ const MOVIES_DB = [
     "heroine": "Bhumika Chawla",
     "director": "S. S. Rajamouli",
     "music": "M.M. Keeravaani",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Simhadri, a loyal servant in a landlord's house, leads a secret life as Singamalai, a powerful leader in the state of Kerala.",
     "poster_path": "/pTzdNOtWSXB32OGPCI5ayE4NgiX.jpg",
     "tagline": "",
@@ -15086,7 +14924,7 @@ const MOVIES_DB = [
     "popularity": 0.6141
   },
   {
-    "id": 746,
+    "id": 738,
     "title": "Sivamani",
     "year": 2003,
     "genres": [
@@ -15107,7 +14945,7 @@ const MOVIES_DB = [
     "popularity": 0.3108
   },
   {
-    "id": 747,
+    "id": 739,
     "title": "Tagore",
     "year": 2003,
     "genres": [
@@ -15118,7 +14956,7 @@ const MOVIES_DB = [
     "heroine": "Shriya Saran",
     "director": "V. V. Vinayak",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Tagore (Chiranjeevi) creates his own vigilante military network called the Anti-Corruption Force (ACF) that eliminates the most corrupt indi",
     "poster_path": "/uMYWgHSiFEiE0bPLBp4eZTxLnqv.jpg",
     "tagline": "",
@@ -15127,7 +14965,7 @@ const MOVIES_DB = [
     "popularity": 0.5178
   },
   {
-    "id": 748,
+    "id": 740,
     "title": "Vasantham",
     "year": 2003,
     "genres": [
@@ -15148,7 +14986,7 @@ const MOVIES_DB = [
     "popularity": 0.3008
   },
   {
-    "id": 749,
+    "id": 741,
     "title": "Aadi",
     "year": 2002,
     "genres": [
@@ -15168,7 +15006,7 @@ const MOVIES_DB = [
     "popularity": 0.5297
   },
   {
-    "id": 750,
+    "id": 742,
     "title": "Bobby",
     "year": 2002,
     "genres": [
@@ -15187,7 +15025,7 @@ const MOVIES_DB = [
     "popularity": 0.4606
   },
   {
-    "id": 751,
+    "id": 743,
     "title": "Chennakesava Reddy",
     "year": 2002,
     "genres": [
@@ -15208,7 +15046,7 @@ const MOVIES_DB = [
     "popularity": 0.3751
   },
   {
-    "id": 752,
+    "id": 744,
     "title": "Eeshwar",
     "year": 2002,
     "genres": [
@@ -15225,10 +15063,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 5.125,
     "vote_count": 8,
-    "popularity": 0.6817
+    "popularity": 0.5783
   },
   {
-    "id": 753,
+    "id": 745,
     "title": "Gemeni",
     "year": 2002,
     "genres": [
@@ -15249,7 +15087,7 @@ const MOVIES_DB = [
     "popularity": 0.4965
   },
   {
-    "id": 754,
+    "id": 746,
     "title": "Idiot",
     "year": 2002,
     "genres": [
@@ -15270,7 +15108,7 @@ const MOVIES_DB = [
     "popularity": 0.6973
   },
   {
-    "id": 755,
+    "id": 747,
     "title": "Indra",
     "year": 2002,
     "genres": [
@@ -15281,7 +15119,7 @@ const MOVIES_DB = [
     "heroine": "Sonali Bendre",
     "director": "B. Gopal",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Industry Hit",
     "hint": "A man embarks on a quest to make peace between two families fighting over the water problem in their district. In a bid to solve this crisis",
     "poster_path": "/2PPCIPNzSRqRjyNf3ZU1NN8yXv.jpg",
     "tagline": "Born for the people.",
@@ -15290,7 +15128,7 @@ const MOVIES_DB = [
     "popularity": 0.6783
   },
   {
-    "id": 756,
+    "id": 748,
     "title": "Jayam",
     "year": 2002,
     "genres": [
@@ -15300,7 +15138,7 @@ const MOVIES_DB = [
     "heroine": "Sadha",
     "director": "Teja",
     "music": "R. P. Patnaik",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "The story is centered in a village where the parents of first cousins Sujatha (Sadha) and Raghu (Gopichand) decide that both will be married",
     "poster_path": "/yImLtxucFUGCzLoyN3YpmdK8oG0.jpg",
     "tagline": "",
@@ -15309,7 +15147,7 @@ const MOVIES_DB = [
     "popularity": 0.733
   },
   {
-    "id": 757,
+    "id": 749,
     "title": "Khadgam",
     "year": 2002,
     "genres": [
@@ -15329,7 +15167,7 @@ const MOVIES_DB = [
     "popularity": 0.5122
   },
   {
-    "id": 758,
+    "id": 750,
     "title": "Manmadhudu",
     "year": 2002,
     "genres": [
@@ -15340,7 +15178,7 @@ const MOVIES_DB = [
     "heroine": "Sonali Bendre",
     "director": "K. Vijaya Bhaskar",
     "music": "Devi Sri Prasad",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "Abhiram, a misogynist, works as a manager in his own advertising agency. When his uncle, the chairman, appoints Harika as an assistant manag",
     "poster_path": "/bHjMjCmtpfQzQoDjiL9rWWo4ahd.jpg",
     "tagline": "He Hates Women..!",
@@ -15349,7 +15187,7 @@ const MOVIES_DB = [
     "popularity": 0.4104
   },
   {
-    "id": 759,
+    "id": 751,
     "title": "Nuvve... Nuvve...",
     "year": 2002,
     "genres": [
@@ -15370,7 +15208,7 @@ const MOVIES_DB = [
     "popularity": 0.5582
   },
   {
-    "id": 760,
+    "id": 752,
     "title": "Santosham",
     "year": 2002,
     "genres": [
@@ -15390,7 +15228,7 @@ const MOVIES_DB = [
     "popularity": 0.3753
   },
   {
-    "id": 761,
+    "id": 753,
     "title": "Sontham",
     "year": 2002,
     "genres": [
@@ -15410,7 +15248,7 @@ const MOVIES_DB = [
     "popularity": 0.4248
   },
   {
-    "id": 762,
+    "id": 754,
     "title": "Takkari Donga",
     "year": 2002,
     "genres": [
@@ -15422,7 +15260,7 @@ const MOVIES_DB = [
     "heroine": "Lisa Ray",
     "director": "Jayant Paranji",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A fearless outlaw offers to safeguard the daughter of his accomplice in return for a map to a secret diamond mine. However, his quest is com",
     "poster_path": "/sCSOX0C9dhsI2Ci286JMu2IqAuG.jpg",
     "tagline": "",
@@ -15431,7 +15269,7 @@ const MOVIES_DB = [
     "popularity": 0.4881
   },
   {
-    "id": 763,
+    "id": 755,
     "title": "The Rite, a Passion",
     "year": 2002,
     "genres": [
@@ -15450,7 +15288,7 @@ const MOVIES_DB = [
     "popularity": 0.3293
   },
   {
-    "id": 764,
+    "id": 756,
     "title": "Thotti Gang",
     "year": 2002,
     "genres": [
@@ -15469,7 +15307,7 @@ const MOVIES_DB = [
     "popularity": 0.4103
   },
   {
-    "id": 765,
+    "id": 757,
     "title": "Anandam",
     "year": 2001,
     "genres": [
@@ -15485,10 +15323,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 8.5,
     "vote_count": 6,
-    "popularity": 0.4768
+    "popularity": 0.417
   },
   {
-    "id": 766,
+    "id": 758,
     "title": "Daddy",
     "year": 2001,
     "genres": [
@@ -15508,7 +15346,7 @@ const MOVIES_DB = [
     "popularity": 0.3903
   },
   {
-    "id": 767,
+    "id": 759,
     "title": "Devi Putrudu",
     "year": 2001,
     "genres": [
@@ -15528,7 +15366,7 @@ const MOVIES_DB = [
     "popularity": 0.3127
   },
   {
-    "id": 768,
+    "id": 760,
     "title": "Hanuman Junction",
     "year": 2001,
     "genres": [
@@ -15548,7 +15386,7 @@ const MOVIES_DB = [
     "popularity": 0.4597
   },
   {
-    "id": 769,
+    "id": 761,
     "title": "Itlu Sravani Subramanyam",
     "year": 2001,
     "genres": [
@@ -15568,7 +15406,7 @@ const MOVIES_DB = [
     "popularity": 0.3528
   },
   {
-    "id": 770,
+    "id": 762,
     "title": "Khushi",
     "year": 2001,
     "genres": [
@@ -15589,7 +15427,7 @@ const MOVIES_DB = [
     "popularity": 0.4746
   },
   {
-    "id": 771,
+    "id": 763,
     "title": "Manasantha Nuvve",
     "year": 2001,
     "genres": [
@@ -15609,7 +15447,7 @@ const MOVIES_DB = [
     "popularity": 0.347
   },
   {
-    "id": 772,
+    "id": 764,
     "title": "Mrugaraju",
     "year": 2001,
     "genres": [
@@ -15628,7 +15466,7 @@ const MOVIES_DB = [
     "popularity": 0.3681
   },
   {
-    "id": 773,
+    "id": 765,
     "title": "Murari",
     "year": 2001,
     "genres": [
@@ -15640,7 +15478,7 @@ const MOVIES_DB = [
     "heroine": "Sonali Bendre",
     "director": "Pasupuleti Krishna Vamsi",
     "music": "Mani Sharma",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A family is haunted by a goddess's curse, claiming the life of a male every 48 years due to an ancestral sin.",
     "poster_path": "/uVpP7prS0DKqxxVkjz2jFjiasbG.jpg",
     "tagline": "",
@@ -15649,7 +15487,7 @@ const MOVIES_DB = [
     "popularity": 0.6014
   },
   {
-    "id": 774,
+    "id": 766,
     "title": "Narasimha Naidu",
     "year": 2001,
     "genres": [
@@ -15660,7 +15498,7 @@ const MOVIES_DB = [
     "heroine": "Simran",
     "director": "B. Gopal",
     "music": "Mani Sharma",
-    "rating": "Average",
+    "rating": "Industry Hit",
     "hint": "Narasimha (Balakrishna) is an unassuming dance teacher raising a young child on his own. His true identity, and the story of his violent pas",
     "poster_path": "/qItfqxoMVoDpyj8Es7QLSUb21DY.jpg",
     "tagline": "",
@@ -15669,7 +15507,7 @@ const MOVIES_DB = [
     "popularity": 0.3377
   },
   {
-    "id": 775,
+    "id": 767,
     "title": "Nuvvu Naaku Nachav",
     "year": 2001,
     "genres": [
@@ -15681,7 +15519,7 @@ const MOVIES_DB = [
     "heroine": "Aarthi Agarwal",
     "director": "K. Vijaya Bhaskar",
     "music": "Saluri Koteswara Rao",
-    "rating": "Blockbuster",
+    "rating": "Hit",
     "hint": "Venky and Nandini's relationship changes from mere friendship to something that is more romantic. However, love only blossoms between the tw",
     "poster_path": "/z6F2Y7zddPFZ2ls9OY006egVClP.jpg",
     "tagline": "... the new love story",
@@ -15690,7 +15528,7 @@ const MOVIES_DB = [
     "popularity": 0.714
   },
   {
-    "id": 776,
+    "id": 768,
     "title": "Student No. 1",
     "year": 2001,
     "genres": [
@@ -15711,7 +15549,7 @@ const MOVIES_DB = [
     "popularity": 0.6888
   },
   {
-    "id": 777,
+    "id": 769,
     "title": "Annayya",
     "year": 2000,
     "genres": [
@@ -15731,7 +15569,7 @@ const MOVIES_DB = [
     "popularity": 0.7914
   },
   {
-    "id": 778,
+    "id": 770,
     "title": "Azad",
     "year": 2000,
     "genres": [
@@ -15752,7 +15590,7 @@ const MOVIES_DB = [
     "popularity": 0.3967
   },
   {
-    "id": 779,
+    "id": 771,
     "title": "Badri",
     "year": 2000,
     "genres": [
@@ -15773,7 +15611,7 @@ const MOVIES_DB = [
     "popularity": 0.469
   },
   {
-    "id": 780,
+    "id": 772,
     "title": "Chala Bagundi",
     "year": 2000,
     "genres": [
@@ -15792,7 +15630,7 @@ const MOVIES_DB = [
     "popularity": 0.3209
   },
   {
-    "id": 781,
+    "id": 773,
     "title": "Chiru Navvuto",
     "year": 2000,
     "genres": [
@@ -15811,7 +15649,7 @@ const MOVIES_DB = [
     "popularity": 0.3514
   },
   {
-    "id": 782,
+    "id": 774,
     "title": "Chitram",
     "year": 2000,
     "genres": [
@@ -15830,7 +15668,7 @@ const MOVIES_DB = [
     "popularity": 0.3699
   },
   {
-    "id": 783,
+    "id": 775,
     "title": "Devullu",
     "year": 2000,
     "genres": [
@@ -15849,7 +15687,7 @@ const MOVIES_DB = [
     "popularity": 0.4432
   },
   {
-    "id": 784,
+    "id": 776,
     "title": "Kalisundam Raa",
     "year": 2000,
     "genres": [
@@ -15869,7 +15707,7 @@ const MOVIES_DB = [
     "popularity": 0.3923
   },
   {
-    "id": 785,
+    "id": 777,
     "title": "Kshemanga Velli Labhamga Randi",
     "year": 2000,
     "genres": [
@@ -15888,7 +15726,7 @@ const MOVIES_DB = [
     "popularity": 0.7764
   },
   {
-    "id": 786,
+    "id": 778,
     "title": "Manoharam",
     "year": 2000,
     "genres": [
@@ -15908,7 +15746,7 @@ const MOVIES_DB = [
     "popularity": 0.4638
   },
   {
-    "id": 787,
+    "id": 779,
     "title": "Nuvve Kavali",
     "year": 2000,
     "genres": [
@@ -15929,7 +15767,7 @@ const MOVIES_DB = [
     "popularity": 0.565
   },
   {
-    "id": 788,
+    "id": 780,
     "title": "Nuvvu Vastavani",
     "year": 2000,
     "genres": [
@@ -15948,7 +15786,7 @@ const MOVIES_DB = [
     "popularity": 0.3906
   },
   {
-    "id": 789,
+    "id": 781,
     "title": "Vamsi",
     "year": 2000,
     "genres": [
@@ -15968,7 +15806,7 @@ const MOVIES_DB = [
     "popularity": 0.7132
   },
   {
-    "id": 790,
+    "id": 782,
     "title": "Yuvaraju",
     "year": 2000,
     "genres": [
@@ -15988,7 +15826,7 @@ const MOVIES_DB = [
     "popularity": 0.4709
   },
   {
-    "id": 791,
+    "id": 783,
     "title": "Iddaru Mitrulu",
     "year": 1999,
     "genres": [
@@ -16007,7 +15845,7 @@ const MOVIES_DB = [
     "popularity": 0.3102
   },
   {
-    "id": 792,
+    "id": 784,
     "title": "Raja",
     "year": 1999,
     "genres": [
@@ -16026,7 +15864,7 @@ const MOVIES_DB = [
     "popularity": 0.3235
   },
   {
-    "id": 793,
+    "id": 785,
     "title": "Rajakumarudu",
     "year": 1999,
     "genres": [
@@ -16047,7 +15885,7 @@ const MOVIES_DB = [
     "popularity": 0.6236
   },
   {
-    "id": 794,
+    "id": 786,
     "title": "Samarasimha Reddy",
     "year": 1999,
     "genres": [
@@ -16058,7 +15896,7 @@ const MOVIES_DB = [
     "heroine": "Simran",
     "director": "B. Gopal",
     "music": "Mani Sharma",
-    "rating": "Average",
+    "rating": "Industry Hit",
     "hint": "A man claims to be the long-lost brother of three sisters, returning to help improve their lives. His true identity, and the intention behin",
     "poster_path": "/yDDu07KAOaKKud0GaRQpZoIT5T4.jpg",
     "tagline": "",
@@ -16067,7 +15905,7 @@ const MOVIES_DB = [
     "popularity": 0.5141
   },
   {
-    "id": 795,
+    "id": 787,
     "title": "Seenu",
     "year": 1999,
     "genres": [
@@ -16086,7 +15924,7 @@ const MOVIES_DB = [
     "popularity": 0.3879
   },
   {
-    "id": 796,
+    "id": 788,
     "title": "Seetharama Raju",
     "year": 1999,
     "genres": [
@@ -16106,7 +15944,7 @@ const MOVIES_DB = [
     "popularity": 0.5505
   },
   {
-    "id": 797,
+    "id": 789,
     "title": "Sneham Kosam",
     "year": 1999,
     "genres": [
@@ -16126,7 +15964,27 @@ const MOVIES_DB = [
     "popularity": 0.3607
   },
   {
-    "id": 798,
+    "id": 790,
+    "title": "Swayamvaram",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "hero": "Venu Thottempudi & Brahmaji",
+    "heroine": "Laya",
+    "director": "K. Vijaya Bhaskar",
+    "music": "Unknown",
+    "rating": "Average",
+    "hint": "Though Venu and Anu hate each other initially, they eventually fall in love when they keep meeting each other due to a common friend, Bose, ",
+    "poster_path": "/6NCF4MgJhYEfPK6elBDQgBJkshH.jpg",
+    "tagline": "",
+    "vote_average": 6.7,
+    "vote_count": 3,
+    "popularity": 0.3046
+  },
+  {
+    "id": 791,
     "title": "Aavida Maa Aavide",
     "year": 1998,
     "genres": [
@@ -16147,7 +16005,7 @@ const MOVIES_DB = [
     "popularity": 0.4295
   },
   {
-    "id": 799,
+    "id": 792,
     "title": "Anthahpuram",
     "year": 1998,
     "genres": [
@@ -16168,7 +16026,7 @@ const MOVIES_DB = [
     "popularity": 0.4079
   },
   {
-    "id": 800,
+    "id": 793,
     "title": "Chandralekha",
     "year": 1998,
     "genres": [
@@ -16188,7 +16046,7 @@ const MOVIES_DB = [
     "popularity": 0.3711
   },
   {
-    "id": 801,
+    "id": 794,
     "title": "Choodalani Vundi",
     "year": 1998,
     "genres": [
@@ -16209,7 +16067,7 @@ const MOVIES_DB = [
     "popularity": 0.3767
   },
   {
-    "id": 802,
+    "id": 795,
     "title": "Premante Ideraa",
     "year": 1998,
     "genres": [
@@ -16229,7 +16087,7 @@ const MOVIES_DB = [
     "popularity": 0.3773
   },
   {
-    "id": 803,
+    "id": 796,
     "title": "Surya Vamsham",
     "year": 1998,
     "genres": [
@@ -16248,7 +16106,7 @@ const MOVIES_DB = [
     "popularity": 0.4294
   },
   {
-    "id": 804,
+    "id": 797,
     "title": "Annamayya",
     "year": 1997,
     "genres": [
@@ -16269,7 +16127,7 @@ const MOVIES_DB = [
     "popularity": 0.5846
   },
   {
-    "id": 805,
+    "id": 798,
     "title": "Dongaata",
     "year": 1997,
     "genres": [
@@ -16288,7 +16146,7 @@ const MOVIES_DB = [
     "popularity": 0.609
   },
   {
-    "id": 806,
+    "id": 799,
     "title": "Gokulamlo Seetha",
     "year": 1997,
     "genres": [
@@ -16308,7 +16166,7 @@ const MOVIES_DB = [
     "popularity": 0.3304
   },
   {
-    "id": 807,
+    "id": 800,
     "title": "Hitler",
     "year": 1997,
     "genres": [
@@ -16327,7 +16185,7 @@ const MOVIES_DB = [
     "popularity": 0.3766
   },
   {
-    "id": 808,
+    "id": 801,
     "title": "Preminchukundam Raa",
     "year": 1997,
     "genres": [
@@ -16348,7 +16206,7 @@ const MOVIES_DB = [
     "popularity": 0.5057
   },
   {
-    "id": 809,
+    "id": 802,
     "title": "Subhakankshalu",
     "year": 1997,
     "genres": [
@@ -16368,7 +16226,7 @@ const MOVIES_DB = [
     "popularity": 0.6392
   },
   {
-    "id": 810,
+    "id": 803,
     "title": "Veedevadandi Babu",
     "year": 1997,
     "genres": [
@@ -16387,7 +16245,7 @@ const MOVIES_DB = [
     "popularity": 0.4066
   },
   {
-    "id": 811,
+    "id": 804,
     "title": "Akkada Ammayi Ikkada Abbayi",
     "year": 1996,
     "genres": [
@@ -16407,7 +16265,7 @@ const MOVIES_DB = [
     "popularity": 0.4065
   },
   {
-    "id": 812,
+    "id": 805,
     "title": "Intlo Illalu Vantintlo Priyuralu",
     "year": 1996,
     "genres": [
@@ -16427,7 +16285,7 @@ const MOVIES_DB = [
     "popularity": 0.6175
   },
   {
-    "id": 813,
+    "id": 806,
     "title": "Ninne Pelladatha",
     "year": 1996,
     "genres": [
@@ -16438,7 +16296,7 @@ const MOVIES_DB = [
     "heroine": "Tabu",
     "director": "Pasupuleti Krishna Vamsi",
     "music": "Sandeep Chowta",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "When Mahalakshmi comes to the city, she falls in love with Seenu, whose family approves of her. But when her parents arrive, they forcibly t",
     "poster_path": "/liRlXPeZbTQR4oQb1nqaE7COx5i.jpg",
     "tagline": "",
@@ -16447,7 +16305,7 @@ const MOVIES_DB = [
     "popularity": 0.6167
   },
   {
-    "id": 814,
+    "id": 807,
     "title": "Pavithra Bandham",
     "year": 1996,
     "genres": [
@@ -16468,7 +16326,7 @@ const MOVIES_DB = [
     "popularity": 0.3194
   },
   {
-    "id": 815,
+    "id": 808,
     "title": "Saahasa Veerudu Saagara Kanya",
     "year": 1996,
     "genres": [
@@ -16487,7 +16345,7 @@ const MOVIES_DB = [
     "popularity": 0.3483
   },
   {
-    "id": 816,
+    "id": 809,
     "title": "Vinodham",
     "year": 1996,
     "genres": [
@@ -16507,7 +16365,7 @@ const MOVIES_DB = [
     "popularity": 0.3175
   },
   {
-    "id": 817,
+    "id": 810,
     "title": "Ammoru",
     "year": 1995,
     "genres": [
@@ -16527,7 +16385,7 @@ const MOVIES_DB = [
     "popularity": 0.5165
   },
   {
-    "id": 818,
+    "id": 811,
     "title": "Ghatotkachudu",
     "year": 1995,
     "genres": [
@@ -16547,7 +16405,7 @@ const MOVIES_DB = [
     "popularity": 0.3422
   },
   {
-    "id": 819,
+    "id": 812,
     "title": "Pedarayudu",
     "year": 1995,
     "genres": [
@@ -16567,7 +16425,7 @@ const MOVIES_DB = [
     "popularity": 0.3726
   },
   {
-    "id": 820,
+    "id": 813,
     "title": "Sisindri",
     "year": 1995,
     "genres": [
@@ -16587,7 +16445,7 @@ const MOVIES_DB = [
     "popularity": 0.3111
   },
   {
-    "id": 821,
+    "id": 814,
     "title": "Bhairava Dweepam",
     "year": 1994,
     "genres": [
@@ -16604,10 +16462,10 @@ const MOVIES_DB = [
     "tagline": "",
     "vote_average": 7.333,
     "vote_count": 6,
-    "popularity": 0.3714
+    "popularity": 0.5888
   },
   {
-    "id": 822,
+    "id": 815,
     "title": "Hello Brother",
     "year": 1994,
     "genres": [
@@ -16618,7 +16476,7 @@ const MOVIES_DB = [
     "heroine": "Soundarya",
     "director": "E.V.V. Satyanarayana",
     "music": "Saluri Koteswara Rao",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "A couple has twin sons with reflection mentality but one of the sons is abducted and left on the road by a criminal. Both brothers grow up w",
     "poster_path": "/f2BLnilf2ELTA1riVFB7GCr8Qse.jpg",
     "tagline": "",
@@ -16627,7 +16485,7 @@ const MOVIES_DB = [
     "popularity": 0.4304
   },
   {
-    "id": 823,
+    "id": 816,
     "title": "S.P. Parasuram",
     "year": 1994,
     "genres": [
@@ -16647,7 +16505,7 @@ const MOVIES_DB = [
     "popularity": 0.3193
   },
   {
-    "id": 824,
+    "id": 817,
     "title": "Alibaba Aradajanu Dongalu",
     "year": 1993,
     "genres": [
@@ -16666,7 +16524,7 @@ const MOVIES_DB = [
     "popularity": 0.6766
   },
   {
-    "id": 825,
+    "id": 818,
     "title": "Gaayam",
     "year": 1993,
     "genres": [
@@ -16686,7 +16544,7 @@ const MOVIES_DB = [
     "popularity": 0.4916
   },
   {
-    "id": 826,
+    "id": 819,
     "title": "Govindha Govindha",
     "year": 1993,
     "genres": [
@@ -16707,7 +16565,7 @@ const MOVIES_DB = [
     "popularity": 0.4387
   },
   {
-    "id": 827,
+    "id": 820,
     "title": "Major Chandrakanth",
     "year": 1993,
     "genres": [
@@ -16727,7 +16585,7 @@ const MOVIES_DB = [
     "popularity": 0.3934
   },
   {
-    "id": 828,
+    "id": 821,
     "title": "Mechanic Alludu",
     "year": 1993,
     "genres": [
@@ -16746,7 +16604,7 @@ const MOVIES_DB = [
     "popularity": 0.3039
   },
   {
-    "id": 829,
+    "id": 822,
     "title": "Mister Pellam",
     "year": 1993,
     "genres": [
@@ -16765,7 +16623,7 @@ const MOVIES_DB = [
     "popularity": 0.4788
   },
   {
-    "id": 830,
+    "id": 823,
     "title": "Money",
     "year": 1993,
     "genres": [
@@ -16785,7 +16643,7 @@ const MOVIES_DB = [
     "popularity": 0.3842
   },
   {
-    "id": 831,
+    "id": 824,
     "title": "Muta Mestri",
     "year": 1993,
     "genres": [
@@ -16805,7 +16663,7 @@ const MOVIES_DB = [
     "popularity": 0.3421
   },
   {
-    "id": 832,
+    "id": 825,
     "title": "Rajendrudu Gajendrudu",
     "year": 1993,
     "genres": [
@@ -16824,7 +16682,7 @@ const MOVIES_DB = [
     "popularity": 0.5515
   },
   {
-    "id": 833,
+    "id": 826,
     "title": "Aapadbandhavudu",
     "year": 1992,
     "genres": [
@@ -16843,7 +16701,7 @@ const MOVIES_DB = [
     "popularity": 0.3711
   },
   {
-    "id": 834,
+    "id": 827,
     "title": "Appula Appa Rao",
     "year": 1992,
     "genres": [
@@ -16862,7 +16720,7 @@ const MOVIES_DB = [
     "popularity": 0.3262
   },
   {
-    "id": 835,
+    "id": 828,
     "title": "Gharana Mogudu",
     "year": 1992,
     "genres": [
@@ -16872,7 +16730,7 @@ const MOVIES_DB = [
     "heroine": "Nagma",
     "director": "K Raghavendra Rao",
     "music": "M.M. Keeravaani",
-    "rating": "Average",
+    "rating": "Industry Hit",
     "hint": "Gharana Mogudu is a remake of tamil movie Mannan and it is a drama based movie in which, Raju (Chiranjeevi) is a do-gooder who helps his fel",
     "poster_path": "/beK6IozHPQ1A4c3mgf1jFNWFutc.jpg",
     "tagline": "",
@@ -16881,7 +16739,7 @@ const MOVIES_DB = [
     "popularity": 0.4235
   },
   {
-    "id": 836,
+    "id": 829,
     "title": "Aditya 369",
     "year": 1991,
     "genres": [
@@ -16892,7 +16750,7 @@ const MOVIES_DB = [
     "heroine": "Mohini",
     "director": "Singeetam Srinivasa Rao",
     "music": "Ilaiyaraaja",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "In a series of events involving a stolen diamond, Krishna and Hema get caught in a time machine and travel through the centuries, encounteri",
     "poster_path": "/54d8w0Yr2kCdXnLRkqIYVTEFfd6.jpg",
     "tagline": "",
@@ -16901,7 +16759,7 @@ const MOVIES_DB = [
     "popularity": 0.5933
   },
   {
-    "id": 837,
+    "id": 830,
     "title": "Edurinti Mogudu Pakkinti Pellam",
     "year": 1991,
     "genres": [
@@ -16920,7 +16778,7 @@ const MOVIES_DB = [
     "popularity": 0.43
   },
   {
-    "id": 838,
+    "id": 831,
     "title": "Gang Leader",
     "year": 1991,
     "genres": [
@@ -16931,7 +16789,7 @@ const MOVIES_DB = [
     "heroine": "Vijayashanti",
     "director": "Vijaya Bapineedu",
     "music": "Bappi Lahiri",
-    "rating": "Average",
+    "rating": "Industry Hit",
     "hint": "Rajaram, youngest of three brothers, owns up to another's crime in order to fund his middle brother's education. He is shattered when he lea",
     "poster_path": "/6gALL6FJSqyu9udXydnfyoJWbiB.jpg",
     "tagline": "",
@@ -16940,7 +16798,7 @@ const MOVIES_DB = [
     "popularity": 0.3528
   },
   {
-    "id": 839,
+    "id": 832,
     "title": "Nirnayam",
     "year": 1991,
     "genres": [
@@ -16960,7 +16818,7 @@ const MOVIES_DB = [
     "popularity": 0.3374
   },
   {
-    "id": 840,
+    "id": 833,
     "title": "Rowdy Alludu",
     "year": 1991,
     "genres": [
@@ -16980,7 +16838,7 @@ const MOVIES_DB = [
     "popularity": 0.4428
   },
   {
-    "id": 841,
+    "id": 834,
     "title": "Bobbili Raja",
     "year": 1990,
     "genres": [
@@ -16999,7 +16857,7 @@ const MOVIES_DB = [
     "popularity": 0.4173
   },
   {
-    "id": 842,
+    "id": 835,
     "title": "Jagadeka Veerudu Athiloka Sundari",
     "year": 1990,
     "genres": [
@@ -17011,7 +16869,7 @@ const MOVIES_DB = [
     "heroine": "Sridevi",
     "director": "K Raghavendra Rao",
     "music": "Ilaiyaraaja",
-    "rating": "Industry Hit",
+    "rating": "Average",
     "hint": "A man finds a ring that gives the bearer great power, but the goddess to whom the ring belongs wants it back to return to her world.",
     "poster_path": "/q1B0XgJmzlSP6sujx95ny2tSwrK.jpg",
     "tagline": "",
@@ -17020,7 +16878,7 @@ const MOVIES_DB = [
     "popularity": 0.5146
   },
   {
-    "id": 843,
+    "id": 836,
     "title": "Jayammu Nischayammu Raa!",
     "year": 1990,
     "genres": [
@@ -17040,7 +16898,7 @@ const MOVIES_DB = [
     "popularity": 0.5903
   },
   {
-    "id": 844,
+    "id": 837,
     "title": "Attaku Yamudu Ammayiki Mogudu",
     "year": 1989,
     "genres": [
@@ -17059,7 +16917,7 @@ const MOVIES_DB = [
     "popularity": 0.396
   },
   {
-    "id": 845,
+    "id": 838,
     "title": "Geethanjali",
     "year": 1989,
     "genres": [
@@ -17070,7 +16928,7 @@ const MOVIES_DB = [
     "heroine": "Girija Shettar",
     "director": "Mani Ratnam",
     "music": "Ilaiyaraaja",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Prakash, who is diagnosed with terminal cancer, and Geethanjali, an equally ill patient, fall in love with each other. However, when she lea",
     "poster_path": "/qZVWloCwvgP5JtaqBWoFY6YspzT.jpg",
     "tagline": "",
@@ -17079,7 +16937,7 @@ const MOVIES_DB = [
     "popularity": 0.4772
   },
   {
-    "id": 846,
+    "id": 839,
     "title": "Koduku Diddina Kapuram",
     "year": 1989,
     "genres": [
@@ -17098,7 +16956,7 @@ const MOVIES_DB = [
     "popularity": 0.3216
   },
   {
-    "id": 847,
+    "id": 840,
     "title": "Siva",
     "year": 1989,
     "genres": [
@@ -17110,7 +16968,7 @@ const MOVIES_DB = [
     "heroine": "Amala Akkineni",
     "director": "Ram Gopal Varma",
     "music": "Ilaiyaraaja",
-    "rating": "Hit",
+    "rating": "Industry Hit",
     "hint": "Siva is a new student in the community college. He is welcomed by a group of collegians, including the lovely Asha, to whom Shiva is instant",
     "poster_path": "/glgO02tTO5B4GAmybuzEsCMQK5O.jpg",
     "tagline": "",
@@ -17119,7 +16977,7 @@ const MOVIES_DB = [
     "popularity": 0.4842
   },
   {
-    "id": 848,
+    "id": 841,
     "title": "Aakhari Poratam",
     "year": 1988,
     "genres": [
@@ -17139,7 +16997,7 @@ const MOVIES_DB = [
     "popularity": 0.7912
   },
   {
-    "id": 849,
+    "id": 842,
     "title": "Rudraveena",
     "year": 1988,
     "genres": [
@@ -17151,7 +17009,7 @@ const MOVIES_DB = [
     "heroine": "Shobana",
     "director": "K. Balachander",
     "music": "Ilaiyaraaja",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "Suryam is the son of a great musician who wishes to change society through his music but his conservative father does not like his ways caus",
     "poster_path": "/eJrcSDsXmHrazUeQfCluZLqd0uT.jpg",
     "tagline": "",
@@ -17160,7 +17018,7 @@ const MOVIES_DB = [
     "popularity": 0.3361
   },
   {
-    "id": 850,
+    "id": 843,
     "title": "Swarnakamalam",
     "year": 1988,
     "genres": [
@@ -17181,7 +17039,7 @@ const MOVIES_DB = [
     "popularity": 0.4085
   },
   {
-    "id": 851,
+    "id": 844,
     "title": "Padamati Sandhya Ragam",
     "year": 1987,
     "genres": [
@@ -17200,7 +17058,7 @@ const MOVIES_DB = [
     "popularity": 0.4079
   },
   {
-    "id": 852,
+    "id": 845,
     "title": "Pasivadi Pranam",
     "year": 1987,
     "genres": [
@@ -17221,7 +17079,7 @@ const MOVIES_DB = [
     "popularity": 0.486
   },
   {
-    "id": 853,
+    "id": 846,
     "title": "Samsaram Oka Chadarangam",
     "year": 1987,
     "genres": [
@@ -17240,7 +17098,7 @@ const MOVIES_DB = [
     "popularity": 0.4461
   },
   {
-    "id": 854,
+    "id": 847,
     "title": "Ladies Tailor",
     "year": 1986,
     "genres": [
@@ -17259,7 +17117,7 @@ const MOVIES_DB = [
     "popularity": 0.5814
   },
   {
-    "id": 855,
+    "id": 848,
     "title": "Swati Muthyam",
     "year": 1986,
     "genres": [
@@ -17270,7 +17128,7 @@ const MOVIES_DB = [
     "heroine": "Radikaa Sarathkumar",
     "director": "K. Viswanath",
     "music": "Ilaiyaraaja",
-    "rating": "Hit",
+    "rating": "Average",
     "hint": "After an autistic man impulsively marries a young widow, she must move to the city and ensure the welfare of her new family, against the gla",
     "poster_path": "/zz7cTgtNabBRPRdyw45A3vbsAoN.jpg",
     "tagline": "",
@@ -17279,7 +17137,7 @@ const MOVIES_DB = [
     "popularity": 0.3661
   },
   {
-    "id": 856,
+    "id": 849,
     "title": "Mayuri",
     "year": 1985,
     "genres": [
@@ -17298,7 +17156,7 @@ const MOVIES_DB = [
     "popularity": 0.4142
   },
   {
-    "id": 857,
+    "id": 850,
     "title": "Nyayam Meere Cheppali",
     "year": 1985,
     "genres": [
@@ -17317,7 +17175,7 @@ const MOVIES_DB = [
     "popularity": 0.4268
   },
   {
-    "id": 858,
+    "id": 851,
     "title": "Challenge",
     "year": 1984,
     "genres": [
@@ -17336,7 +17194,7 @@ const MOVIES_DB = [
     "popularity": 0.4105
   },
   {
-    "id": 859,
+    "id": 852,
     "title": "Abhilasha",
     "year": 1983,
     "genres": [
@@ -17356,7 +17214,7 @@ const MOVIES_DB = [
     "popularity": 0.39
   },
   {
-    "id": 860,
+    "id": 853,
     "title": "Sagara Sangamam",
     "year": 1983,
     "genres": [
@@ -17368,7 +17226,7 @@ const MOVIES_DB = [
     "heroine": "Jaya Prada",
     "director": "K. Viswanath",
     "music": "Ilaiyaraaja",
-    "rating": "Blockbuster",
+    "rating": "Average",
     "hint": "When a passionate classical dancer, Balakrishna, falls in love with Madhavi, a woman who admires his talent, fate separates them. Years late",
     "poster_path": "/hdg47CcaBfLf0DttUoav45boYtL.jpg",
     "tagline": "In love with art, and each other.",
@@ -17377,7 +17235,7 @@ const MOVIES_DB = [
     "popularity": 0.454
   },
   {
-    "id": 861,
+    "id": 854,
     "title": "Kondaveeti Simham",
     "year": 1981,
     "genres": [
@@ -17396,7 +17254,7 @@ const MOVIES_DB = [
     "popularity": 0.5109
   },
   {
-    "id": 862,
+    "id": 855,
     "title": "Superman",
     "year": 1980,
     "genres": [
@@ -17417,7 +17275,7 @@ const MOVIES_DB = [
     "popularity": 0.3129
   },
   {
-    "id": 863,
+    "id": 856,
     "title": "Daana Veera Soora Karna",
     "year": 1977,
     "genres": [
@@ -17437,7 +17295,7 @@ const MOVIES_DB = [
     "popularity": 0.5561
   },
   {
-    "id": 864,
+    "id": 857,
     "title": "Siri Siri Muvva",
     "year": 1976,
     "genres": [

@@ -19,11 +19,41 @@ const LANGUAGE = "te";    // Telugu original language
 const OUT_FILE = path.join(__dirname, "data.js");
 
 // ── Box-office tier from TMDB vote_average ───────────────────
-function deriveRating(avg, count) {
+const INDUSTRY_HITS = new Set([
+  "RRR",
+  "Kalki 2898-AD",
+  "Bāhubali 2: The Conclusion",
+  "Bāhubali: The Beginning",
+  "Magadheera",
+  "Pokiri",
+  "Indra",
+  "Kushi",
+  "Narasimha Naidu",
+  "Samarasimha Reddy",
+  "Peddarayudu",
+  "Gharana Mogudu",
+  "Gang Leader",
+  "Siva",
+  "Adavi Ramudu",
+  "Alluri Seetharama Raju",
+  "Attarintiki Daredi"
+]);
+
+function deriveRating(title, avg, count) {
+  if (!title) return "Average";
+  const cleanTitle = title.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+  
+  for (const ih of INDUSTRY_HITS) {
+    const cleanIH = ih.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+    if (cleanTitle === cleanIH) {
+      return "Industry Hit";
+    }
+  }
+
   if (count < 10)  return "Average";
-  if (avg >= 8.0)  return "Industry Hit";
-  if (avg >= 7.2)  return "Blockbuster";
-  if (avg >= 6.4)  return "Hit";
+  if (avg < 5.2)   return "Flop";
+  if (avg >= 7.5 && count >= 80) return "Blockbuster";
+  if (avg >= 6.8 && count >= 30) return "Hit";
   if (avg >= 5.5)  return "Average";
   return "Flop";
 }
@@ -125,7 +155,7 @@ async function fetchDetail(id) {
   if (!genres.length) genres.push("Drama");
 
   const year        = detail.release_date ? +detail.release_date.slice(0, 4) : 2000;
-  const rating      = deriveRating(detail.vote_average, detail.vote_count);
+  const rating      = deriveRating(detail.title || detail.original_title, detail.vote_average, detail.vote_count);
   const hint        = (detail.overview || "A Telugu film.").slice(0, 140);
   const poster_path = detail.poster_path || null;
   const tagline     = detail.tagline || "";

@@ -7,7 +7,7 @@
 
   // -------- Constants --------
   const MAX_GUESSES    = 15;
-  const MAX_DAYS_BACK  = 30;          // how many past days you can browse
+  const MAX_DAYS_BACK  = 60;          // how many past days you can browse (~2 months)
   const STORAGE_KEY    = "tollydle_v4";
   const RATING_ORDER   = ["Flop", "Average", "Hit", "Blockbuster", "Industry Hit"];
   const HINT_TRIGGERS  = [1, 5, 8, 11, 14]; // after these guess numbers reveal a hint
@@ -25,6 +25,8 @@
   // -------- Global state --------
   const todayKey = getTodayKey();   // always today
   let   activeKey = todayKey;       // which day is currently shown
+  let   calendarOpen = false;
+  let   calViewYear, calViewMonth;  // calendar display month
 
   // Per-day game states stored in memory + localStorage
   // Shape: { [dateKey]: { guesses, guessResults, gameOver, won } }
@@ -222,6 +224,7 @@
   const elToast     = document.getElementById("toast");
   const elWinModal  = document.getElementById("win-modal");
   const elLoseModal = document.getElementById("lose-modal");
+  const elCalDrop   = document.getElementById("cal-dropdown");
   const elHowModal  = document.getElementById("how-modal");
   const elStatModal = document.getElementById("stats-modal");
 
@@ -238,7 +241,7 @@
   function renderNav() {
     const ago = daysAgo(activeKey);
 
-    elDate.textContent = formatDate(activeKey);
+    elDate.innerHTML = `${formatDate(activeKey)} <span class="cal-caret">&#9660;</span>`;
     elPuzzleNum.textContent = `Puzzle #${getDayNumber(activeKey)}`;
 
     if (ago === 0) {
@@ -260,6 +263,93 @@
     } else {
       elBanner.classList.remove("show");
     }
+  }
+
+  // -------- Calendar --------
+  function openCalendar() {
+    const d = new Date(activeKey);
+    calViewYear  = d.getFullYear();
+    calViewMonth = d.getMonth();  // 0-indexed
+    calendarOpen = true;
+    renderCalendar();
+    elCalDrop.classList.add("open");
+  }
+
+  function closeCalendar() {
+    calendarOpen = false;
+    elCalDrop.classList.remove("open");
+  }
+
+  function renderCalendar() {
+    const today   = new Date(todayKey);
+    const minDate = new Date(todayKey);
+    minDate.setDate(minDate.getDate() - MAX_DAYS_BACK);
+
+    const monthNames = ["January","February","March","April","May","June",
+                        "July","August","September","October","November","December"];
+    const dayNames   = ["Su","Mo","Tu","We","Th","Fr","Sa"];
+
+    // First day of displayed month
+    const firstOfMonth = new Date(calViewYear, calViewMonth, 1);
+    const daysInMonth  = new Date(calViewYear, calViewMonth + 1, 0).getDate();
+    const startDow     = firstOfMonth.getDay(); // 0=Sun
+
+    // Can we go prev/next month?
+    const prevMonthDate = new Date(calViewYear, calViewMonth - 1, 1);
+    const nextMonthDate = new Date(calViewYear, calViewMonth + 1, 1);
+    const canPrev = prevMonthDate >= new Date(minDate.getFullYear(), minDate.getMonth(), 1);
+    const canNext = nextMonthDate <= new Date(today.getFullYear(), today.getMonth(), 1);
+
+    let html = `<div class="cal-header">
+      <button class="cal-nav-btn" id="cal-prev-month" ${canPrev ? "" : "disabled"}>&#8249;</button>
+      <span class="cal-month-label">${monthNames[calViewMonth]} ${calViewYear}</span>
+      <button class="cal-nav-btn" id="cal-next-month" ${canNext ? "" : "disabled"}>&#8250;</button>
+    </div>`;
+
+    html += `<div class="cal-grid">`;
+    // Day-of-week headers
+    dayNames.forEach(d => { html += `<div class="cal-dow">${d}</div>`; });
+
+    // Leading empty cells
+    for (let i = 0; i < startDow; i++) html += `<div class="cal-day cal-empty"></div>`;
+
+    // Day cells
+    for (let d = 1; d <= daysInMonth; d++) {
+      const cellDate = new Date(calViewYear, calViewMonth, d);
+      const cellKey  = `${calViewYear}-${String(calViewMonth+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+      const isToday    = cellKey === todayKey;
+      const isActive   = cellKey === activeKey;
+      const isFuture   = cellDate > today;
+      const isTooOld   = cellDate < minDate;
+      const disabled   = isFuture || isTooOld;
+
+      let cls = "cal-day";
+      if (isToday)  cls += " cal-today";
+      if (isActive) cls += " cal-active";
+      if (disabled) cls += " cal-disabled";
+
+      html += `<div class="${cls}" ${disabled ? "" : `data-key="${cellKey}"`}>${d}</div>`;
+    }
+
+    html += `</div>`; // cal-grid
+
+    elCalDrop.innerHTML = html;
+
+    // Wire month nav buttons
+    const prevBtn = document.getElementById("cal-prev-month");
+    const nextBtn = document.getElementById("cal-next-month");
+    if (prevBtn && canPrev) prevBtn.addEventListener("click", e => { e.stopPropagation(); calViewMonth--; if (calViewMonth < 0) { calViewMonth = 11; calViewYear--; } renderCalendar(); });
+    if (nextBtn && canNext) nextBtn.addEventListener("click", e => { e.stopPropagation(); calViewMonth++; if (calViewMonth > 11) { calViewMonth = 0; calViewYear++; } renderCalendar(); });
+
+    // Wire day clicks
+    elCalDrop.querySelectorAll(".cal-day[data-key]").forEach(el => {
+      el.addEventListener("click", e => {
+        e.stopPropagation();
+        const key = el.dataset.key;
+        closeCalendar();
+        if (key !== activeKey) switchDay(key);
+      });
+    });
   }
 
   // -------- Render Attempts --------
@@ -303,11 +393,12 @@
     // Music
     row.appendChild(makeCell(result.music.status, result.music.status === "correct" ? "✓" : "✗", result.music.value, 420));
 
-    // Rating (arrow)
-    const ri   = result.rating.status === "correct" ? "✓" : (result.rating.arrow === "up" ? "↑" : "↓");
-    const rlbl = result.rating.value === "Industry Hit" ? "Ind.Hit"
-               : result.rating.value === "Blockbuster"  ? "Block." : result.rating.value;
-    row.appendChild(makeCell(result.rating.status, ri, rlbl, 480, true));
+    // Rating (arrow) + TMDB numeric score
+    const ri    = result.rating.status === "correct" ? "✓" : (result.rating.arrow === "up" ? "↑" : "↓");
+    const rlbl  = result.rating.value === "Industry Hit" ? "Ind.Hit"
+                : result.rating.value === "Blockbuster"  ? "Block." : result.rating.value;
+    const rScore = movie.vote_average ? ` <span class="cell-score">${movie.vote_average.toFixed(1)}★</span>` : "";
+    row.appendChild(makeRatingCell(result.rating.status, ri, rlbl, rScore, 480));
 
     return row;
   }
@@ -317,6 +408,14 @@
     el.className = `cell ${cls}`;
     el.style.animationDelay = `${delay}ms`;
     el.innerHTML = `<div class="cell-icon${isArrow ? " cell-arrow" : ""}">${icon}</div><div class="cell-val">${val}</div>`;
+    return el;
+  }
+
+  function makeRatingCell(cls, icon, label, scoreHtml, delay) {
+    const el = document.createElement("div");
+    el.className = `cell ${cls}`;
+    el.style.animationDelay = `${delay}ms`;
+    el.innerHTML = `<div class="cell-icon cell-arrow">${icon}</div><div class="cell-val">${label}${scoreHtml}</div>`;
     return el;
   }
 
@@ -706,6 +805,15 @@
   elNextBtn.addEventListener("click", () => {
     const newKey = offsetDate(activeKey, 1);
     if (newKey <= todayKey) switchDay(newKey);
+  });
+
+  // Calendar toggle
+  elDate.addEventListener("click", e => {
+    e.stopPropagation();
+    if (calendarOpen) closeCalendar(); else openCalendar();
+  });
+  document.addEventListener("click", e => {
+    if (calendarOpen && !elCalDrop.contains(e.target)) closeCalendar();
   });
 
   // Share
