@@ -148,6 +148,32 @@
     return i === -1 ? 2 : i;
   }
 
+  function compareNames(targetStr, guessStr) {
+    const splitNames = (str) => {
+      if (!str) return [];
+      return str.split(/&|\band\b/i).map(s => normalize(s)).filter(Boolean);
+    };
+    const targetNames = splitNames(targetStr);
+    const guessNames = splitNames(guessStr);
+
+    if (targetNames.length === 0 || guessNames.length === 0) {
+      return normalize(targetStr) === normalize(guessStr) ? "correct" : "wrong";
+    }
+
+    const targetSet = new Set(targetNames);
+    const guessSet = new Set(guessNames);
+
+    // Check exact set equality
+    const isExact = targetNames.length === guessNames.length && targetNames.every(name => guessSet.has(name));
+    if (isExact) return "correct";
+
+    // Check if there is any overlap
+    const hasOverlap = targetNames.some(name => guessSet.has(name));
+    if (hasOverlap) return "close";
+
+    return "wrong";
+  }
+
   // -------- Compare --------
   function compareMovies(target, guess) {
     const yearDiff  = guess.year - target.year;
@@ -167,19 +193,19 @@
       },
       genre: { items: genreResults },
       hero: {
-        status: normalize(guess.hero) === normalize(target.hero) ? "correct" : "wrong",
+        status: compareNames(target.hero, guess.hero),
         value:  guess.hero,
       },
       heroine: {
-        status: normalize(guess.heroine) === normalize(target.heroine) ? "correct" : "wrong",
+        status: compareNames(target.heroine, guess.heroine),
         value:  guess.heroine,
       },
       director: {
-        status: normalize(guess.director) === normalize(target.director) ? "correct" : "wrong",
+        status: compareNames(target.director, guess.director),
         value:  guess.director,
       },
       music: {
-        status: normalize(guess.music) === normalize(target.music) ? "correct" : "wrong",
+        status: compareNames(target.music, guess.music),
         value:  guess.music,
       },
       rating: {
@@ -382,16 +408,20 @@
 
     // Heroine (guard against old localStorage saves that predate this column)
     const heroineResult = result.heroine || { status: "wrong", value: "Unknown" };
-    row.appendChild(makeCell(heroineResult.status, heroineResult.status === "correct" ? "✓" : "✗", heroineResult.value || "Unknown", 240));
+    const heroineIcon = (heroineResult.status === "correct" || heroineResult.status === "close") ? "✓" : "✗";
+    row.appendChild(makeCell(heroineResult.status, heroineIcon, heroineResult.value || "Unknown", 240));
 
     // Hero
-    row.appendChild(makeCell(result.hero.status, result.hero.status === "correct" ? "✓" : "✗", result.hero.value, 300));
+    const heroIcon = (result.hero.status === "correct" || result.hero.status === "close") ? "✓" : "✗";
+    row.appendChild(makeCell(result.hero.status, heroIcon, result.hero.value, 300));
 
     // Director
-    row.appendChild(makeCell(result.director.status, result.director.status === "correct" ? "✓" : "✗", result.director.value, 360));
+    const directorIcon = (result.director.status === "correct" || result.director.status === "close") ? "✓" : "✗";
+    row.appendChild(makeCell(result.director.status, directorIcon, result.director.value, 360));
 
     // Music
-    row.appendChild(makeCell(result.music.status, result.music.status === "correct" ? "✓" : "✗", result.music.value, 420));
+    const musicIcon = (result.music.status === "correct" || result.music.status === "close") ? "✓" : "✗";
+    row.appendChild(makeCell(result.music.status, musicIcon, result.music.value, 420));
 
     // Rating (arrow) + TMDB numeric score
     const ri    = result.rating.status === "correct" ? "✓" : (result.rating.arrow === "up" ? "↑" : "↓");
@@ -498,7 +528,7 @@
   function buildShareGrid(key) {
     const cur    = getStateFor(key);
     const target = getMovieForDay(key);
-    const em     = { correct: "🟩", wrong: "🟥" };
+    const em     = { correct: "🟩", close: "🟨", wrong: "🟥" };
 
     const header = "🎬 📅 🎭 💃 🦸 🎥 🎵 ⭐";
 
@@ -621,12 +651,7 @@
       const item = document.createElement("div");
       item.className = "autocomplete-item";
       item.setAttribute("role", "option");
-      item.innerHTML = `
-        <div>
-          <div class="ac-title">${movie.title}</div>
-          <div class="ac-meta">${movie.director} &bull; ${movie.hero}</div>
-        </div>
-        <div class="ac-year-badge">${movie.year}</div>`;
+      item.innerHTML = `<div class="ac-title">${movie.title}</div>`;
       item.addEventListener("mousedown", e => { e.preventDefault(); selectMovie(movie); });
       elDropdown.appendChild(item);
     });
