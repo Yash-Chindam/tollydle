@@ -499,17 +499,29 @@
     const cur    = getStateFor(key);
     const target = getMovieForDay(key);
     const em     = { correct: "🟩", wrong: "🟥" };
-    return cur.guessResults.map((res, i) => {
+
+    const header = "🎬 📅 🎭 💃 🦸 🎥 🎵 ⭐";
+
+    const rows = cur.guessResults.map((res, i) => {
       const isCorr       = cur.guesses[i].id === target.id;
-      const anyGenreHit  = res.genre.items.some(g => g.match);
-      return (isCorr ? "🟩" : "🟥")
-           + (em[res.year.status]     || "🟥")
-           + (anyGenreHit ? "🟩" : "🟥")
-           + (em[res.hero.status]     || "🟥")
-           + (em[res.director.status] || "🟥")
-           + (em[res.music.status]    || "🟥")
-           + (em[res.rating.status]   || "🟥");
-    }).join("\n");
+      const genreMatches = res.genre.items.filter(g => g.match).length;
+      const genreTotal   = res.genre.items.length;
+      const genreEmoji   = genreMatches === genreTotal ? "🟩" : genreMatches > 0 ? "🟨" : "🟥";
+      const heroineRes   = res.heroine || { status: "wrong" };
+      const squares = [
+        isCorr ? "🟩" : "🟥",
+        em[res.year.status]       || "🟥",
+        genreEmoji,
+        em[heroineRes.status]     || "🟥",
+        em[res.hero.status]       || "🟥",
+        em[res.director.status]   || "🟥",
+        em[res.music.status]      || "🟥",
+        em[res.rating.status]     || "🟥",
+      ];
+      return squares.join(" ");
+    });
+
+    return header + "\n" + rows.join("\n");
   }
 
   function buildShareText(key) {
