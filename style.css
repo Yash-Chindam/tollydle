@@ -935,14 +935,15 @@ body {
 .share-grid {
   font-family: monospace;
   font-size: 1.3rem;
-  letter-spacing: 2px;
-  line-height: 1.6;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  white-space: pre-line;
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 12px;
+  padding: 14px 16px;
   margin-bottom: 20px;
-  word-break: break-all;
+  text-align: center;
 }
 .modal-actions {
   display: flex;
