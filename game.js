@@ -36,6 +36,12 @@
     played: 0, wins: 0, streak: 0, maxStreak: 0,
     lastPlayedKey: "",
     distribution: {},
+    weeklyStats: {
+      weekStart: getTodayKey(),
+      played: 0,
+      wins: 0,
+      perfectRound: 0,
+    },
   };
   for (let i = 1; i <= MAX_GUESSES; i++) stats.distribution[i] = 0;
 
@@ -131,6 +137,21 @@
 
   function saveStats() {
     try { localStorage.setItem(STORAGE_KEY + "_stats", JSON.stringify(stats)); } catch (e) {}
+  }
+
+  function resetWeeklyStatsIfNeeded() {
+    const weekStart = new Date(stats.weeklyStats.weekStart);
+    const today = new Date(todayKey);
+    const daysDiff = Math.floor((today - weekStart) / 86400000);
+    if (daysDiff >= 7) {
+      stats.weeklyStats = {
+        weekStart: todayKey,
+        played: 0,
+        wins: 0,
+        perfectRound: 0,
+      };
+      saveStats();
+    }
   }
 
   function getStateFor(key) {
@@ -693,6 +714,37 @@
       row.innerHTML = `<div class="dist-num">${n}</div><div class="dist-bar-wrap"><div class="dist-bar" style="width:${pct}%">${count > 0 ? `<span>${count}</span>` : ""}</div></div>`;
       bc.appendChild(row);
     }
+
+    // Weekly Challenge Stats
+    const daysInWeek = Math.floor((new Date(todayKey) - new Date(stats.weeklyStats.weekStart)) / 86400000) + 1;
+    const weeklyWinPct = stats.weeklyStats.played ? Math.round((stats.weeklyStats.wins / stats.weeklyStats.played) * 100) : 0;
+    let weeklySection = document.getElementById("weekly-section");
+    if (!weeklySection) {
+      weeklySection = document.createElement("div");
+      weeklySection.id = "weekly-section";
+      weeklySection.className = "weekly-section";
+      bc.parentElement.appendChild(weeklySection);
+    }
+    weeklySection.innerHTML = `
+      <div class="weekly-badge">
+        <div class="weekly-title">📅 This Week's Challenge</div>
+        <div class="weekly-stats-row">
+          <div class="weekly-stat-item">
+            <div class="weekly-stat-val">${stats.weeklyStats.played}</div>
+            <div class="weekly-stat-lbl">Played</div>
+          </div>
+          <div class="weekly-stat-item">
+            <div class="weekly-stat-val">${weeklyWinPct}%</div>
+            <div class="weekly-stat-lbl">Win Rate</div>
+          </div>
+          <div class="weekly-stat-item">
+            <div class="weekly-stat-val">${stats.weeklyStats.perfectRound}</div>
+            <div class="weekly-stat-lbl">⚡ Perfect</div>
+          </div>
+        </div>
+        <div class="weekly-progress">Day ${daysInWeek}/7</div>
+      </div>
+    `;
   }
 
   // -------- Switch Active Day --------
@@ -756,6 +808,10 @@
         stats.maxStreak = Math.max(stats.maxStreak, stats.streak);
         stats.lastPlayedKey = todayKey;
         stats.distribution[cur.guesses.length] = (stats.distribution[cur.guesses.length] || 0) + 1;
+        // Update weekly stats
+        stats.weeklyStats.played++;
+        stats.weeklyStats.wins++;
+        if (cur.guesses.length <= 5) stats.weeklyStats.perfectRound++;
         saveStats();
       }
       updateSearchUI();
@@ -768,6 +824,8 @@
         stats.played++;
         stats.streak = 0;
         stats.lastPlayedKey = todayKey;
+        // Update weekly stats
+        stats.weeklyStats.played++;
         saveStats();
       }
       updateSearchUI();
@@ -791,6 +849,8 @@
       stats.played++;
       stats.streak = 0;
       stats.lastPlayedKey = todayKey;
+      // Update weekly stats
+      stats.weeklyStats.played++;
       saveStats();
     }
 
@@ -883,6 +943,7 @@
   // -------- Init --------
   function init() {
     loadAll();
+    resetWeeklyStatsIfNeeded();
 
     // Streak reset if skipped a day
     if (stats.lastPlayedKey && stats.lastPlayedKey !== todayKey) {
