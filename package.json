@@ -1,0 +1,12 @@
+{
+  "name": "tollydle",
+  "version": "1.0.0",
+  "description": "Daily Telugu Movie Guessing Game",
+  "main": "game.js",
+  "scripts": {
+    "build": "node vercel-build.js"
+  },
+  "dependencies": {
+    "firebase": "^10.12.2"
+  }
+}
