@@ -15,6 +15,16 @@ const messagingSenderId = process.env.FIREBASE_MESSAGING_SENDER_ID || "YOUR_MESS
 const appId = process.env.FIREBASE_APP_ID || "YOUR_APP_ID";
 const measurementId = process.env.FIREBASE_MEASUREMENT_ID || "YOUR_MEASUREMENT_ID";
 
+// Log environment variable presence for diagnostic visibility
+console.log("🎬 Tollydle Build Environment Variables Diagnostic:");
+console.log(`- FIREBASE_API_KEY: ${process.env.FIREBASE_API_KEY ? `DEFINED (starts with: "${process.env.FIREBASE_API_KEY.substring(0, 6)}...", length: ${process.env.FIREBASE_API_KEY.length})` : "UNDEFINED"}`);
+console.log(`- FIREBASE_AUTH_DOMAIN: ${process.env.FIREBASE_AUTH_DOMAIN ? `DEFINED ("${process.env.FIREBASE_AUTH_DOMAIN}")` : "UNDEFINED"}`);
+console.log(`- FIREBASE_PROJECT_ID: ${process.env.FIREBASE_PROJECT_ID ? `DEFINED ("${process.env.FIREBASE_PROJECT_ID}")` : "UNDEFINED"}`);
+console.log(`- FIREBASE_STORAGE_BUCKET: ${process.env.FIREBASE_STORAGE_BUCKET ? `DEFINED ("${process.env.FIREBASE_STORAGE_BUCKET}")` : "UNDEFINED"}`);
+console.log(`- FIREBASE_MESSAGING_SENDER_ID: ${process.env.FIREBASE_MESSAGING_SENDER_ID ? `DEFINED ("${process.env.FIREBASE_MESSAGING_SENDER_ID}")` : "UNDEFINED"}`);
+console.log(`- FIREBASE_APP_ID: ${process.env.FIREBASE_APP_ID ? `DEFINED (starts with: "${process.env.FIREBASE_APP_ID.substring(0, 10)}...")` : "UNDEFINED"}`);
+console.log(`- FIREBASE_MEASUREMENT_ID: ${process.env.FIREBASE_MEASUREMENT_ID ? `DEFINED ("${process.env.FIREBASE_MEASUREMENT_ID}")` : "UNDEFINED"}`);
+
 // 1. Generate firebase-config.js
 const configContent = `// ============================================================
 // TOLLYDLE — Firebase Configuration (Auto-generated at build time)
