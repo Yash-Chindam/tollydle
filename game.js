@@ -261,6 +261,7 @@
   const elDropdown  = document.getElementById("autocomplete-dropdown");
   const elGuessBtn  = document.getElementById("guess-btn");
   const elRows      = document.getElementById("results-rows");
+  const elResultsSection = document.getElementById("results-section");
   const elAttempts  = document.getElementById("attempts-left");
   const elDate      = document.getElementById("date-display");
   const elAgo       = document.getElementById("day-ago-label");
@@ -280,6 +281,7 @@
   const elCalDrop   = document.getElementById("cal-dropdown");
   const elHowModal  = document.getElementById("how-modal");
   const elStatModal = document.getElementById("stats-modal");
+  const elProfileModal = document.getElementById("profile-modal");
 
   // -------- Toast --------
   let toastTimer;
@@ -480,6 +482,12 @@
   function renderRows() {
     const cur = getStateFor(activeKey);
     const target = getMovieForDay(activeKey);
+    const hasGuesses = cur.guesses.length > 0;
+
+    if (elResultsSection) {
+      elResultsSection.style.display = hasGuesses ? "" : "none";
+    }
+
     elRows.innerHTML = "";
     // Newest guess at top — iterate in reverse
     [...cur.guesses].reverse().forEach((movie, i) => {
@@ -935,11 +943,19 @@
 
   // Stats
   document.getElementById("btn-stats").addEventListener("click",  () => {
-    syncDisplayNameInputs(getStoredDisplayName());
     renderStats();
     elStatModal.style.display = "flex";
   });
   document.getElementById("close-stats").addEventListener("click",() => { elStatModal.style.display = "none"; });
+
+  // Profile
+  document.getElementById("btn-profile").addEventListener("click", () => {
+    syncDisplayNameInput(getStoredDisplayName());
+    elProfileModal.style.display = "flex";
+  });
+  document.getElementById("close-profile").addEventListener("click", () => {
+    elProfileModal.style.display = "none";
+  });
 
   // Win / Lose Modals Close Buttons
   document.getElementById("close-win").addEventListener("click",  () => { elWinModal.style.display = "none"; });
@@ -948,7 +964,6 @@
   // Leaderboard Modal Event Listeners
   const elLeaderboardModal = document.getElementById("leaderboard-modal");
   document.getElementById("btn-leaderboard").addEventListener("click", async () => {
-    syncDisplayNameInputs(getStoredDisplayName());
     elLeaderboardModal.style.display = "flex";
     await renderLeaderboard();
   });
@@ -957,7 +972,7 @@
   });
 
   // Close on overlay click
-  [elWinModal, elLoseModal, elHowModal, elStatModal, elLeaderboardModal].forEach(m => {
+  [elWinModal, elLoseModal, elHowModal, elStatModal, elProfileModal, elLeaderboardModal].forEach(m => {
     m.addEventListener("click", e => { if (e.target === m) m.style.display = "none"; });
   });
 
@@ -1021,11 +1036,9 @@
     return fromAuth || localStorage.getItem("tollydle_username") || "";
   }
 
-  function syncDisplayNameInputs(name) {
-    ["username-input", "leaderboard-username-input"].forEach(id => {
-      const el = document.getElementById(id);
-      if (el && document.activeElement !== el) el.value = name;
-    });
+  function syncDisplayNameInput(name) {
+    const el = document.getElementById("username-input");
+    if (el && document.activeElement !== el) el.value = name;
   }
 
   async function saveDisplayName(name) {
@@ -1042,16 +1055,16 @@
       showToast("Display name updated! 👤");
     }
 
-    syncDisplayNameInputs(cleanName);
+    syncDisplayNameInput(cleanName);
 
     if (elLeaderboardModal.style.display === "flex") {
       await renderLeaderboard();
     }
   }
 
-  function wireDisplayNameInput(inputId, saveBtnId) {
-    const input = document.getElementById(inputId);
-    const saveBtn = document.getElementById(saveBtnId);
+  function wireDisplayNameInput() {
+    const input = document.getElementById("username-input");
+    const saveBtn = document.getElementById("btn-save-username");
     if (!input || !saveBtn) return;
 
     saveBtn.addEventListener("click", () => saveDisplayName(input.value));
@@ -1083,11 +1096,9 @@
         }
       };
       
-      // Auth Status Changed callback (updates Cloud Sync UI panel)
+      // Auth Status Changed callback (updates Profile modal)
       window.TollydleFirebase.onAuthStatusChanged = (status) => {
         const elSyncStatus = document.getElementById("sync-status");
-        const elUsernameContainer = document.getElementById("username-container");
-        const elUsernameInput = document.getElementById("username-input");
         const elSyncActions = document.getElementById("sync-actions");
         
         if (!elSyncStatus || !elSyncActions) return;
@@ -1095,15 +1106,11 @@
         if (status.loading) {
           elSyncStatus.innerHTML = `⏳ Connecting to cloud sync...`;
           elSyncActions.innerHTML = "";
-          if (elUsernameInput) {
-            syncDisplayNameInputs(status.displayName || getStoredDisplayName());
-          }
+          syncDisplayNameInput(status.displayName || getStoredDisplayName());
           return;
         }
         
-        elUsernameContainer.style.display = "block";
-        const displayName = status.displayName || getStoredDisplayName();
-        syncDisplayNameInputs(displayName);
+        syncDisplayNameInput(status.displayName || getStoredDisplayName());
         
         if (status.isAnonymous) {
           elSyncStatus.innerHTML = `🟢 Connected. Stats saved to local device cloud profile.`;
@@ -1138,9 +1145,8 @@
       };
     }
 
-    wireDisplayNameInput("username-input", "btn-save-username");
-    wireDisplayNameInput("leaderboard-username-input", "btn-save-leaderboard-username");
-    syncDisplayNameInputs(getStoredDisplayName());
+    wireDisplayNameInput();
+    syncDisplayNameInput(getStoredDisplayName());
     
     // Fallback UI status if Firebase configuration is missing or failed
     setTimeout(() => {

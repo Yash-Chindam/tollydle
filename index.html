@@ -36,6 +36,9 @@
         <button class="icon-btn" id="btn-leaderboard" title="Leaderboard" aria-label="Leaderboard">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
         </button>
+        <button class="icon-btn" id="btn-profile" title="Profile" aria-label="Profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </button>
       </div>
     </div>
   </header>
@@ -99,7 +102,7 @@
     </section>
 
     <!-- Results Table -->
-    <section class="results-section" id="results-section">
+    <section class="results-section" id="results-section" style="display:none">
       <div class="table-header">
         <div class="th">Movie</div>
         <div class="th">Year</div>
@@ -281,19 +284,25 @@
         <div class="dist-label">Guess Distribution</div>
         <div id="dist-bars"></div>
       </div>
-      <!-- Cloud Sync & Account Section -->
-      <div class="sync-section">
-        <div class="sync-title">☁️ Cloud Sync & Leaderboard</div>
+    </div>
+  </div>
+
+  <!-- Profile Modal -->
+  <div class="modal-overlay" id="profile-modal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="profile-title">
+    <div class="modal-card profile-card">
+      <button class="modal-close" id="close-profile" aria-label="Close">✕</button>
+      <h2 class="modal-title" id="profile-title">👤 Profile</h2>
+      <p class="modal-subtitle">Manage your display name and cloud sync</p>
+      <div class="profile-section">
         <div class="sync-status" id="sync-status">Connecting to cloud...</div>
-        
         <div class="username-container" id="username-container">
           <label for="username-input">Your display name</label>
           <div class="username-box">
-            <input type="text" id="username-input" maxlength="20" placeholder="Enter name" autocomplete="off" />
-            <button class="btn-save-username" id="btn-save-username">Save</button>
+            <input type="text" id="username-input" maxlength="20" placeholder="Enter your name" autocomplete="off" />
+            <button class="btn-save-username" id="btn-save-username" type="button">Save</button>
           </div>
+          <p class="profile-hint">Shown on the global leaderboard when you win.</p>
         </div>
-
         <div class="sync-actions" id="sync-actions">
           <!-- Populated dynamically by javascript -->
         </div>
@@ -307,14 +316,6 @@
       <button class="modal-close" id="close-leaderboard" aria-label="Close">✕</button>
       <h2 class="modal-title" id="leaderboard-title">🏆 Global Leaderboard</h2>
       <p class="modal-subtitle">Top Tollydle players by total wins</p>
-      <div class="leaderboard-profile" id="leaderboard-profile">
-        <label for="leaderboard-username-input">Your display name</label>
-        <div class="username-box">
-          <input type="text" id="leaderboard-username-input" maxlength="20" placeholder="Enter your name" autocomplete="off" />
-          <button class="btn-save-username" id="btn-save-leaderboard-username" type="button">Save</button>
-        </div>
-        <p class="leaderboard-profile-hint">This name appears on the leaderboard when you win.</p>
-      </div>
       <div class="leaderboard-list" id="leaderboard-list">
         <div class="leaderboard-loading">Loading leaderboard...</div>
       </div>

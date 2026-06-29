@@ -1275,20 +1275,15 @@ body {
   margin-top: 8px;
 }
 
-/* ---------- Cloud Sync & Leaderboard Integration ---------- */
-.sync-section {
-  margin-top: 24px;
-  border-top: 1px solid var(--border);
-  padding-top: 20px;
+/* ---------- Profile Modal ---------- */
+.profile-section {
+  margin-top: 8px;
   text-align: left;
 }
-.sync-title {
-  font-size: .85rem;
-  font-weight: 700;
-  letter-spacing: .5px;
-  text-transform: uppercase;
+.profile-hint {
+  font-size: .7rem;
   color: var(--muted);
-  margin-bottom: 12px;
+  margin: 8px 0 0;
 }
 .sync-status {
   font-size: .8rem;
@@ -1387,26 +1382,6 @@ body {
 }
 
 /* ---------- Leaderboard Modal ---------- */
-.leaderboard-profile {
-  margin-top: 16px;
-  padding: 14px;
-  background: var(--bg3);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  text-align: left;
-}
-.leaderboard-profile label {
-  font-size: .75rem;
-  color: var(--muted);
-  display: block;
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-.leaderboard-profile-hint {
-  font-size: .7rem;
-  color: var(--muted);
-  margin: 8px 0 0;
-}
 .leaderboard-list {
   display: flex;
   flex-direction: column;
