@@ -3,6 +3,7 @@
 node_modules/
 .imdb_cache/
 firebase-config.js
+public/
 
 # Generated output (optional — remove if you want to commit data.js)
 # data.js
