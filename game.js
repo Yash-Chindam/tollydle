@@ -887,7 +887,7 @@
     // Streak reset if skipped a day
     if (stats.lastPlayedKey && stats.lastPlayedKey !== todayKey) {
       const diff = (new Date(todayKey) - new Date(stats.lastPlayedKey)) / 86400000;
-      if (diff > 1) { stats.streak = 0; saveStats(); }
+      if (diff >= 1) { stats.streak = 0; saveStats(); }
     }
 
     switchDay(todayKey);   // start on today
