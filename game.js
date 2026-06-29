@@ -133,10 +133,16 @@
   function saveDayState(key) {
     if (!dayStates[key]) return;
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(dayStates)); } catch (e) {}
+    if (window.TollydleFirebase && window.TollydleFirebase.isInitialized) {
+      window.TollydleFirebase.saveDayState(key, dayStates[key]);
+    }
   }
 
   function saveStats() {
     try { localStorage.setItem(STORAGE_KEY + "_stats", JSON.stringify(stats)); } catch (e) {}
+    if (window.TollydleFirebase && window.TollydleFirebase.isInitialized) {
+      window.TollydleFirebase.saveStats(stats);
+    }
   }
 
   function resetWeeklyStatsIfNeeded() {
@@ -935,14 +941,170 @@
   document.getElementById("close-win").addEventListener("click",  () => { elWinModal.style.display = "none"; });
   document.getElementById("close-lose").addEventListener("click", () => { elLoseModal.style.display = "none"; });
 
+  // Leaderboard Modal Event Listeners
+  const elLeaderboardModal = document.getElementById("leaderboard-modal");
+  document.getElementById("btn-leaderboard").addEventListener("click", async () => {
+    elLeaderboardModal.style.display = "flex";
+    await renderLeaderboard();
+  });
+  document.getElementById("close-leaderboard").addEventListener("click", () => {
+    elLeaderboardModal.style.display = "none";
+  });
+
   // Close on overlay click
-  [elWinModal, elLoseModal, elHowModal, elStatModal].forEach(m => {
+  [elWinModal, elLoseModal, elHowModal, elStatModal, elLeaderboardModal].forEach(m => {
     m.addEventListener("click", e => { if (e.target === m) m.style.display = "none"; });
   });
+
+  // Render global leaderboard list
+  async function renderLeaderboard() {
+    const elLeaderboardList = document.getElementById("leaderboard-list");
+    if (!elLeaderboardList) return;
+    
+    if (!window.TollydleFirebase || !window.TollydleFirebase.isInitialized) {
+      elLeaderboardList.innerHTML = `<div class="leaderboard-loading">Cloud features are offline. Connect Firebase to view the global leaderboard!</div>`;
+      return;
+    }
+    
+    elLeaderboardList.innerHTML = `<div class="leaderboard-loading">Fetching leaderboard rankings...</div>`;
+    
+    const leaderboard = await window.TollydleFirebase.getLeaderboard();
+    
+    if (leaderboard.length === 0) {
+      elLeaderboardList.innerHTML = `<div class="leaderboard-loading">No players recorded on the leaderboard yet. Be the first!</div>`;
+      return;
+    }
+    
+    const currentUid = window.TollydleFirebase.authStatus.uid;
+    
+    let html = "";
+    leaderboard.forEach((player, index) => {
+      const rank = index + 1;
+      const isSelf = player.uid === currentUid;
+      const rankClass = rank <= 3 ? `rank-${rank}` : "";
+      const rowClass = isSelf ? "leaderboard-row current-user" : "leaderboard-row";
+      
+      const rankBadge = rank === 1 ? "🥇" : rank === 2 ? "🥈" : rank === 3 ? "🥉" : rank;
+      
+      html += `
+        <div class="${rowClass}">
+          <div class="leaderboard-rank ${rankClass}">${rankBadge}</div>
+          <div class="leaderboard-name">${escapeHtml(player.displayName)} ${isSelf ? "(You)" : ""}</div>
+          <div class="leaderboard-stats">
+            <div class="leaderboard-stat">
+              <span class="leaderboard-stat-val">${player.wins}</span>
+              <span class="leaderboard-stat-lbl">Wins</span>
+            </div>
+            <div class="leaderboard-stat">
+              <span class="leaderboard-stat-val">🔥 ${player.streak}</span>
+              <span class="leaderboard-stat-lbl">Streak</span>
+            </div>
+          </div>
+        </div>
+      `;
+    });
+    
+    elLeaderboardList.innerHTML = html;
+  }
+  
+  function escapeHtml(str) {
+    return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+  }
 
   // -------- Init --------
   function init() {
     loadAll();
+
+    // Register Firebase callbacks & check offline status
+    if (window.TollydleFirebase) {
+      // Sync Complete callback
+      window.TollydleFirebase.onSyncComplete = (mergedStats, mergedDayStates) => {
+        stats = mergedStats;
+        dayStates = mergedDayStates;
+        
+        // Force update current day logic if we were in the middle of a game or completed one
+        switchDay(activeKey);
+        
+        // Rerender stats modal in case it's open
+        if (elStatModal.style.display === "flex") {
+          renderStats();
+        }
+      };
+      
+      // Auth Status Changed callback (updates Cloud Sync UI panel)
+      window.TollydleFirebase.onAuthStatusChanged = (status) => {
+        const elSyncStatus = document.getElementById("sync-status");
+        const elUsernameContainer = document.getElementById("username-container");
+        const elUsernameInput = document.getElementById("username-input");
+        const elSyncActions = document.getElementById("sync-actions");
+        
+        if (!elSyncStatus || !elSyncActions) return;
+        
+        if (status.loading) {
+          elSyncStatus.innerHTML = `⏳ Connecting to cloud sync...`;
+          elUsernameContainer.style.display = "none";
+          elSyncActions.innerHTML = "";
+          return;
+        }
+        
+        elUsernameContainer.style.display = "block";
+        elUsernameInput.value = status.displayName;
+        
+        if (status.isAnonymous) {
+          elSyncStatus.innerHTML = `🟢 Connected. Stats saved to local device cloud profile.`;
+          elSyncActions.innerHTML = `
+            <button class="btn-google" id="btn-link-google">
+              <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; margin-right: 8px;"><path fill="currentColor" d="M12.24 10.285V13.4h6.887C18.2 15.614 15.645 18 12.24 18c-3.86 0-7-3.14-7-7s3.14-7 7-7c1.7 0 3.25.61 4.47 1.637l2.427-2.427C17.43 1.703 14.99 1 12.24 1c-5.523 0-10 4.477-10 10s4.477 10 10 10c5.782 0 9.61-4.062 9.61-9.782 0-.66-.06-1.285-.18-1.933H12.24Z"/></svg>
+              Sync with Google Account
+            </button>
+          `;
+          // Bind Google linkage
+          const elLinkBtn = document.getElementById("btn-link-google");
+          if (elLinkBtn) {
+            elLinkBtn.addEventListener("click", () => {
+              window.TollydleFirebase.linkGoogle();
+            });
+          }
+        } else {
+          elSyncStatus.innerHTML = `☁️ Synced to Google Account: <strong>${status.email}</strong>`;
+          elSyncActions.innerHTML = `
+            <button class="btn-sync btn-signout" id="btn-google-signout">
+              Sign Out & Switch to Local Profile
+            </button>
+          `;
+          // Bind Google signout
+          const elSignoutBtn = document.getElementById("btn-google-signout");
+          if (elSignoutBtn) {
+            elSignoutBtn.addEventListener("click", () => {
+              window.TollydleFirebase.signOut();
+            });
+          }
+        }
+      };
+      
+      // Wire username save button
+      const elSaveUsername = document.getElementById("btn-save-username");
+      const elUsernameInput = document.getElementById("username-input");
+      if (elSaveUsername && elUsernameInput) {
+        elSaveUsername.addEventListener("click", () => {
+          const newName = elUsernameInput.value.trim();
+          if (newName) {
+            window.TollydleFirebase.updateDisplayName(newName);
+          }
+        });
+      }
+    }
+    
+    // Fallback UI status if Firebase configuration is missing or failed
+    setTimeout(() => {
+      if (!window.TollydleFirebase || !window.TollydleFirebase.isInitialized) {
+        const elSyncStatus = document.getElementById("sync-status");
+        if (elSyncStatus) {
+          elSyncStatus.innerHTML = `🔴 Cloud features unavailable (running offline-only).`;
+        }
+      }
+    }, 1500);
+
     resetWeeklyStatsIfNeeded();
 
     // Streak reset if skipped a day

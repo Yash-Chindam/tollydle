@@ -1,6 +1,8 @@
 # git
 .env
 node_modules/
+.imdb_cache/
+firebase-config.js
 
 # Generated output (optional — remove if you want to commit data.js)
 # data.js
