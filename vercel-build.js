@@ -30,7 +30,7 @@ const configContent = `// ======================================================
 // TOLLYDLE — Firebase Configuration (Auto-generated at build time)
 // ============================================================
 
-const firebaseConfig = {
+window.firebaseConfig = {
   apiKey: "${apiKey}",
   authDomain: "${authDomain}",
   projectId: "${projectId}",
@@ -40,14 +40,14 @@ const firebaseConfig = {
   measurementId: "${measurementId}"
 };
 
-// Check if Firebase keys are still placeholders
-const isFirebaseConfigured = 
-  firebaseConfig.apiKey && 
-  firebaseConfig.apiKey !== "YOUR_API_KEY" &&
-  firebaseConfig.projectId && 
-  firebaseConfig.projectId !== "YOUR_PROJECT_ID";
+// Exposed on window — firebase-db.js reads window.isFirebaseConfigured / window.firebaseConfig
+window.isFirebaseConfigured =
+  window.firebaseConfig.apiKey &&
+  window.firebaseConfig.apiKey !== "YOUR_API_KEY" &&
+  window.firebaseConfig.projectId &&
+  window.firebaseConfig.projectId !== "YOUR_PROJECT_ID";
 
-if (!isFirebaseConfigured) {
+if (!window.isFirebaseConfigured) {
   console.warn(
     "🎬 Tollydle Firebase: Config keys are using placeholders. " +
     "Cloud sync and leaderboard features will fall back to local mode. " +
