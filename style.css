@@ -672,7 +672,11 @@ body {
 }
 
 /* ---------- Hint Section ---------- */
-.hint-section { margin-bottom: 24px; }
+.hint-section {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 .hint-label {
   font-size: .8rem;
   font-weight: 600;
