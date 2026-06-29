@@ -286,8 +286,8 @@
         <div class="sync-title">☁️ Cloud Sync & Leaderboard</div>
         <div class="sync-status" id="sync-status">Connecting to cloud...</div>
         
-        <div class="username-container" id="username-container" style="display:none">
-          <label for="username-input">Leaderboard Display Name:</label>
+        <div class="username-container" id="username-container">
+          <label for="username-input">Your display name</label>
           <div class="username-box">
             <input type="text" id="username-input" maxlength="20" placeholder="Enter name" autocomplete="off" />
             <button class="btn-save-username" id="btn-save-username">Save</button>
@@ -307,6 +307,14 @@
       <button class="modal-close" id="close-leaderboard" aria-label="Close">✕</button>
       <h2 class="modal-title" id="leaderboard-title">🏆 Global Leaderboard</h2>
       <p class="modal-subtitle">Top Tollydle players by total wins</p>
+      <div class="leaderboard-profile" id="leaderboard-profile">
+        <label for="leaderboard-username-input">Your display name</label>
+        <div class="username-box">
+          <input type="text" id="leaderboard-username-input" maxlength="20" placeholder="Enter your name" autocomplete="off" />
+          <button class="btn-save-username" id="btn-save-leaderboard-username" type="button">Save</button>
+        </div>
+        <p class="leaderboard-profile-hint">This name appears on the leaderboard when you win.</p>
+      </div>
       <div class="leaderboard-list" id="leaderboard-list">
         <div class="leaderboard-loading">Loading leaderboard...</div>
       </div>

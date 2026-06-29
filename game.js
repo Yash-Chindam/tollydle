@@ -934,7 +934,11 @@
   document.getElementById("start-playing-btn").addEventListener("click",() => { elHowModal.style.display = "none"; });
 
   // Stats
-  document.getElementById("btn-stats").addEventListener("click",  () => { renderStats(); elStatModal.style.display = "flex"; });
+  document.getElementById("btn-stats").addEventListener("click",  () => {
+    syncDisplayNameInputs(getStoredDisplayName());
+    renderStats();
+    elStatModal.style.display = "flex";
+  });
   document.getElementById("close-stats").addEventListener("click",() => { elStatModal.style.display = "none"; });
 
   // Win / Lose Modals Close Buttons
@@ -944,6 +948,7 @@
   // Leaderboard Modal Event Listeners
   const elLeaderboardModal = document.getElementById("leaderboard-modal");
   document.getElementById("btn-leaderboard").addEventListener("click", async () => {
+    syncDisplayNameInputs(getStoredDisplayName());
     elLeaderboardModal.style.display = "flex";
     await renderLeaderboard();
   });
@@ -1011,6 +1016,53 @@
     return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
   }
 
+  function getStoredDisplayName() {
+    const fromAuth = window.TollydleFirebase?.authStatus?.displayName;
+    return fromAuth || localStorage.getItem("tollydle_username") || "";
+  }
+
+  function syncDisplayNameInputs(name) {
+    ["username-input", "leaderboard-username-input"].forEach(id => {
+      const el = document.getElementById(id);
+      if (el && document.activeElement !== el) el.value = name;
+    });
+  }
+
+  async function saveDisplayName(name) {
+    const cleanName = name.trim().substring(0, 20);
+    if (!cleanName) {
+      showToast("Please enter a name");
+      return;
+    }
+
+    if (window.TollydleFirebase?.updateDisplayName) {
+      await window.TollydleFirebase.updateDisplayName(cleanName);
+    } else {
+      localStorage.setItem("tollydle_username", cleanName);
+      showToast("Display name updated! 👤");
+    }
+
+    syncDisplayNameInputs(cleanName);
+
+    if (elLeaderboardModal.style.display === "flex") {
+      await renderLeaderboard();
+    }
+  }
+
+  function wireDisplayNameInput(inputId, saveBtnId) {
+    const input = document.getElementById(inputId);
+    const saveBtn = document.getElementById(saveBtnId);
+    if (!input || !saveBtn) return;
+
+    saveBtn.addEventListener("click", () => saveDisplayName(input.value));
+    input.addEventListener("keydown", e => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        saveDisplayName(input.value);
+      }
+    });
+  }
+
   // -------- Init --------
   function init() {
     loadAll();
@@ -1042,13 +1094,16 @@
         
         if (status.loading) {
           elSyncStatus.innerHTML = `⏳ Connecting to cloud sync...`;
-          elUsernameContainer.style.display = "none";
           elSyncActions.innerHTML = "";
+          if (elUsernameInput) {
+            syncDisplayNameInputs(status.displayName || getStoredDisplayName());
+          }
           return;
         }
         
         elUsernameContainer.style.display = "block";
-        elUsernameInput.value = status.displayName;
+        const displayName = status.displayName || getStoredDisplayName();
+        syncDisplayNameInputs(displayName);
         
         if (status.isAnonymous) {
           elSyncStatus.innerHTML = `🟢 Connected. Stats saved to local device cloud profile.`;
@@ -1081,19 +1136,11 @@
           }
         }
       };
-      
-      // Wire username save button
-      const elSaveUsername = document.getElementById("btn-save-username");
-      const elUsernameInput = document.getElementById("username-input");
-      if (elSaveUsername && elUsernameInput) {
-        elSaveUsername.addEventListener("click", () => {
-          const newName = elUsernameInput.value.trim();
-          if (newName) {
-            window.TollydleFirebase.updateDisplayName(newName);
-          }
-        });
-      }
     }
+
+    wireDisplayNameInput("username-input", "btn-save-username");
+    wireDisplayNameInput("leaderboard-username-input", "btn-save-leaderboard-username");
+    syncDisplayNameInputs(getStoredDisplayName());
     
     // Fallback UI status if Firebase configuration is missing or failed
     setTimeout(() => {
