@@ -1458,4 +1458,25 @@ body {
   padding: 24px 0;
   text-align: center;
 }
+.side-ad {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+  height: 600px;
+  z-index: 10;
+}
 
+.side-ad-left {
+  left: 16px;
+}
+
+.side-ad-right {
+  right: 16px;
+}
+
+@media (max-width: 1400px) {
+  .side-ad {
+    display: none;
+  }
+}
