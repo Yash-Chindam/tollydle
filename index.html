@@ -9,8 +9,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Noto+Sans+Telugu:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2384673644313367" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Side Ads -->
+  <aside class="side-ad side-ad-left">
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:160px;height:600px"
+         data-ad-client="ca-pub-2384673644313367"
+         data-ad-slot="YOUR_LEFT_SLOT_ID"></ins>
+  </aside>
+
+  <aside class="side-ad side-ad-right">
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:160px;height:600px"
+         data-ad-client="ca-pub-2384673644313367"
+         data-ad-slot="YOUR_RIGHT_SLOT_ID"></ins>
+  </aside>
+
   <!-- Animated Background -->
   <div class="bg-orbs">
     <div class="orb orb-1"></div>
@@ -45,7 +61,6 @@
 
   <!-- Main Game Area -->
   <main class="main">
-    <!-- Game Status Bar -->
     <!-- Day Navigation -->
     <div class="day-nav">
       <button class="day-nav-btn" id="btn-prev-day" aria-label="Previous day" title="Previous day">
@@ -334,5 +349,11 @@
   <script src="firebase-db.js"></script>
   <script src="data.js"></script>
   <script src="game.js"></script>
+
+  <!-- Init side ads -->
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 </body>
 </html>
