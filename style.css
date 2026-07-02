@@ -1463,7 +1463,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   width: 160px;
-  height: 600px;
+  min-height: 300px;
   z-index: 10;
 }
 
